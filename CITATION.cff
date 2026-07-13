@@ -14,4 +14,4 @@ abstract: >
   retrieval in journaling agents: 12 personas, 168 timestamped first-person episodes
   with authored emotional-intensity and valence labels, and 504 probes split into
   factual, reflective-explicit, and reflective-implicit types. Generated with
-  Claude (Anthropic).
+   an LLM-assisted, author-supervised synthetic corpus.

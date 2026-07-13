@@ -1,0 +1,252 @@
+{
+  "method": "token Jaccard within persona; human review required",
+  "candidates": [
+    {
+      "persona_id": "p08",
+      "episode_a": "p08e11",
+      "episode_b": "p08e14",
+      "jaccard": 0.1538,
+      "shared_terms": [
+        "company",
+        "me",
+        "new",
+        "s",
+        "shift",
+        "two"
+      ]
+    },
+    {
+      "persona_id": "p01",
+      "episode_a": "p01e02",
+      "episode_b": "p01e09",
+      "jaccard": 0.1389,
+      "shared_terms": [
+        "hour",
+        "inside",
+        "she",
+        "up",
+        "we"
+      ]
+    },
+    {
+      "persona_id": "p09",
+      "episode_a": "p09e07",
+      "episode_b": "p09e14",
+      "jaccard": 0.1389,
+      "shared_terms": [
+        "first",
+        "grandma",
+        "over",
+        "s",
+        "stew"
+      ]
+    },
+    {
+      "persona_id": "p12",
+      "episode_a": "p12e03",
+      "episode_b": "p12e12",
+      "jaccard": 0.1316,
+      "shared_terms": [
+        "berlin",
+        "over",
+        "she",
+        "sohee",
+        "two"
+      ]
+    },
+    {
+      "persona_id": "p01",
+      "episode_a": "p01e06",
+      "episode_b": "p01e13",
+      "jaccard": 0.129,
+      "shared_terms": [
+        "bed",
+        "mochi",
+        "out",
+        "two"
+      ]
+    },
+    {
+      "persona_id": "p08",
+      "episode_a": "p08e01",
+      "episode_b": "p08e12",
+      "jaccard": 0.125,
+      "shared_terms": [
+        "cards",
+        "draft",
+        "forty",
+        "one",
+        "three"
+      ]
+    },
+    {
+      "persona_id": "p12",
+      "episode_a": "p12e06",
+      "episode_b": "p12e12",
+      "jaccard": 0.122,
+      "shared_terms": [
+        "found",
+        "her",
+        "she",
+        "sohee",
+        "walkie"
+      ]
+    },
+    {
+      "persona_id": "p06",
+      "episode_a": "p06e04",
+      "episode_b": "p06e11",
+      "jaccard": 0.1212,
+      "shared_terms": [
+        "appointment",
+        "eleven",
+        "folder",
+        "visa"
+      ]
+    },
+    {
+      "persona_id": "p11",
+      "episode_a": "p11e06",
+      "episode_b": "p11e10",
+      "jaccard": 0.1212,
+      "shared_terms": [
+        "limiter",
+        "one",
+        "rate",
+        "review"
+      ]
+    },
+    {
+      "persona_id": "p02",
+      "episode_a": "p02e02",
+      "episode_b": "p02e09",
+      "jaccard": 0.1176,
+      "shared_terms": [
+        "kimchi",
+        "pork",
+        "stew",
+        "video"
+      ]
+    },
+    {
+      "persona_id": "p11",
+      "episode_a": "p11e02",
+      "episode_b": "p11e07",
+      "jaccard": 0.1176,
+      "shared_terms": [
+        "clementine",
+        "her",
+        "like",
+        "repotted"
+      ]
+    },
+    {
+      "persona_id": "p12",
+      "episode_a": "p12e04",
+      "episode_b": "p12e13",
+      "jaccard": 0.1176,
+      "shared_terms": [
+        "bass",
+        "fund",
+        "model",
+        "sunburst"
+      ]
+    },
+    {
+      "persona_id": "p02",
+      "episode_a": "p02e04",
+      "episode_b": "p02e06",
+      "jaccard": 0.1143,
+      "shared_terms": [
+        "grandmother",
+        "her",
+        "hospital",
+        "she"
+      ]
+    },
+    {
+      "persona_id": "p01",
+      "episode_a": "p01e07",
+      "episode_b": "p01e12",
+      "jaccard": 0.1081,
+      "shared_terms": [
+        "blue",
+        "mural",
+        "s",
+        "whole"
+      ]
+    },
+    {
+      "persona_id": "p05",
+      "episode_a": "p05e03",
+      "episode_b": "p05e09",
+      "jaccard": 0.1081,
+      "shared_terms": [
+        "bomi",
+        "her",
+        "not",
+        "sat"
+      ]
+    },
+    {
+      "persona_id": "p08",
+      "episode_a": "p08e02",
+      "episode_b": "p08e12",
+      "jaccard": 0.1081,
+      "shared_terms": [
+        "back",
+        "chapter",
+        "harbor",
+        "page"
+      ]
+    },
+    {
+      "persona_id": "p09",
+      "episode_a": "p09e02",
+      "episode_b": "p09e14",
+      "jaccard": 0.1081,
+      "shared_terms": [
+        "grandma",
+        "made",
+        "s",
+        "stew"
+      ]
+    },
+    {
+      "persona_id": "p11",
+      "episode_a": "p11e08",
+      "episode_b": "p11e13",
+      "jaccard": 0.1081,
+      "shared_terms": [
+        "cone",
+        "driving",
+        "parallel",
+        "park"
+      ]
+    },
+    {
+      "persona_id": "p12",
+      "episode_a": "p12e01",
+      "episode_b": "p12e05",
+      "jaccard": 0.1053,
+      "shared_terms": [
+        "ep",
+        "juho",
+        "s",
+        "tracks"
+      ]
+    },
+    {
+      "persona_id": "p09",
+      "episode_a": "p09e02",
+      "episode_b": "p09e12",
+      "jaccard": 0.1026,
+      "shared_terms": [
+        "grandma",
+        "her",
+        "me",
+        "she"
+      ]
+    }
+  ]
+}

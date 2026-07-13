@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PERSONAS = ROOT / "data" / "personas"
 RELEASE = ROOT / "data" / "epirec_v1.json"
 MANIFEST = ROOT / "data" / "SHA256SUMS"
+CROISSANT = ROOT / "data" / "croissant.json"
 NOW = datetime(2025, 6, 30, 12, tzinfo=timezone.utc)
 BANDS = {"high", "mild", "low"}
 VALENCES = {"positive", "negative", "neutral"}
@@ -132,6 +133,18 @@ def main(check_release: bool = True) -> int:
         if not RELEASE.exists() or json.loads(RELEASE.read_text(encoding="utf-8")) != expected: issues.append("release corpus differs from source personas; run scripts/build.py")
         expected_manifest = f"{digest(RELEASE)}  {RELEASE.name}\n" if RELEASE.exists() else ""
         if not MANIFEST.exists() or MANIFEST.read_text(encoding="ascii") != expected_manifest: issues.append("release SHA-256 manifest is missing or stale; run scripts/build.py")
+        if not CROISSANT.exists():
+            issues.append("missing data/croissant.json metadata")
+        else:
+            try:
+                metadata = json.loads(CROISSANT.read_text(encoding="utf-8"))
+                distribution = metadata.get("distribution", [{}])[0]
+                if metadata.get("dct:conformsTo") != "http://mlcommons.org/croissant/1.1":
+                    issues.append("Croissant metadata must declare version 1.1")
+                if distribution.get("sha256") != digest(RELEASE):
+                    issues.append("Croissant metadata SHA-256 is stale")
+            except (json.JSONDecodeError, IndexError, TypeError):
+                issues.append("data/croissant.json is invalid JSON-LD")
     print(f"personas: {len(personas)} episodes: {len(episode_ids)} probes: {len(probe_ids)}")
     print(f"bands: {bands}; age coverage: {coverage}")
     if issues:

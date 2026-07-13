@@ -82,6 +82,7 @@ The repository has no mandatory runtime dependency for release validation. `sent
 python scripts/validate.py            # source schema, protocol, release, and checksum checks
 python scripts/build.py --check       # confirms generated artifact is current without writing files
 python scripts/baseline_retrieval.py  # hashing baseline; MiniLM too when installed
+python scripts/audit_ambiguity.py     # emits lexical near-neighbor candidates for blinded review
 ```
 
 To intentionally rebuild the release artifact after a versioned dataset change:
@@ -92,9 +93,11 @@ python scripts/build.py
 
 `data/SHA256SUMS` pins the current artifact. Both validation commands fail when the release JSON, persona sources, or checksum manifest diverge. GitHub Actions runs these checks for every push and pull request.
 
+For external systems, [`scripts/evaluate_rankings.py`](scripts/evaluate_rankings.py) consumes one complete 14-episode ranking per probe and writes recall@1, recall@3, MRR, deterministic bootstrap 95% CIs, and results stratified by probe type, authored intensity, and age range. The lexical audit writes review candidates to [`docs/ambiguity_candidates.json`](docs/ambiguity_candidates.json). The machine-readable dataset description is [`data/croissant.json`](data/croissant.json). See [EXPERIMENTS.md](EXPERIMENTS.md) for the required comparison protocol and result schema.
+
 ## Integrity And Limits
 
-- **Synthetic and disclosed:** all personas, episodes, and probes were authored with Claude (Anthropic) in a supervised session. No real-person or user data is included.
+- **Synthetic and disclosed:** all personas, episodes, and probes were created through LLM-assisted, author-supervised generation. No real-person or user data is included.
 - **Fixed construction protocol:** the public specification describes data shape, label bands, timeline coverage, probe rules, and evaluation before a release version is frozen.
 - **Mechanical checks:** the validator enforces unique IDs, source/release agreement, text length, session span, label mix, temporal coverage, probe completeness, and implicit-probe lexical constraints.
 - **Independent label audit:** a deterministic, stratified 60-episode sample is in [`human_validation/`](human_validation/). Ratings remain pending in v1.0; authored intensity and valence labels should therefore be treated as design labels until agreement is reported.
@@ -114,6 +117,6 @@ Data is released under [CC BY 4.0](LICENSE). Code is released under [MIT](LICENS
   author = {Jin, Seokho},
   year   = {2026},
   url    = {https://github.com/sukoji/epirec},
-  note   = {Version 1.0. Synthetic corpus generated with Claude (Anthropic).}
+  note   = {Version 1.0. LLM-assisted, author-supervised synthetic corpus.}
 }
 ```

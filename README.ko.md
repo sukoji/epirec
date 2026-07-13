@@ -57,7 +57,7 @@ python scripts/baseline_retrieval.py  # hashing baseline, MiniLM은 설치되어
 
 ## 한계와 무결성
 
-- 모든 persona, episode, probe는 Claude (Anthropic)를 이용해 supervised session에서 작성한 fictional synthetic data입니다.
+- 모든 persona, episode, probe는 LLM-assisted, author-supervised generation으로 만든 fictional synthetic data입니다.
 - validator는 ID와 text/query 중복, 시간대, 길이, session span, label 분포, temporal coverage, probe 규칙, implicit probe lexical leakage를 검사합니다.
 - 60개 episode의 독립 human label audit은 [`human_validation/`](human_validation/)에 준비되어 있으나 v1.0에서는 아직 pending입니다. 따라서 authored intensity/valence는 현재 design label로 해석해야 합니다.
 - English-only, single-target, authored small benchmark이며 ecological validity를 입증하지 않습니다.

@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "dct": "http://purl.org/dc/terms/",
+    "sc": "https://schema.org/"
+  },
+  "@type": "sc:Dataset",
+  "@id": "https://github.com/sukoji/epirec",
+  "name": "EpiRec v1.0",
+  "description": "A synthetic evaluation benchmark for factual episodic lookup and emotional resurfacing in memory-augmented agents.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://github.com/sukoji/epirec",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.1",
+  "distribution": [{
+    "@type": "cr:FileObject",
+    "@id": "epirec-json",
+    "name": "epirec_v1.json",
+    "contentUrl": "https://raw.githubusercontent.com/sukoji/epirec/main/data/epirec_v1.json",
+    "encodingFormat": "application/json",
+    "sha256": "1bf40ccdfa74f822bfc054ace51091a4d4de3eacc2e1425302a83bceca7d4757"
+  }],
+  "recordSet": [{
+    "@type": "cr:RecordSet",
+    "@id": "episodes",
+    "name": "episodes",
+    "description": "One dated journal episode, nested under a fictional persona.",
+    "key": ["id"],
+    "field": [
+      {"@type": "cr:Field", "@id": "episodes/id", "name": "id", "dataType": "sc:Text"},
+      {"@type": "cr:Field", "@id": "episodes/date_time", "name": "date_time", "dataType": "sc:DateTime"},
+      {"@type": "cr:Field", "@id": "episodes/text", "name": "text", "dataType": "sc:Text"},
+      {"@type": "cr:Field", "@id": "episodes/emotion", "name": "emotion", "dataType": "sc:Text"},
+      {"@type": "cr:Field", "@id": "episodes/intensity_band", "name": "intensity_band", "dataType": "sc:Text"},
+      {"@type": "cr:Field", "@id": "episodes/valence", "name": "valence", "dataType": "sc:Text"}
+    ]
+  }]
+}

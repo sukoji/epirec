@@ -12,7 +12,7 @@ recall only and carry no emotional-salience labels, so the resurfacing claim cou
 previously only be tested on tiny author-made scenarios. EpiRec provides a labeled,
 mechanically-validated corpus for exactly that claim.
 
-**Who created it and who funded it?** Authored by Claude (Anthropic) in a session
+**Who created it and who funded it?** Authored in an LLM-assisted session
 supervised by Seokho Jin, who also maintains the Persode reference implementation —
 an evaluated system. This conflict is disclosed prominently; see "Integrity" in the
 README for mitigations. No external funding.
