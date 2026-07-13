@@ -24,7 +24,7 @@ EpiRec evaluates two different capabilities of a memory-augmented agent:
 
 Existing long-term-memory benchmarks such as [LoCoMo](https://github.com/snap-research/locomo) provide strong factual-recall evaluation, but do not include emotional-salience labels. EpiRec complements them with a small, fully disclosed synthetic benchmark designed for this missing axis. It is evaluation-only and must not be used to support claims about real human memory or mental-health outcomes.
 
-<p align="center"><img src="docs/stats.png" width="92%" alt="EpiRec v1.0 corpus statistics"></p>
+<p align="center"><img src="docs/epirec_overview.png" width="96%" alt="EpiRec v1.0 benchmark overview"></p>
 
 ## Data
 

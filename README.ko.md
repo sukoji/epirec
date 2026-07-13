@@ -19,7 +19,7 @@ EpiRec은 메모리 증강 에이전트의 두 검색 능력을 분리해서 평
 
 LoCoMo 같은 장기 메모리 벤치마크는 사실 기반 검색 평가에 강점이 있지만 정서적 중요도 label은 제공하지 않습니다. EpiRec은 이 축을 보완하기 위해 만든 소규모 synthetic evaluation benchmark입니다. 실제 인간의 기억, 정서, 정신건강 효과를 주장하는 용도로 사용하면 안 됩니다.
 
-<p align="center"><img src="docs/stats.png" width="92%" alt="EpiRec v1.0 corpus statistics"></p>
+<p align="center"><img src="docs/epirec_overview.png" width="96%" alt="EpiRec v1.0 benchmark overview"></p>
 
 ## 데이터와 과제
 

@@ -19,7 +19,7 @@ EpiRec 分别评估记忆增强智能体的两种检索能力。
 
 LoCoMo 等长期记忆基准擅长评估事实检索，但没有情绪显著性标签。EpiRec 是一个小型、完全披露的 synthetic evaluation benchmark，用于补充这一缺口。它不能用于支持关于真实人类记忆、情绪或心理健康效果的结论。
 
-<p align="center"><img src="docs/stats.png" width="92%" alt="EpiRec v1.0 corpus statistics"></p>
+<p align="center"><img src="docs/epirec_overview.png" width="96%" alt="EpiRec v1.0 benchmark overview"></p>
 
 ## 数据与任务
 
