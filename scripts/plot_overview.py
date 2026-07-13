@@ -11,6 +11,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.patches import Rectangle
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "epirec_v1.json"
@@ -33,8 +34,8 @@ def main() -> None:
     episodes = [episode for persona in personas for episode in persona["episodes"]]
 
     plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10})
-    fig = plt.figure(figsize=(14.2, 8.2), facecolor="white")
-    grid = fig.add_gridspec(2, 2, width_ratios=[1.42, 1], height_ratios=[1.18, 1], wspace=0.34, hspace=0.44)
+    fig = plt.figure(figsize=(14.4, 8.4), facecolor="white")
+    grid = fig.add_gridspec(2, 2, width_ratios=[1.38, 1], height_ratios=[1.16, 1], wspace=0.31, hspace=0.42)
     ax_time = fig.add_subplot(grid[0, 0])
     ax_probe = fig.add_subplot(grid[0, 1])
     ax_mix = fig.add_subplot(grid[1, 0])
@@ -57,24 +58,27 @@ def main() -> None:
     ax_time.invert_yaxis()
     ax_time.set_yticks(range(len(personas)), [persona["persona_id"].upper() for persona in personas])
     ax_time.set_xlabel("Episode age at reference time (days)", color=INK)
-    ax_time.set_title("Temporal coverage across 12 persona stores", loc="left", color=INK, fontweight="bold", pad=10)
+    ax_time.set_title("Timeline coverage by authored intensity", loc="left", color=INK, fontweight="bold", pad=10)
     ax_time.grid(axis="x", color=GRID, linewidth=.8)
 
     # Probe taxonomy: communicates the controlled difficulty ladder without inventing a score.
     ax_probe.set_axis_off()
-    ax_probe.set_title("Three probes per episode", loc="left", color=INK, fontweight="bold", pad=10)
+    ax_probe.set_title("Probe taxonomy: 3 controlled queries per episode", loc="left", color=INK, fontweight="bold", pad=10)
     rows = [
         ("FACTUAL", "Concrete detail", "Lexical overlap allowed"),
         ("EXPLICIT", "Named emotion", "Emotion word or close synonym"),
         ("IMPLICIT", "Indirect reflection", "No emotion word or target content stem"),
     ]
     for index, (tag, title, rule) in enumerate(rows):
-        y = .82 - index * .3
-        ax_probe.plot([.06, .12], [y, y], color=PROBE_COLORS[index], lw=5, solid_capstyle="round", transform=ax_probe.transAxes)
-        ax_probe.text(.17, y + .04, tag, transform=ax_probe.transAxes, color=PROBE_COLORS[index], fontsize=8, fontweight="bold")
-        ax_probe.text(.17, y - .035, title, transform=ax_probe.transAxes, color=INK, fontsize=12, fontweight="bold")
-        ax_probe.text(.17, y - .12, rule, transform=ax_probe.transAxes, color=MUTED, fontsize=9)
-    ax_probe.text(.06, .02, "168 episodes x 3 conditions = 504 single-target probes", transform=ax_probe.transAxes, color=INK, fontsize=9, fontweight="bold")
+        y = .70 - index * .245
+        ax_probe.add_patch(Rectangle((.04, y), .92, .20, transform=ax_probe.transAxes,
+                                     facecolor="#f7f9fa", edgecolor=GRID, linewidth=.8))
+        ax_probe.add_patch(Rectangle((.04, y), .022, .20, transform=ax_probe.transAxes,
+                                     facecolor=PROBE_COLORS[index], edgecolor="none"))
+        ax_probe.text(.09, y + .135, tag, transform=ax_probe.transAxes, color=PROBE_COLORS[index], fontsize=8, fontweight="bold")
+        ax_probe.text(.09, y + .070, title, transform=ax_probe.transAxes, color=INK, fontsize=11, fontweight="bold")
+        ax_probe.text(.09, y + .020, rule, transform=ax_probe.transAxes, color=MUTED, fontsize=8.4)
+    ax_probe.text(.04, .045, "168 episodes  x  3 query conditions  =  504 single-target probes", transform=ax_probe.transAxes, color=INK, fontsize=9, fontweight="bold")
 
     # Composition: show intensity and valence as directly labeled stacked bars.
     intensity_order = ["high", "mild", "low"]
@@ -106,11 +110,11 @@ def main() -> None:
     for index, value in enumerate(values):
         ax_baseline.text(index, value + .045, f"{value:.3f}", ha="center", color=INK, fontweight="bold")
     ax_baseline.set_xticks(x, labels)
-    ax_baseline.set_ylim(.5, 1.08)
-    ax_baseline.set_yticks([.5, .65, .8, .95, 1.0])
+    ax_baseline.set_ylim(0, 1.08)
+    ax_baseline.set_yticks([0, .25, .5, .75, 1.0])
     ax_baseline.set_ylabel("Recall@3", color=INK)
     ax_baseline.set_title("Reference difficulty check", loc="left", color=INK, fontweight="bold", pad=10)
-    ax_baseline.text(1, .53, "Similarity-only MiniLM baseline", ha="center", color=MUTED, fontsize=8)
+    ax_baseline.text(1, .07, "Reference retriever: similarity-only MiniLM", ha="center", color=MUTED, fontsize=8)
     ax_baseline.grid(axis="y", color=GRID, linewidth=.8)
 
     for axis in (ax_time, ax_mix, ax_baseline):
