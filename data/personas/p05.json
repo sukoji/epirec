@@ -1,0 +1,148 @@
+{
+  "persona_id": "p05",
+  "name": "Hana",
+  "age": 19,
+  "context": "gap-year student; threads: solo rail trip, learning guitar, aging family dog Bomi",
+  "episodes": [
+    {
+      "id": "p05e01", "session": 1, "date_time": "2025-03-05T20:00:00",
+      "text": "Mapped the first leg of my rail trip: four towns down the east coast over nine days. Printed the route and pinned it above my desk with a red thread like a detective.",
+      "emotion": "excitement", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p05e01-f", "type": "factual", "query": "How many towns and days did the first leg of my rail trip cover?"},
+        {"id": "p05e01-x", "type": "reflective_explicit", "query": "I feel excited all over again thinking of planning that route."},
+        {"id": "p05e01-i", "type": "reflective_implicit", "query": "That chart on my wall with its red line keeps pulling my eyes toward the horizon."}
+      ]
+    },
+    {
+      "id": "p05e02", "session": 2, "date_time": "2025-03-13T18:30:00",
+      "text": "First guitar lesson at the community center. My fingertips went numb from the strings and the teacher said that means it is working.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p05e02-f", "type": "factual", "query": "What did the guitar teacher say my numb fingertips meant?"},
+        {"id": "p05e02-x", "type": "reflective_explicit", "query": "I feel a fond amusement thinking of my very first lesson."},
+        {"id": "p05e02-i", "type": "reflective_implicit", "query": "The sting in my hands from that first practice room visit resurfaces when I begin new things."}
+      ]
+    },
+    {
+      "id": "p05e03", "session": 3, "date_time": "2025-03-21T22:10:00",
+      "text": "Bomi could not climb the stairs tonight. She waited at the bottom step, tail low, until Dad carried her up, and I sat with her head on my knee for an hour.",
+      "emotion": "sorrow", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p05e03-f", "type": "factual", "query": "Who carried Bomi up the stairs when she couldn't climb?"},
+        {"id": "p05e03-x", "type": "reflective_explicit", "query": "I still feel a deep sadness remembering the night the dog couldn't manage the stairs."},
+        {"id": "p05e03-i", "type": "reflective_implicit", "query": "An old companion waiting below the staircase stays lodged in me."}
+      ]
+    },
+    {
+      "id": "p05e04", "session": 4, "date_time": "2025-03-30T21:00:00",
+      "text": "Renewed my passport photo, bought a rail pass holder, and packed a test rucksack to check the weight. Seven point three kilos, under my limit.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p05e04-f", "type": "factual", "query": "How much did my test rucksack weigh?"},
+        {"id": "p05e04-x", "type": "reflective_explicit", "query": "I feel calm and ready thinking back to those trip preparations."},
+        {"id": "p05e04-i", "type": "reflective_implicit", "query": "The quiet checklist before setting off drifts back whenever I zip a bag."}
+      ]
+    },
+    {
+      "id": "p05e05", "session": 5, "date_time": "2025-04-08T23:20:00",
+      "text": "First night of the trip in Gangneung. I ate grilled fish alone by the harbor, terrified and thrilled in equal parts, and the sea sounded bigger in the dark.",
+      "emotion": "exhilaration", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p05e05-f", "type": "factual", "query": "What did I eat by the harbor on the first night in Gangneung?"},
+        {"id": "p05e05-x", "type": "reflective_explicit", "query": "I feel that mix of thrill and fear again when the first night of the trip comes back."},
+        {"id": "p05e05-i", "type": "reflective_implicit", "query": "Sitting by black water in a town where nobody knew my name still moves through me."}
+      ]
+    },
+    {
+      "id": "p05e06", "session": 6, "date_time": "2025-04-12T20:40:00",
+      "text": "Missed the last bus in Samcheok and walked forty minutes to the guesthouse in drizzle. The owner left the porch light on and a note saying the kimchi fridge was fair game.",
+      "emotion": "gratitude", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p05e06-f", "type": "factual", "query": "What did the guesthouse note say was fair game?"},
+        {"id": "p05e06-x", "type": "reflective_explicit", "query": "I feel grateful remembering that soggy walk ending in kindness."},
+        {"id": "p05e06-i", "type": "reflective_implicit", "query": "A lamp left burning for a stranger on a wet night keeps glowing somewhere in me."}
+      ]
+    },
+    {
+      "id": "p05e07", "session": 7, "date_time": "2025-04-17T19:15:00",
+      "text": "Train home. Sorted six hundred photos into folders while the fields slid past, and ranked my favorite meals of the trip in my notebook. Fish stew won.",
+      "emotion": "contentment", "intensity_band": "low", "valence": "positive",
+      "probes": [
+        {"id": "p05e07-f", "type": "factual", "query": "Which meal won my trip food ranking?"},
+        {"id": "p05e07-x", "type": "reflective_explicit", "query": "I feel a settled contentment recalling the ride home from the trip."},
+        {"id": "p05e07-i", "type": "reflective_implicit", "query": "Watching the countryside pass while I ordered my memories comes back on every long ride."}
+      ]
+    },
+    {
+      "id": "p05e08", "session": 8, "date_time": "2025-04-26T17:30:00",
+      "text": "Practiced chord changes for an hour: G to C without looking, finally. Recorded a shaky clip of the campfire song and did not delete it for once.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p05e08-f", "type": "factual", "query": "Which chord change did I finally manage without looking?"},
+        {"id": "p05e08-x", "type": "reflective_explicit", "query": "I feel quietly pleased about that practice breakthrough."},
+        {"id": "p05e08-i", "type": "reflective_implicit", "query": "The first take of myself I didn't erase surfaces when doubt creeps in."}
+      ]
+    },
+    {
+      "id": "p05e09", "session": 9, "date_time": "2025-05-06T22:30:00",
+      "text": "The vet found a mass on Bomi's spleen. Surgery is an option at her age but risky, and the three of us sat at the kitchen table not saying the obvious things.",
+      "emotion": "dread", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p05e09-f", "type": "factual", "query": "Where did the vet find a mass on Bomi?"},
+        {"id": "p05e09-x", "type": "reflective_explicit", "query": "The dread of that vet visit still tightens my chest."},
+        {"id": "p05e09-i", "type": "reflective_implicit", "query": "A silent circle of family around bad news sits heavy in my memory."}
+      ]
+    },
+    {
+      "id": "p05e10", "session": 10, "date_time": "2025-05-15T21:45:00",
+      "text": "Bomi came through the operation. The surgeon called at nine sharp, I screamed loud enough to scare the mailman, and Dad cried into the dish towel pretending to wash up.",
+      "emotion": "relief", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p05e10-f", "type": "factual", "query": "What time did the surgeon call about Bomi's operation?"},
+        {"id": "p05e10-x", "type": "reflective_explicit", "query": "I feel flooded with relief every time that phone call replays."},
+        {"id": "p05e10-i", "type": "reflective_implicit", "query": "The ring that turned our house from silence into noise again keeps echoing in me."}
+      ]
+    },
+    {
+      "id": "p05e11", "session": 11, "date_time": "2025-05-28T18:00:00",
+      "text": "Walked Bomi to the corner and back, her first outing since the stitches came out. She sniffed the same lamppost for five whole minutes and I let her.",
+      "emotion": "tenderness", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p05e11-f", "type": "factual", "query": "How long did Bomi sniff the lamppost on her first outing?"},
+        {"id": "p05e11-x", "type": "reflective_explicit", "query": "I feel soft warmth thinking of that slow little walk with her."},
+        {"id": "p05e11-i", "type": "reflective_implicit", "query": "Standing still so an old friend could take her time returns to me often."}
+      ]
+    },
+    {
+      "id": "p05e12", "session": 12, "date_time": "2025-06-11T19:30:00",
+      "text": "Sorted my trip laundry backlog, returned Mom's power bank, and booked a dental checkup. Also alphabetized the spice rack for no reason.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p05e12-f", "type": "factual", "query": "Whose power bank did I return?"},
+        {"id": "p05e12-x", "type": "reflective_explicit", "query": "I feel neutral, mildly satisfied, about that catch-up chore day."},
+        {"id": "p05e12-i", "type": "reflective_implicit", "query": "An afternoon of putting borrowed and scattered things back in place drifts by me."}
+      ]
+    },
+    {
+      "id": "p05e13", "session": 13, "date_time": "2025-06-24T20:50:00",
+      "text": "Played the campfire song for my family after dinner, all the way through, only one buzzed note. Bomi thumped her tail on the floor like a metronome with opinions.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p05e13-f", "type": "factual", "query": "How many buzzed notes did my family performance have?"},
+        {"id": "p05e13-x", "type": "reflective_explicit", "query": "I feel glowing happiness remembering playing that song for everyone."},
+        {"id": "p05e13-i", "type": "reflective_implicit", "query": "Music I finally shared out loud in the living room keeps ringing in my head."}
+      ]
+    },
+    {
+      "id": "p05e14", "session": 14, "date_time": "2025-06-28T21:20:00",
+      "text": "Watered the plants, clipped Bomi's nails, and started a packing list for the southern leg of the trip in August. Two pages already and I regret nothing.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p05e14-f", "type": "factual", "query": "Which month is the southern leg of my trip planned for?"},
+        {"id": "p05e14-x", "type": "reflective_explicit", "query": "I feel calm anticipation about the list I started that evening."},
+        {"id": "p05e14-i", "type": "reflective_implicit", "query": "A fresh page of preparations for the next departure floats into my thoughts."}
+      ]
+    }
+  ]
+}

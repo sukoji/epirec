@@ -1,0 +1,148 @@
+{
+  "persona_id": "p01",
+  "name": "Mina",
+  "age": 17,
+  "context": "high-school senior; threads: college entrance prep, rescue cat Mochi, art-club mural",
+  "episodes": [
+    {
+      "id": "p01e01", "session": 1, "date_time": "2025-03-02T19:30:00",
+      "text": "First day back at school after the break. I organized my desk, copied the new timetable into my planner, and grabbed a window seat before anyone else claimed it.",
+      "emotion": "calm", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p01e01-f", "type": "factual", "query": "Which seat did I grab on the first day back at school?"},
+        {"id": "p01e01-x", "type": "reflective_explicit", "query": "I feel calm and content thinking back to how that semester started."},
+        {"id": "p01e01-i", "type": "reflective_implicit", "query": "The way that term opened still drifts through my head now and then."}
+      ]
+    },
+    {
+      "id": "p01e02", "session": 2, "date_time": "2025-03-09T17:10:00",
+      "text": "We finally brought the rescue cat home today. She hid inside a shoe box for an hour, then curled up on my lap, and I was so happy I could barely breathe.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p01e02-f", "type": "factual", "query": "Where did the rescue cat hide when she first came home?"},
+        {"id": "p01e02-x", "type": "reflective_explicit", "query": "I still feel overjoyed remembering the day my cat arrived."},
+        {"id": "p01e02-i", "type": "reflective_implicit", "query": "That evening a tiny creature chose to stay near me, and it keeps coming back to my mind."}
+      ]
+    },
+    {
+      "id": "p01e03", "session": 3, "date_time": "2025-03-16T21:00:00",
+      "text": "Spent Sunday drafting the mural concept for art club. Three sketches of a whale drifting over rooftops; the third one finally looked the way I imagined.",
+      "emotion": "satisfaction", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p01e03-f", "type": "factual", "query": "What animal did I sketch for the art club mural?"},
+        {"id": "p01e03-x", "type": "reflective_explicit", "query": "I feel quietly proud of how that design work turned out."},
+        {"id": "p01e03-i", "type": "reflective_implicit", "query": "There was a weekend when an idea slowly took shape under my pencil, and I return to it."}
+      ]
+    },
+    {
+      "id": "p01e04", "session": 4, "date_time": "2025-03-23T20:15:00",
+      "text": "Bought new highlighters and index cards at the stationery store, then reorganized my study binder by subject. Nothing exciting, just housekeeping for exam prep.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p01e04-f", "type": "factual", "query": "What did I buy at the stationery store?"},
+        {"id": "p01e04-x", "type": "reflective_explicit", "query": "I feel calm about how I set up my study materials back then."},
+        {"id": "p01e04-i", "type": "reflective_implicit", "query": "That little bit of tidying before the busy season crosses my mind sometimes."}
+      ]
+    },
+    {
+      "id": "p01e05", "session": 5, "date_time": "2025-04-01T22:40:00",
+      "text": "My mock exam score dropped two grades in math. I sat in the bathroom stall at lunch and cried, then couldn't focus for the rest of the day.",
+      "emotion": "despair", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p01e05-f", "type": "factual", "query": "Which subject dropped two grades on my mock exam?"},
+        {"id": "p01e05-x", "type": "reflective_explicit", "query": "I still feel crushed and anxious when that test result comes to mind."},
+        {"id": "p01e05-i", "type": "reflective_implicit", "query": "There was a number on a page that undid me for a whole afternoon, and it visits me before every big day."}
+      ]
+    },
+    {
+      "id": "p01e06", "session": 5, "date_time": "2025-04-01T23:05:00",
+      "text": "Mochi knocked a glass of water onto my homework and I had to recopy two pages of notes before bed. Annoying, but the notes came out neater the second time.",
+      "emotion": "mild annoyance", "intensity_band": "low", "valence": "negative",
+      "probes": [
+        {"id": "p01e06-f", "type": "factual", "query": "What did Mochi spill on my homework?"},
+        {"id": "p01e06-x", "type": "reflective_explicit", "query": "I get mildly annoyed remembering what the cat did to my notes that night."},
+        {"id": "p01e06-i", "type": "reflective_implicit", "query": "A small domestic disaster made me redo an evening's work once, and I think of it while studying."}
+      ]
+    },
+    {
+      "id": "p01e07", "session": 6, "date_time": "2025-04-13T18:20:00",
+      "text": "Our team painted the base coat of the mural on the gym wall. Twelve of us in old shirts, blue paint everywhere, someone's speaker playing city pop the whole time.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p01e07-f", "type": "factual", "query": "What music was playing while we painted the gym wall?"},
+        {"id": "p01e07-x", "type": "reflective_explicit", "query": "I feel so happy whenever I remember painting that wall with everyone."},
+        {"id": "p01e07-i", "type": "reflective_implicit", "query": "One loud, messy afternoon with my whole crew still glows in my memory."}
+      ]
+    },
+    {
+      "id": "p01e08", "session": 7, "date_time": "2025-04-27T20:50:00",
+      "text": "Weekly library session with Dayeon. We split a cinnamon roll, quizzed each other on English vocab for two hours, and left when the closing announcement played.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p01e08-f", "type": "factual", "query": "What snack did Dayeon and I split at the library?"},
+        {"id": "p01e08-x", "type": "reflective_explicit", "query": "I feel content thinking about those steady study sessions with my friend."},
+        {"id": "p01e08-i", "type": "reflective_implicit", "query": "Those quiet evenings of practice with a friend drift back to me during busy weeks."}
+      ]
+    },
+    {
+      "id": "p01e09", "session": 8, "date_time": "2025-05-11T21:30:00",
+      "text": "Grandma called and we talked for an hour about her garden and my exams. Before hanging up she said she keeps my childhood drawing taped inside her cupboard, and I teared up.",
+      "emotion": "tenderness", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p01e09-f", "type": "factual", "query": "What does Grandma keep taped inside her cupboard?"},
+        {"id": "p01e09-x", "type": "reflective_explicit", "query": "That phone call with Grandma still makes me feel loved and a little teary."},
+        {"id": "p01e09-i", "type": "reflective_implicit", "query": "Something an elder told me on the phone one night settled deep and stays warm."}
+      ]
+    },
+    {
+      "id": "p01e10", "session": 9, "date_time": "2025-05-25T19:45:00",
+      "text": "Argued with Mom about cram school hours. She wants me to add Sunday classes and I shouted that I never get a single day off, then slammed my door.",
+      "emotion": "anger", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p01e10-f", "type": "factual", "query": "What did Mom want me to add that started our argument?"},
+        {"id": "p01e10-x", "type": "reflective_explicit", "query": "I still feel angry and guilty about that fight with Mom."},
+        {"id": "p01e10-i", "type": "reflective_implicit", "query": "Something I shut too hard between me and someone at home echoes in my head."}
+      ]
+    },
+    {
+      "id": "p01e11", "session": 10, "date_time": "2025-06-08T20:05:00",
+      "text": "Took Mochi to the vet for her booster shot. She yowled through the waiting room, weighed in at four kilograms, and sulked in her carrier the whole ride back.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p01e11-f", "type": "factual", "query": "How much did Mochi weigh at the vet?"},
+        {"id": "p01e11-x", "type": "reflective_explicit", "query": "I feel calm remembering that routine trip for the cat's shot."},
+        {"id": "p01e11-i", "type": "reflective_implicit", "query": "That noisy little errand with a grumpy passenger pops into my head at odd times."}
+      ]
+    },
+    {
+      "id": "p01e12", "session": 11, "date_time": "2025-06-22T21:20:00",
+      "text": "The finished mural was unveiled at the school festival and the whole hallway clapped. My whale, huge and blue, with every club member's signature hidden in the waves.",
+      "emotion": "pride", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p01e12-f", "type": "factual", "query": "What is hidden in the waves of the finished mural?"},
+        {"id": "p01e12-x", "type": "reflective_explicit", "query": "I feel proud beyond words about the day our artwork was revealed."},
+        {"id": "p01e12-i", "type": "reflective_implicit", "query": "A corridor of applause for a thing we made together keeps replaying in me."}
+      ]
+    },
+    {
+      "id": "p01e13", "session": 12, "date_time": "2025-06-26T22:10:00",
+      "text": "Reviewed two practice passages, fed Mochi, and went to bed early. Set out tomorrow's uniform so the morning would be easier.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p01e13-f", "type": "factual", "query": "What did I set out before bed to make the morning easier?"},
+        {"id": "p01e13-x", "type": "reflective_explicit", "query": "I feel calm about that quiet weeknight of small chores."},
+        {"id": "p01e13-i", "type": "reflective_implicit", "query": "One plain school-night wind-down floats back to me when things get loud."}
+      ]
+    },
+    {
+      "id": "p01e14", "session": 12, "date_time": "2025-06-26T22:35:00",
+      "text": "Dayeon texted that she might transfer schools before the final semester. I reread the message five times and felt something heavy settle in my chest.",
+      "emotion": "dread", "intensity_band": "mild", "valence": "negative",
+      "probes": [
+        {"id": "p01e14-f", "type": "factual", "query": "What did Dayeon say she might do before the final semester?"},
+        {"id": "p01e14-x", "type": "reflective_explicit", "query": "I feel worried and heavy-hearted about the news my friend texted me."},
+        {"id": "p01e14-i", "type": "reflective_implicit", "query": "A few lines on a screen from someone dear changed the weather in me, and I keep going over them in my head."}
+      ]
+    }
+  ]
+}

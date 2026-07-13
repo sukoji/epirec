@@ -1,0 +1,4498 @@
+{
+  "name": "EpiRec",
+  "full_name": "Episodic Recall: A Benchmark for Emotional Resurfacing and Factual Lookup in Memory-Augmented Agents",
+  "version": "1.0",
+  "reference_now": "2025-06-30T12:00:00+00:00",
+  "construction": "pre-registered; see GENERATION_SPEC.md",
+  "license": "CC BY 4.0",
+  "stats": {
+    "personas": 12,
+    "episodes": 168,
+    "probes": 504,
+    "intensity_bands": {
+      "high": 72,
+      "mild": 37,
+      "low": 59
+    },
+    "valences": {
+      "positive": 82,
+      "negative": 38,
+      "neutral": 48
+    },
+    "probe_types": {
+      "factual": 168,
+      "reflective_explicit": 168,
+      "reflective_implicit": 168
+    },
+    "episode_age_days": {
+      "min": 0,
+      "max": 121
+    }
+  },
+  "personas": [
+    {
+      "persona_id": "p01",
+      "name": "Mina",
+      "age": 17,
+      "context": "high-school senior; threads: college entrance prep, rescue cat Mochi, art-club mural",
+      "episodes": [
+        {
+          "id": "p01e01",
+          "session": 1,
+          "date_time": "2025-03-02T19:30:00",
+          "text": "First day back at school after the break. I organized my desk, copied the new timetable into my planner, and grabbed a window seat before anyone else claimed it.",
+          "emotion": "calm",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p01e01-f",
+              "type": "factual",
+              "query": "Which seat did I grab on the first day back at school?"
+            },
+            {
+              "id": "p01e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm and content thinking back to how that semester started."
+            },
+            {
+              "id": "p01e01-i",
+              "type": "reflective_implicit",
+              "query": "The way that term opened still drifts through my head now and then."
+            }
+          ]
+        },
+        {
+          "id": "p01e02",
+          "session": 2,
+          "date_time": "2025-03-09T17:10:00",
+          "text": "We finally brought the rescue cat home today. She hid inside a shoe box for an hour, then curled up on my lap, and I was so happy I could barely breathe.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p01e02-f",
+              "type": "factual",
+              "query": "Where did the rescue cat hide when she first came home?"
+            },
+            {
+              "id": "p01e02-x",
+              "type": "reflective_explicit",
+              "query": "I still feel overjoyed remembering the day my cat arrived."
+            },
+            {
+              "id": "p01e02-i",
+              "type": "reflective_implicit",
+              "query": "That evening a tiny creature chose to stay near me, and it keeps coming back to my mind."
+            }
+          ]
+        },
+        {
+          "id": "p01e03",
+          "session": 3,
+          "date_time": "2025-03-16T21:00:00",
+          "text": "Spent Sunday drafting the mural concept for art club. Three sketches of a whale drifting over rooftops; the third one finally looked the way I imagined.",
+          "emotion": "satisfaction",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p01e03-f",
+              "type": "factual",
+              "query": "What animal did I sketch for the art club mural?"
+            },
+            {
+              "id": "p01e03-x",
+              "type": "reflective_explicit",
+              "query": "I feel quietly proud of how that design work turned out."
+            },
+            {
+              "id": "p01e03-i",
+              "type": "reflective_implicit",
+              "query": "There was a weekend when an idea slowly took shape under my pencil, and I return to it."
+            }
+          ]
+        },
+        {
+          "id": "p01e04",
+          "session": 4,
+          "date_time": "2025-03-23T20:15:00",
+          "text": "Bought new highlighters and index cards at the stationery store, then reorganized my study binder by subject. Nothing exciting, just housekeeping for exam prep.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p01e04-f",
+              "type": "factual",
+              "query": "What did I buy at the stationery store?"
+            },
+            {
+              "id": "p01e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm about how I set up my study materials back then."
+            },
+            {
+              "id": "p01e04-i",
+              "type": "reflective_implicit",
+              "query": "That little bit of tidying before the busy season crosses my mind sometimes."
+            }
+          ]
+        },
+        {
+          "id": "p01e05",
+          "session": 5,
+          "date_time": "2025-04-01T22:40:00",
+          "text": "My mock exam score dropped two grades in math. I sat in the bathroom stall at lunch and cried, then couldn't focus for the rest of the day.",
+          "emotion": "despair",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p01e05-f",
+              "type": "factual",
+              "query": "Which subject dropped two grades on my mock exam?"
+            },
+            {
+              "id": "p01e05-x",
+              "type": "reflective_explicit",
+              "query": "I still feel crushed and anxious when that test result comes to mind."
+            },
+            {
+              "id": "p01e05-i",
+              "type": "reflective_implicit",
+              "query": "There was a number on a page that undid me for a whole afternoon, and it visits me before every big day."
+            }
+          ]
+        },
+        {
+          "id": "p01e06",
+          "session": 5,
+          "date_time": "2025-04-01T23:05:00",
+          "text": "Mochi knocked a glass of water onto my homework and I had to recopy two pages of notes before bed. Annoying, but the notes came out neater the second time.",
+          "emotion": "mild annoyance",
+          "intensity_band": "low",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p01e06-f",
+              "type": "factual",
+              "query": "What did Mochi spill on my homework?"
+            },
+            {
+              "id": "p01e06-x",
+              "type": "reflective_explicit",
+              "query": "I get mildly annoyed remembering what the cat did to my notes that night."
+            },
+            {
+              "id": "p01e06-i",
+              "type": "reflective_implicit",
+              "query": "A small domestic disaster made me redo an evening's work once, and I think of it while studying."
+            }
+          ]
+        },
+        {
+          "id": "p01e07",
+          "session": 6,
+          "date_time": "2025-04-13T18:20:00",
+          "text": "Our team painted the base coat of the mural on the gym wall. Twelve of us in old shirts, blue paint everywhere, someone's speaker playing city pop the whole time.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p01e07-f",
+              "type": "factual",
+              "query": "What music was playing while we painted the gym wall?"
+            },
+            {
+              "id": "p01e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel so happy whenever I remember painting that wall with everyone."
+            },
+            {
+              "id": "p01e07-i",
+              "type": "reflective_implicit",
+              "query": "One loud, messy afternoon with my whole crew still glows in my memory."
+            }
+          ]
+        },
+        {
+          "id": "p01e08",
+          "session": 7,
+          "date_time": "2025-04-27T20:50:00",
+          "text": "Weekly library session with Dayeon. We split a cinnamon roll, quizzed each other on English vocab for two hours, and left when the closing announcement played.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p01e08-f",
+              "type": "factual",
+              "query": "What snack did Dayeon and I split at the library?"
+            },
+            {
+              "id": "p01e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel content thinking about those steady study sessions with my friend."
+            },
+            {
+              "id": "p01e08-i",
+              "type": "reflective_implicit",
+              "query": "Those quiet evenings of practice with a friend drift back to me during busy weeks."
+            }
+          ]
+        },
+        {
+          "id": "p01e09",
+          "session": 8,
+          "date_time": "2025-05-11T21:30:00",
+          "text": "Grandma called and we talked for an hour about her garden and my exams. Before hanging up she said she keeps my childhood drawing taped inside her cupboard, and I teared up.",
+          "emotion": "tenderness",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p01e09-f",
+              "type": "factual",
+              "query": "What does Grandma keep taped inside her cupboard?"
+            },
+            {
+              "id": "p01e09-x",
+              "type": "reflective_explicit",
+              "query": "That phone call with Grandma still makes me feel loved and a little teary."
+            },
+            {
+              "id": "p01e09-i",
+              "type": "reflective_implicit",
+              "query": "Something an elder told me on the phone one night settled deep and stays warm."
+            }
+          ]
+        },
+        {
+          "id": "p01e10",
+          "session": 9,
+          "date_time": "2025-05-25T19:45:00",
+          "text": "Argued with Mom about cram school hours. She wants me to add Sunday classes and I shouted that I never get a single day off, then slammed my door.",
+          "emotion": "anger",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p01e10-f",
+              "type": "factual",
+              "query": "What did Mom want me to add that started our argument?"
+            },
+            {
+              "id": "p01e10-x",
+              "type": "reflective_explicit",
+              "query": "I still feel angry and guilty about that fight with Mom."
+            },
+            {
+              "id": "p01e10-i",
+              "type": "reflective_implicit",
+              "query": "Something I shut too hard between me and someone at home echoes in my head."
+            }
+          ]
+        },
+        {
+          "id": "p01e11",
+          "session": 10,
+          "date_time": "2025-06-08T20:05:00",
+          "text": "Took Mochi to the vet for her booster shot. She yowled through the waiting room, weighed in at four kilograms, and sulked in her carrier the whole ride back.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p01e11-f",
+              "type": "factual",
+              "query": "How much did Mochi weigh at the vet?"
+            },
+            {
+              "id": "p01e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm remembering that routine trip for the cat's shot."
+            },
+            {
+              "id": "p01e11-i",
+              "type": "reflective_implicit",
+              "query": "That noisy little errand with a grumpy passenger pops into my head at odd times."
+            }
+          ]
+        },
+        {
+          "id": "p01e12",
+          "session": 11,
+          "date_time": "2025-06-22T21:20:00",
+          "text": "The finished mural was unveiled at the school festival and the whole hallway clapped. My whale, huge and blue, with every club member's signature hidden in the waves.",
+          "emotion": "pride",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p01e12-f",
+              "type": "factual",
+              "query": "What is hidden in the waves of the finished mural?"
+            },
+            {
+              "id": "p01e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel proud beyond words about the day our artwork was revealed."
+            },
+            {
+              "id": "p01e12-i",
+              "type": "reflective_implicit",
+              "query": "A corridor of applause for a thing we made together keeps replaying in me."
+            }
+          ]
+        },
+        {
+          "id": "p01e13",
+          "session": 12,
+          "date_time": "2025-06-26T22:10:00",
+          "text": "Reviewed two practice passages, fed Mochi, and went to bed early. Set out tomorrow's uniform so the morning would be easier.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p01e13-f",
+              "type": "factual",
+              "query": "What did I set out before bed to make the morning easier?"
+            },
+            {
+              "id": "p01e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm about that quiet weeknight of small chores."
+            },
+            {
+              "id": "p01e13-i",
+              "type": "reflective_implicit",
+              "query": "One plain school-night wind-down floats back to me when things get loud."
+            }
+          ]
+        },
+        {
+          "id": "p01e14",
+          "session": 12,
+          "date_time": "2025-06-26T22:35:00",
+          "text": "Dayeon texted that she might transfer schools before the final semester. I reread the message five times and felt something heavy settle in my chest.",
+          "emotion": "dread",
+          "intensity_band": "mild",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p01e14-f",
+              "type": "factual",
+              "query": "What did Dayeon say she might do before the final semester?"
+            },
+            {
+              "id": "p01e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel worried and heavy-hearted about the news my friend texted me."
+            },
+            {
+              "id": "p01e14-i",
+              "type": "reflective_implicit",
+              "query": "A few lines on a screen from someone dear changed the weather in me, and I keep going over them in my head."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p02",
+      "name": "Jun",
+      "age": 27,
+      "context": "office worker; threads: first marathon training, grandmother's health, learning to cook",
+      "episodes": [
+        {
+          "id": "p02e01",
+          "session": 1,
+          "date_time": "2025-03-01T08:40:00",
+          "text": "Signed up for the October marathon this morning and printed a sixteen-week training plan. Taped it to the fridge next to the grocery list.",
+          "emotion": "determination",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p02e01-f",
+              "type": "factual",
+              "query": "How many weeks long is the marathon training plan I printed?"
+            },
+            {
+              "id": "p02e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel hopeful and determined when I think back to committing to that race."
+            },
+            {
+              "id": "p02e01-i",
+              "type": "reflective_implicit",
+              "query": "The day I promised myself a long road ahead still gives me a push."
+            }
+          ]
+        },
+        {
+          "id": "p02e02",
+          "session": 2,
+          "date_time": "2025-03-08T21:15:00",
+          "text": "Tried making kimchi stew from a video tutorial. Overcooked the pork and under-seasoned the broth, but ate two bowls anyway while watching a documentary.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p02e02-f",
+              "type": "factual",
+              "query": "What dish did I attempt from a video tutorial?"
+            },
+            {
+              "id": "p02e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel mildly amused remembering my first clumsy attempt at that stew."
+            },
+            {
+              "id": "p02e02-i",
+              "type": "reflective_implicit",
+              "query": "My first shaky try in the kitchen comes to mind whenever I lift a ladle."
+            }
+          ]
+        },
+        {
+          "id": "p02e03",
+          "session": 3,
+          "date_time": "2025-03-15T07:30:00",
+          "text": "First ten-kilometer run without stopping. My knees complained on the last hill, but I finished the loop around the river park in sixty-eight minutes.",
+          "emotion": "pride",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p02e03-f",
+              "type": "factual",
+              "query": "How long did my first ten-kilometer run take?"
+            },
+            {
+              "id": "p02e03-x",
+              "type": "reflective_explicit",
+              "query": "I still feel proud of the morning I ran that distance without stopping."
+            },
+            {
+              "id": "p02e03-i",
+              "type": "reflective_implicit",
+              "query": "One dawn my body carried me farther than it ever had, and I hold onto that."
+            }
+          ]
+        },
+        {
+          "id": "p02e04",
+          "session": 4,
+          "date_time": "2025-03-23T19:00:00",
+          "text": "Grandmother was admitted to the hospital after a fall in her kitchen. I took the late train down, held her hand, and she joked that the porridge there was an insult to rice.",
+          "emotion": "fear",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p02e04-f",
+              "type": "factual",
+              "query": "What did Grandmother joke about at the hospital?"
+            },
+            {
+              "id": "p02e04-x",
+              "type": "reflective_explicit",
+              "query": "I still feel scared remembering the night Grandmother was hospitalized."
+            },
+            {
+              "id": "p02e04-i",
+              "type": "reflective_implicit",
+              "query": "That sudden trip to sit at someone's bedside lives in me and surfaces on quiet commutes."
+            }
+          ]
+        },
+        {
+          "id": "p02e05",
+          "session": 5,
+          "date_time": "2025-03-30T20:45:00",
+          "text": "Restocked the pantry, meal-prepped five lunches of chicken and rice, and descaled the kettle. Sunday chores done before nine.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p02e05-f",
+              "type": "factual",
+              "query": "How many lunches did I meal-prep that Sunday?"
+            },
+            {
+              "id": "p02e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm and orderly thinking about that chore-filled Sunday."
+            },
+            {
+              "id": "p02e05-i",
+              "type": "reflective_implicit",
+              "query": "A weekend of small boxes lined up in the refrigerator drifts back to me."
+            }
+          ]
+        },
+        {
+          "id": "p02e06",
+          "session": 6,
+          "date_time": "2025-04-12T18:30:00",
+          "text": "Grandmother came home from the hospital today. We planted lettuce seedlings in her yard together, her on a stool giving orders, me digging exactly where she pointed.",
+          "emotion": "relief",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p02e06-f",
+              "type": "factual",
+              "query": "What did Grandmother and I plant in her yard?"
+            },
+            {
+              "id": "p02e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel deep relief and warmth remembering the day she came home."
+            },
+            {
+              "id": "p02e06-i",
+              "type": "reflective_implicit",
+              "query": "An afternoon of soil and bossy instructions in a backyard returns to me often."
+            }
+          ]
+        },
+        {
+          "id": "p02e07",
+          "session": 7,
+          "date_time": "2025-04-20T21:00:00",
+          "text": "Quarterly report week. Stayed late three nights, lived on convenience-store sandwiches, and finally submitted the deck at eleven on Thursday.",
+          "emotion": "fatigue",
+          "intensity_band": "mild",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p02e07-f",
+              "type": "factual",
+              "query": "What did I eat during the late nights of report week?"
+            },
+            {
+              "id": "p02e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel tired and stressed just recalling that report crunch."
+            },
+            {
+              "id": "p02e07-i",
+              "type": "reflective_implicit",
+              "query": "A blur of fluorescent office evenings resurfaces whenever deadlines stack up."
+            }
+          ]
+        },
+        {
+          "id": "p02e08",
+          "session": 8,
+          "date_time": "2025-05-04T09:20:00",
+          "text": "Twisted my ankle on a trail run and had to walk the last three kilometers home. The clinic said two weeks of rest, right when training was going well.",
+          "emotion": "frustration",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p02e08-f",
+              "type": "factual",
+              "query": "How long did the clinic say I needed to rest my ankle?"
+            },
+            {
+              "id": "p02e08-x",
+              "type": "reflective_explicit",
+              "query": "I still feel frustrated about the injury that interrupted my training."
+            },
+            {
+              "id": "p02e08-i",
+              "type": "reflective_implicit",
+              "query": "The long limp back that put my plans on hold still nags at me."
+            }
+          ]
+        },
+        {
+          "id": "p02e09",
+          "session": 9,
+          "date_time": "2025-05-18T20:10:00",
+          "text": "Made kimchi stew again, fourth attempt. Browned the pork properly this time and Mom said over video call that it looked like Grandmother's version.",
+          "emotion": "satisfaction",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p02e09-f",
+              "type": "factual",
+              "query": "Who said my stew looked like Grandmother's version?"
+            },
+            {
+              "id": "p02e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel a warm satisfaction about how that fourth attempt at the stew went."
+            },
+            {
+              "id": "p02e09-i",
+              "type": "reflective_implicit",
+              "query": "The evening a family taste finally came out of my own pot stays with me."
+            }
+          ]
+        },
+        {
+          "id": "p02e10",
+          "session": 9,
+          "date_time": "2025-05-18T20:35:00",
+          "text": "Renewed my transit card, booked a dental cleaning, and replied to twelve emails I had been avoiding. Adult admin day complete.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p02e10-f",
+              "type": "factual",
+              "query": "How many emails did I finally reply to on admin day?"
+            },
+            {
+              "id": "p02e10-x",
+              "type": "reflective_explicit",
+              "query": "I feel mildly relieved thinking of that day of boring paperwork."
+            },
+            {
+              "id": "p02e10-i",
+              "type": "reflective_implicit",
+              "query": "One dull checklist of grown-up tasks floats back to me at month's end."
+            }
+          ]
+        },
+        {
+          "id": "p02e11",
+          "session": 10,
+          "date_time": "2025-06-01T08:15:00",
+          "text": "First run since the ankle healed, an easy five kilometers by the river. Slower than before, but everything held together and the morning air smelled like rain.",
+          "emotion": "relief",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p02e11-f",
+              "type": "factual",
+              "query": "How far was my first run after the ankle healed?"
+            },
+            {
+              "id": "p02e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel relieved and hopeful recalling my comeback run."
+            },
+            {
+              "id": "p02e11-i",
+              "type": "reflective_implicit",
+              "query": "That slow loop where my body forgave me comes to mind on overcast days."
+            }
+          ]
+        },
+        {
+          "id": "p02e12",
+          "session": 11,
+          "date_time": "2025-06-15T19:40:00",
+          "text": "Cooked a full dinner for Grandmother's birthday at her house: stew, three side dishes, and steamed egg. She ate everything and asked for the stew recipe, which is hers.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p02e12-f",
+              "type": "factual",
+              "query": "What did Grandmother ask for after eating my birthday dinner?"
+            },
+            {
+              "id": "p02e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel pure joy remembering the birthday meal I cooked for her."
+            },
+            {
+              "id": "p02e12-i",
+              "type": "reflective_implicit",
+              "query": "A table I filled for the person who once fed me keeps shining in my memory."
+            }
+          ]
+        },
+        {
+          "id": "p02e13",
+          "session": 12,
+          "date_time": "2025-06-27T21:30:00",
+          "text": "Laundry, a haircut, and new running socks from the sports shop. Set out my gear for tomorrow's long run and checked the weather twice.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p02e13-f",
+              "type": "factual",
+              "query": "What did I buy at the sports shop?"
+            },
+            {
+              "id": "p02e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm about that little pre-run errand evening."
+            },
+            {
+              "id": "p02e13-i",
+              "type": "reflective_implicit",
+              "query": "A tidy night of getting things ready surfaces when I plan anything big."
+            }
+          ]
+        },
+        {
+          "id": "p02e14",
+          "session": 12,
+          "date_time": "2025-06-27T22:00:00",
+          "text": "Team lead hinted my contract review is next month and praised the quarterly numbers in front of everyone. I typed and deleted a message to Mom about it three times.",
+          "emotion": "hope",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p02e14-f",
+              "type": "factual",
+              "query": "What did the team lead praise in front of everyone?"
+            },
+            {
+              "id": "p02e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel hopeful but nervous about what my boss hinted regarding the review."
+            },
+            {
+              "id": "p02e14-i",
+              "type": "reflective_implicit",
+              "query": "A half-written text to family that I never sent keeps tugging at me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p03",
+      "name": "Sora",
+      "age": 22,
+      "context": "college senior; threads: graduation thesis, cafe part-time job, recent breakup",
+      "episodes": [
+        {
+          "id": "p03e01",
+          "session": 1,
+          "date_time": "2025-03-03T22:20:00",
+          "text": "Met my thesis advisor for the first meeting of the semester. She approved my topic on urban heat islands and gave me a reading list of nine papers.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p03e01-f",
+              "type": "factual",
+              "query": "How many papers were on the reading list my advisor gave me?"
+            },
+            {
+              "id": "p03e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel steady and calm thinking about how my thesis journey began."
+            },
+            {
+              "id": "p03e01-i",
+              "type": "reflective_implicit",
+              "query": "The moment a long project of mine got its starting signal drifts back sometimes."
+            }
+          ]
+        },
+        {
+          "id": "p03e02",
+          "session": 2,
+          "date_time": "2025-03-10T23:00:00",
+          "text": "Minho and I broke up in the parking lot behind the cafe after three years. He said we had become roommates with schedules, and the worst part is he was right.",
+          "emotion": "heartbreak",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p03e02-f",
+              "type": "factual",
+              "query": "Where did Minho and I break up?"
+            },
+            {
+              "id": "p03e02-x",
+              "type": "reflective_explicit",
+              "query": "I still feel heartbroken when the breakup crosses my mind."
+            },
+            {
+              "id": "p03e02-i",
+              "type": "reflective_implicit",
+              "query": "What ended behind that building three springs in the making still visits me at night."
+            }
+          ]
+        },
+        {
+          "id": "p03e03",
+          "session": 3,
+          "date_time": "2025-03-17T21:40:00",
+          "text": "Regular closing shift at the cafe. Wiped the machines, counted the till twice because I was off by five hundred won, restocked cups for the morning crew.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p03e03-f",
+              "type": "factual",
+              "query": "Why did I count the till twice at closing?"
+            },
+            {
+              "id": "p03e03-x",
+              "type": "reflective_explicit",
+              "query": "I feel neutral, almost fond, about those routine closing shifts."
+            },
+            {
+              "id": "p03e03-i",
+              "type": "reflective_implicit",
+              "query": "The end-of-day rhythm of that job hums back to me in quiet moments."
+            }
+          ]
+        },
+        {
+          "id": "p03e04",
+          "session": 4,
+          "date_time": "2025-03-25T20:30:00",
+          "text": "Deleted our shared photo album after backing it up to a drive I mailed to my sister. Two hundred and forty pictures, three years, one padded envelope.",
+          "emotion": "grief",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p03e04-f",
+              "type": "factual",
+              "query": "How many pictures were in the album I backed up and deleted?"
+            },
+            {
+              "id": "p03e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel a wave of grief remembering the day I archived those photos."
+            },
+            {
+              "id": "p03e04-i",
+              "type": "reflective_implicit",
+              "query": "Everything we collected fit into one small package, and that thought resurfaces."
+            }
+          ]
+        },
+        {
+          "id": "p03e05",
+          "session": 5,
+          "date_time": "2025-04-02T19:10:00",
+          "text": "Set up my thesis data pipeline: downloaded satellite temperature tiles for the city, wrote a cleaning script, and got the first heat map to render.",
+          "emotion": "satisfaction",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p03e05-f",
+              "type": "factual",
+              "query": "What kind of data tiles did I download for the thesis pipeline?"
+            },
+            {
+              "id": "p03e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel quietly satisfied about getting that first visualization working."
+            },
+            {
+              "id": "p03e05-i",
+              "type": "reflective_implicit",
+              "query": "The night a picture of the whole town first appeared on my screen returns to me."
+            }
+          ]
+        },
+        {
+          "id": "p03e06",
+          "session": 6,
+          "date_time": "2025-04-11T22:50:00",
+          "text": "A customer screamed at me over a mistaken oat-milk charge and threw the receipt at my chest. The manager backed me up, but my hands shook while steaming milk for an hour.",
+          "emotion": "humiliation",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p03e06-f",
+              "type": "factual",
+              "query": "What did the angry customer throw at me?"
+            },
+            {
+              "id": "p03e06-x",
+              "type": "reflective_explicit",
+              "query": "I still feel shaken and humiliated by that customer incident."
+            },
+            {
+              "id": "p03e06-i",
+              "type": "reflective_implicit",
+              "query": "One stranger's outburst at the counter left a mark that flares up on hard shifts."
+            }
+          ]
+        },
+        {
+          "id": "p03e07",
+          "session": 7,
+          "date_time": "2025-04-19T18:00:00",
+          "text": "Bought groceries, mended the hem of my work apron, and returned two library books a day before the due date. Small, checkable boxes.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p03e07-f",
+              "type": "factual",
+              "query": "What did I mend along with running errands that day?"
+            },
+            {
+              "id": "p03e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm recalling that plain day of small errands."
+            },
+            {
+              "id": "p03e07-i",
+              "type": "reflective_implicit",
+              "query": "A short list of little duties, all crossed off, floats through my head sometimes."
+            }
+          ]
+        },
+        {
+          "id": "p03e08",
+          "session": 8,
+          "date_time": "2025-05-01T21:15:00",
+          "text": "My survey went live and collected one hundred and eighty responses in the first week, double what my advisor expected. She wrote back a single line: now the fun begins.",
+          "emotion": "excitement",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p03e08-f",
+              "type": "factual",
+              "query": "How many responses did my survey collect in the first week?"
+            },
+            {
+              "id": "p03e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel a rush of excitement remembering how the survey took off."
+            },
+            {
+              "id": "p03e08-i",
+              "type": "reflective_implicit",
+              "query": "The week strangers showed up for my questions in numbers I never imagined stays vivid."
+            }
+          ]
+        },
+        {
+          "id": "p03e09",
+          "session": 8,
+          "date_time": "2025-05-01T21:40:00",
+          "text": "New espresso blend arrived at the cafe and we ran taste tests between orders. I preferred the darker roast; the morning crew outvoted me for the lighter one.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p03e09-f",
+              "type": "factual",
+              "query": "Which roast did I prefer in the cafe taste test?"
+            },
+            {
+              "id": "p03e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel lightly amused remembering losing that coffee vote."
+            },
+            {
+              "id": "p03e09-i",
+              "type": "reflective_implicit",
+              "query": "A tiny workplace debate over flavors resurfaces whenever I brew at home."
+            }
+          ]
+        },
+        {
+          "id": "p03e10",
+          "session": 9,
+          "date_time": "2025-05-14T23:30:00",
+          "text": "Ran into Minho at the station with someone new. We nodded like distant classmates, and I cried on the platform after his train left, then bought myself flowers on the walk home.",
+          "emotion": "grief",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p03e10-f",
+              "type": "factual",
+              "query": "What did I buy myself on the walk home from the station?"
+            },
+            {
+              "id": "p03e10-x",
+              "type": "reflective_explicit",
+              "query": "I still feel that stab of sadness from running into my ex that evening."
+            },
+            {
+              "id": "p03e10-i",
+              "type": "reflective_implicit",
+              "query": "A brief nod in passing undid me once, and the scene replays on every commute."
+            }
+          ]
+        },
+        {
+          "id": "p03e11",
+          "session": 10,
+          "date_time": "2025-05-27T20:20:00",
+          "text": "Advisor tore apart my methods chapter draft: eleven comments, two entire sections to rewrite. Fair points, but I closed the laptop and stared at the wall for a while.",
+          "emotion": "discouragement",
+          "intensity_band": "mild",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p03e11-f",
+              "type": "factual",
+              "query": "How many comments did my advisor leave on the methods chapter?"
+            },
+            {
+              "id": "p03e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel discouraged all over again thinking of that harsh draft feedback."
+            },
+            {
+              "id": "p03e11-i",
+              "type": "reflective_implicit",
+              "query": "The red ink all over something I had labored on comes back before every submission."
+            }
+          ]
+        },
+        {
+          "id": "p03e12",
+          "session": 11,
+          "date_time": "2025-06-10T19:50:00",
+          "text": "Coworker Jia taught me latte art on the closing shift. My first three attempts looked like clouds, the fourth was almost a heart, and we laughed until the mop water went cold.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p03e12-f",
+              "type": "factual",
+              "query": "What did my fourth latte art attempt almost look like?"
+            },
+            {
+              "id": "p03e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel warm and happy remembering that latte art lesson with Jia."
+            },
+            {
+              "id": "p03e12-i",
+              "type": "reflective_implicit",
+              "query": "An after-hours lesson in pouring shapes with a friend keeps bubbling up in me."
+            }
+          ]
+        },
+        {
+          "id": "p03e13",
+          "session": 12,
+          "date_time": "2025-06-24T21:00:00",
+          "text": "Submitted the rewritten methods chapter and updated my reference manager. Ninety-one citations now, all with page numbers, which past me would never believe.",
+          "emotion": "satisfaction",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p03e13-f",
+              "type": "factual",
+              "query": "How many citations are in my reference manager now?"
+            },
+            {
+              "id": "p03e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel a calm pride about resubmitting that chapter."
+            },
+            {
+              "id": "p03e13-i",
+              "type": "reflective_implicit",
+              "query": "Handing back a piece of work I rebuilt from its bones lingers with me."
+            }
+          ]
+        },
+        {
+          "id": "p03e14",
+          "session": 13,
+          "date_time": "2025-06-28T20:30:00",
+          "text": "Quiet shift, rain outside. I laminated the new menu cards, refilled the syrup pumps, and watched umbrellas pass the window between customers.",
+          "emotion": "calm",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p03e14-f",
+              "type": "factual",
+              "query": "What did I laminate during the quiet rainy shift?"
+            },
+            {
+              "id": "p03e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel peaceful thinking about that slow rainy evening at work."
+            },
+            {
+              "id": "p03e14-i",
+              "type": "reflective_implicit",
+              "query": "A slow, wet evening watching the street from behind the counter drifts back to me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p04",
+      "name": "Theo",
+      "age": 31,
+      "context": "hospital nurse; threads: night shifts, balcony garden, younger brother's wedding",
+      "episodes": [
+        {
+          "id": "p04e01",
+          "session": 1,
+          "date_time": "2025-03-04T09:30:00",
+          "text": "Came off a stretch of three night shifts. Slept until two, then repotted the rosemary and swept the balcony while the kettle ran.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p04e01-f",
+              "type": "factual",
+              "query": "Which herb did I repot after the night shifts?"
+            },
+            {
+              "id": "p04e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm remembering that slow recovery day after nights."
+            },
+            {
+              "id": "p04e01-i",
+              "type": "reflective_implicit",
+              "query": "Those daylight hours spent putting my small world in order come back to me."
+            }
+          ]
+        },
+        {
+          "id": "p04e02",
+          "session": 2,
+          "date_time": "2025-03-12T08:50:00",
+          "text": "A patient I had looked after for six weeks was discharged today. Her daughter hugged me at the elevator and I kept my composure until they were out of sight.",
+          "emotion": "tenderness",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p04e02-f",
+              "type": "factual",
+              "query": "How long had I looked after the patient who was discharged?"
+            },
+            {
+              "id": "p04e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel moved and proud whenever that discharge day comes to mind."
+            },
+            {
+              "id": "p04e02-i",
+              "type": "reflective_implicit",
+              "query": "A goodbye by the lift doors, held together until it was over, stays with me."
+            }
+          ]
+        },
+        {
+          "id": "p04e03",
+          "session": 3,
+          "date_time": "2025-03-20T21:10:00",
+          "text": "My brother asked me to be his best man over grilled mackerel at our usual place. He rehearsed it like a speech and knocked over the soju pouring too fast.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p04e03-f",
+              "type": "factual",
+              "query": "What were we eating when my brother asked me to be best man?"
+            },
+            {
+              "id": "p04e03-x",
+              "type": "reflective_explicit",
+              "query": "I feel a rush of happiness remembering my brother's clumsy request."
+            },
+            {
+              "id": "p04e03-i",
+              "type": "reflective_implicit",
+              "query": "The question he practiced too hard to ask me keeps replaying warmly."
+            }
+          ]
+        },
+        {
+          "id": "p04e04",
+          "session": 4,
+          "date_time": "2025-03-29T10:00:00",
+          "text": "Grocery run and pharmacy pickup, then batch-cooked curry for the freezer. Labeled four containers with dates like the ward taught me.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p04e04-f",
+              "type": "factual",
+              "query": "How many curry containers did I label for the freezer?"
+            },
+            {
+              "id": "p04e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel settled thinking of that practical cooking day."
+            },
+            {
+              "id": "p04e04-i",
+              "type": "reflective_implicit",
+              "query": "Rows of neat meals waiting in the cold drift into my head on busy weeks."
+            }
+          ]
+        },
+        {
+          "id": "p04e05",
+          "session": 5,
+          "date_time": "2025-04-06T07:40:00",
+          "text": "We lost a patient on the night shift despite forty minutes of resuscitation. I signed the paperwork, debriefed with the team, and cried in my car before driving home.",
+          "emotion": "grief",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p04e05-f",
+              "type": "factual",
+              "query": "How long did the resuscitation attempt last that night?"
+            },
+            {
+              "id": "p04e05-x",
+              "type": "reflective_explicit",
+              "query": "The grief of that night shift still surfaces when the ward goes quiet."
+            },
+            {
+              "id": "p04e05-i",
+              "type": "reflective_implicit",
+              "query": "What happened before I could leave the parking lot sits in my chest and returns in the small hours."
+            }
+          ]
+        },
+        {
+          "id": "p04e06",
+          "session": 6,
+          "date_time": "2025-04-15T16:20:00",
+          "text": "The tomato seedlings sprouted, five of six pots. Moved them to the sunny rail and set a watering alarm named after the head nurse, which she must never learn.",
+          "emotion": "amusement",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p04e06-f",
+              "type": "factual",
+              "query": "How many of the six tomato pots sprouted?"
+            },
+            {
+              "id": "p04e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel cheerful remembering the seedlings coming up on the balcony."
+            },
+            {
+              "id": "p04e06-i",
+              "type": "reflective_implicit",
+              "query": "Small green things I coaxed toward the light visit my thoughts on long shifts."
+            }
+          ]
+        },
+        {
+          "id": "p04e07",
+          "session": 7,
+          "date_time": "2025-04-24T09:15:00",
+          "text": "Suit fitting for the wedding with my brother. The tailor pinned my sleeves while we argued about the playlist, and I caught him grinning at me in the mirror like when we were kids.",
+          "emotion": "tenderness",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p04e07-f",
+              "type": "factual",
+              "query": "What did my brother and I argue about during the suit fitting?"
+            },
+            {
+              "id": "p04e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel fond warmth thinking back to that fitting with my brother."
+            },
+            {
+              "id": "p04e07-i",
+              "type": "reflective_implicit",
+              "query": "Two grown boys turning young again while getting measured — it comes back to me."
+            }
+          ]
+        },
+        {
+          "id": "p04e08",
+          "session": 8,
+          "date_time": "2025-05-02T22:00:00",
+          "text": "Scheduling committee posted the summer roster: I pulled six weekend nights in July, the most on the team again. Wrote a complaint draft, saved it, did not send it.",
+          "emotion": "resentment",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p04e08-f",
+              "type": "factual",
+              "query": "How many weekend nights did the summer roster give me in July?"
+            },
+            {
+              "id": "p04e08-x",
+              "type": "reflective_explicit",
+              "query": "I still feel resentful about how that summer roster fell on me."
+            },
+            {
+              "id": "p04e08-i",
+              "type": "reflective_implicit",
+              "query": "The words I typed and never delivered about my hours keep knocking on my mind."
+            }
+          ]
+        },
+        {
+          "id": "p04e09",
+          "session": 9,
+          "date_time": "2025-05-10T11:30:00",
+          "text": "Deep-cleaned the apartment, descaled the showerhead, and rotated the mattress. Podcast marathon in the background, three episodes about deep-sea fish.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p04e09-f",
+              "type": "factual",
+              "query": "What was the podcast marathon about while I cleaned?"
+            },
+            {
+              "id": "p04e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm recalling that thorough cleaning day."
+            },
+            {
+              "id": "p04e09-i",
+              "type": "reflective_implicit",
+              "query": "A full reset of my place from corner to corner floats back when clutter piles up."
+            }
+          ]
+        },
+        {
+          "id": "p04e10",
+          "session": 10,
+          "date_time": "2025-05-24T19:00:00",
+          "text": "The wedding. I walked my brother down, managed the rings, and my toast landed every laugh I hoped for. Mom held both our hands during the photos and would not let go.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p04e10-f",
+              "type": "factual",
+              "query": "What did Mom do during the wedding photos?"
+            },
+            {
+              "id": "p04e10-x",
+              "type": "reflective_explicit",
+              "query": "I feel overwhelming happiness whenever the wedding day replays in my head."
+            },
+            {
+              "id": "p04e10-i",
+              "type": "reflective_implicit",
+              "query": "The day I stood beside him in front of everyone glows in me and returns often."
+            }
+          ]
+        },
+        {
+          "id": "p04e11",
+          "session": 10,
+          "date_time": "2025-05-24T23:45:00",
+          "text": "After the reception I drove Mom home. She fell asleep at a red light holding the bouquet, and I took the long way so she could rest.",
+          "emotion": "tenderness",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p04e11-f",
+              "type": "factual",
+              "query": "What was Mom holding when she fell asleep in the car?"
+            },
+            {
+              "id": "p04e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel gentle warmth remembering that drive home with Mom."
+            },
+            {
+              "id": "p04e11-i",
+              "type": "reflective_implicit",
+              "query": "A detour I chose so someone could keep sleeping stays quietly with me."
+            }
+          ]
+        },
+        {
+          "id": "p04e12",
+          "session": 11,
+          "date_time": "2025-06-07T08:20:00",
+          "text": "New grad nurse shadowed me for her first code blue drill. She froze at the cart, so afterwards we ran the checklist together five times until her hands stopped hovering.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p04e12-f",
+              "type": "factual",
+              "query": "How many times did the new nurse and I run the checklist together?"
+            },
+            {
+              "id": "p04e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel steady satisfaction about mentoring her through that drill."
+            },
+            {
+              "id": "p04e12-i",
+              "type": "reflective_implicit",
+              "query": "Teaching someone until the trembling faded returns to me on mentoring days."
+            }
+          ]
+        },
+        {
+          "id": "p04e13",
+          "session": 12,
+          "date_time": "2025-06-25T17:50:00",
+          "text": "First ripe tomato from the balcony, exactly the size of a golf ball. Sliced it in half, salted it, and sent my brother a photo captioned harvest festival.",
+          "emotion": "satisfaction",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p04e13-f",
+              "type": "factual",
+              "query": "What caption did I send with the tomato photo?"
+            },
+            {
+              "id": "p04e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel simple delight recalling that first tomato from the garden."
+            },
+            {
+              "id": "p04e13-i",
+              "type": "reflective_implicit",
+              "query": "Something I grew from nothing finally ready to eat keeps making me smile inside."
+            }
+          ]
+        },
+        {
+          "id": "p04e14",
+          "session": 13,
+          "date_time": "2025-06-29T10:10:00",
+          "text": "Day off. Laundry line full by nine, bank errand done, and a haircut before lunch. Bought bird seed for the balcony feeder on the way back.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p04e14-f",
+              "type": "factual",
+              "query": "What did I buy for the balcony feeder?"
+            },
+            {
+              "id": "p04e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel content thinking about that unhurried day off."
+            },
+            {
+              "id": "p04e14-i",
+              "type": "reflective_implicit",
+              "query": "A morning where every small task fit neatly before noon drifts back to me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p05",
+      "name": "Hana",
+      "age": 19,
+      "context": "gap-year student; threads: solo rail trip, learning guitar, aging family dog Bomi",
+      "episodes": [
+        {
+          "id": "p05e01",
+          "session": 1,
+          "date_time": "2025-03-05T20:00:00",
+          "text": "Mapped the first leg of my rail trip: four towns down the east coast over nine days. Printed the route and pinned it above my desk with a red thread like a detective.",
+          "emotion": "excitement",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p05e01-f",
+              "type": "factual",
+              "query": "How many towns and days did the first leg of my rail trip cover?"
+            },
+            {
+              "id": "p05e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel excited all over again thinking of planning that route."
+            },
+            {
+              "id": "p05e01-i",
+              "type": "reflective_implicit",
+              "query": "That chart on my wall with its red line keeps pulling my eyes toward the horizon."
+            }
+          ]
+        },
+        {
+          "id": "p05e02",
+          "session": 2,
+          "date_time": "2025-03-13T18:30:00",
+          "text": "First guitar lesson at the community center. My fingertips went numb from the strings and the teacher said that means it is working.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p05e02-f",
+              "type": "factual",
+              "query": "What did the guitar teacher say my numb fingertips meant?"
+            },
+            {
+              "id": "p05e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel a fond amusement thinking of my very first lesson."
+            },
+            {
+              "id": "p05e02-i",
+              "type": "reflective_implicit",
+              "query": "The sting in my hands from that first practice room visit resurfaces when I begin new things."
+            }
+          ]
+        },
+        {
+          "id": "p05e03",
+          "session": 3,
+          "date_time": "2025-03-21T22:10:00",
+          "text": "Bomi could not climb the stairs tonight. She waited at the bottom step, tail low, until Dad carried her up, and I sat with her head on my knee for an hour.",
+          "emotion": "sorrow",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p05e03-f",
+              "type": "factual",
+              "query": "Who carried Bomi up the stairs when she couldn't climb?"
+            },
+            {
+              "id": "p05e03-x",
+              "type": "reflective_explicit",
+              "query": "I still feel a deep sadness remembering the night the dog couldn't manage the stairs."
+            },
+            {
+              "id": "p05e03-i",
+              "type": "reflective_implicit",
+              "query": "An old companion waiting below the staircase stays lodged in me."
+            }
+          ]
+        },
+        {
+          "id": "p05e04",
+          "session": 4,
+          "date_time": "2025-03-30T21:00:00",
+          "text": "Renewed my passport photo, bought a rail pass holder, and packed a test rucksack to check the weight. Seven point three kilos, under my limit.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p05e04-f",
+              "type": "factual",
+              "query": "How much did my test rucksack weigh?"
+            },
+            {
+              "id": "p05e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm and ready thinking back to those trip preparations."
+            },
+            {
+              "id": "p05e04-i",
+              "type": "reflective_implicit",
+              "query": "The quiet checklist before setting off drifts back whenever I zip a bag."
+            }
+          ]
+        },
+        {
+          "id": "p05e05",
+          "session": 5,
+          "date_time": "2025-04-08T23:20:00",
+          "text": "First night of the trip in Gangneung. I ate grilled fish alone by the harbor, terrified and thrilled in equal parts, and the sea sounded bigger in the dark.",
+          "emotion": "exhilaration",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p05e05-f",
+              "type": "factual",
+              "query": "What did I eat by the harbor on the first night in Gangneung?"
+            },
+            {
+              "id": "p05e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel that mix of thrill and fear again when the first night of the trip comes back."
+            },
+            {
+              "id": "p05e05-i",
+              "type": "reflective_implicit",
+              "query": "Sitting by black water in a town where nobody knew my name still moves through me."
+            }
+          ]
+        },
+        {
+          "id": "p05e06",
+          "session": 6,
+          "date_time": "2025-04-12T20:40:00",
+          "text": "Missed the last bus in Samcheok and walked forty minutes to the guesthouse in drizzle. The owner left the porch light on and a note saying the kimchi fridge was fair game.",
+          "emotion": "gratitude",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p05e06-f",
+              "type": "factual",
+              "query": "What did the guesthouse note say was fair game?"
+            },
+            {
+              "id": "p05e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel grateful remembering that soggy walk ending in kindness."
+            },
+            {
+              "id": "p05e06-i",
+              "type": "reflective_implicit",
+              "query": "A lamp left burning for a stranger on a wet night keeps glowing somewhere in me."
+            }
+          ]
+        },
+        {
+          "id": "p05e07",
+          "session": 7,
+          "date_time": "2025-04-17T19:15:00",
+          "text": "Train home. Sorted six hundred photos into folders while the fields slid past, and ranked my favorite meals of the trip in my notebook. Fish stew won.",
+          "emotion": "contentment",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p05e07-f",
+              "type": "factual",
+              "query": "Which meal won my trip food ranking?"
+            },
+            {
+              "id": "p05e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel a settled contentment recalling the ride home from the trip."
+            },
+            {
+              "id": "p05e07-i",
+              "type": "reflective_implicit",
+              "query": "Watching the countryside pass while I ordered my memories comes back on every long ride."
+            }
+          ]
+        },
+        {
+          "id": "p05e08",
+          "session": 8,
+          "date_time": "2025-04-26T17:30:00",
+          "text": "Practiced chord changes for an hour: G to C without looking, finally. Recorded a shaky clip of the campfire song and did not delete it for once.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p05e08-f",
+              "type": "factual",
+              "query": "Which chord change did I finally manage without looking?"
+            },
+            {
+              "id": "p05e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel quietly pleased about that practice breakthrough."
+            },
+            {
+              "id": "p05e08-i",
+              "type": "reflective_implicit",
+              "query": "The first take of myself I didn't erase surfaces when doubt creeps in."
+            }
+          ]
+        },
+        {
+          "id": "p05e09",
+          "session": 9,
+          "date_time": "2025-05-06T22:30:00",
+          "text": "The vet found a mass on Bomi's spleen. Surgery is an option at her age but risky, and the three of us sat at the kitchen table not saying the obvious things.",
+          "emotion": "dread",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p05e09-f",
+              "type": "factual",
+              "query": "Where did the vet find a mass on Bomi?"
+            },
+            {
+              "id": "p05e09-x",
+              "type": "reflective_explicit",
+              "query": "The dread of that vet visit still tightens my chest."
+            },
+            {
+              "id": "p05e09-i",
+              "type": "reflective_implicit",
+              "query": "A silent circle of family around bad news sits heavy in my memory."
+            }
+          ]
+        },
+        {
+          "id": "p05e10",
+          "session": 10,
+          "date_time": "2025-05-15T21:45:00",
+          "text": "Bomi came through the operation. The surgeon called at nine sharp, I screamed loud enough to scare the mailman, and Dad cried into the dish towel pretending to wash up.",
+          "emotion": "relief",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p05e10-f",
+              "type": "factual",
+              "query": "What time did the surgeon call about Bomi's operation?"
+            },
+            {
+              "id": "p05e10-x",
+              "type": "reflective_explicit",
+              "query": "I feel flooded with relief every time that phone call replays."
+            },
+            {
+              "id": "p05e10-i",
+              "type": "reflective_implicit",
+              "query": "The ring that turned our house from silence into noise again keeps echoing in me."
+            }
+          ]
+        },
+        {
+          "id": "p05e11",
+          "session": 11,
+          "date_time": "2025-05-28T18:00:00",
+          "text": "Walked Bomi to the corner and back, her first outing since the stitches came out. She sniffed the same lamppost for five whole minutes and I let her.",
+          "emotion": "tenderness",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p05e11-f",
+              "type": "factual",
+              "query": "How long did Bomi sniff the lamppost on her first outing?"
+            },
+            {
+              "id": "p05e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel soft warmth thinking of that slow little walk with her."
+            },
+            {
+              "id": "p05e11-i",
+              "type": "reflective_implicit",
+              "query": "Standing still so an old friend could take her time returns to me often."
+            }
+          ]
+        },
+        {
+          "id": "p05e12",
+          "session": 12,
+          "date_time": "2025-06-11T19:30:00",
+          "text": "Sorted my trip laundry backlog, returned Mom's power bank, and booked a dental checkup. Also alphabetized the spice rack for no reason.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p05e12-f",
+              "type": "factual",
+              "query": "Whose power bank did I return?"
+            },
+            {
+              "id": "p05e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel neutral, mildly satisfied, about that catch-up chore day."
+            },
+            {
+              "id": "p05e12-i",
+              "type": "reflective_implicit",
+              "query": "An afternoon of putting borrowed and scattered things back in place drifts by me."
+            }
+          ]
+        },
+        {
+          "id": "p05e13",
+          "session": 13,
+          "date_time": "2025-06-24T20:50:00",
+          "text": "Played the campfire song for my family after dinner, all the way through, only one buzzed note. Bomi thumped her tail on the floor like a metronome with opinions.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p05e13-f",
+              "type": "factual",
+              "query": "How many buzzed notes did my family performance have?"
+            },
+            {
+              "id": "p05e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel glowing happiness remembering playing that song for everyone."
+            },
+            {
+              "id": "p05e13-i",
+              "type": "reflective_implicit",
+              "query": "Music I finally shared out loud in the living room keeps ringing in my head."
+            }
+          ]
+        },
+        {
+          "id": "p05e14",
+          "session": 14,
+          "date_time": "2025-06-28T21:20:00",
+          "text": "Watered the plants, clipped Bomi's nails, and started a packing list for the southern leg of the trip in August. Two pages already and I regret nothing.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p05e14-f",
+              "type": "factual",
+              "query": "Which month is the southern leg of my trip planned for?"
+            },
+            {
+              "id": "p05e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm anticipation about the list I started that evening."
+            },
+            {
+              "id": "p05e14-i",
+              "type": "reflective_implicit",
+              "query": "A fresh page of preparations for the next departure floats into my thoughts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p06",
+      "name": "Felix",
+      "age": 25,
+      "context": "chemistry grad student abroad; threads: lab experiments, bouldering gym, visa renewal",
+      "episodes": [
+        {
+          "id": "p06e01",
+          "session": 1,
+          "date_time": "2025-03-06T21:30:00",
+          "text": "Calibrated the new spectrometer all afternoon and logged baseline readings for next week's runs. Left lab at eight with the playlist still stuck in my head.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p06e01-f",
+              "type": "factual",
+              "query": "Which instrument did I calibrate all afternoon?"
+            },
+            {
+              "id": "p06e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel neutral, almost cozy, thinking of that routine calibration day."
+            },
+            {
+              "id": "p06e01-i",
+              "type": "reflective_implicit",
+              "query": "An unhurried workday of dials and numbers hums back to me sometimes."
+            }
+          ]
+        },
+        {
+          "id": "p06e02",
+          "session": 2,
+          "date_time": "2025-03-14T22:45:00",
+          "text": "Third failed synthesis in a row, same yellow sludge instead of white crystals. My supervisor shrugged and said welcome to chemistry, which did not help at midnight.",
+          "emotion": "frustration",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p06e02-f",
+              "type": "factual",
+              "query": "What did I get instead of white crystals in the failed synthesis?"
+            },
+            {
+              "id": "p06e02-x",
+              "type": "reflective_explicit",
+              "query": "I still feel frustrated recalling that string of failed reactions."
+            },
+            {
+              "id": "p06e02-i",
+              "type": "reflective_implicit",
+              "query": "The same wrong color at the bottom of the flask, night after night, haunts my benchwork."
+            }
+          ]
+        },
+        {
+          "id": "p06e03",
+          "session": 3,
+          "date_time": "2025-03-22T19:20:00",
+          "text": "First time at the bouldering gym with Priya from the lab. Fell off the easiest wall four times, chalked my entire face somehow, signed up for a monthly pass anyway.",
+          "emotion": "amusement",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p06e03-f",
+              "type": "factual",
+              "query": "How many times did I fall off the easiest wall at the gym?"
+            },
+            {
+              "id": "p06e03-x",
+              "type": "reflective_explicit",
+              "query": "I feel cheerful embarrassment thinking of my first climbing attempt."
+            },
+            {
+              "id": "p06e03-i",
+              "type": "reflective_implicit",
+              "query": "Powder everywhere it shouldn't be and a floor that kept catching me — that visit resurfaces."
+            }
+          ]
+        },
+        {
+          "id": "p06e04",
+          "session": 4,
+          "date_time": "2025-03-31T20:10:00",
+          "text": "Visa renewal notice arrived: my appointment is in June and the checklist has eleven documents, two needing apostilles from home. Started a folder and a headache.",
+          "emotion": "anxiety",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p06e04-f",
+              "type": "factual",
+              "query": "How many documents are on the visa renewal checklist?"
+            },
+            {
+              "id": "p06e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel anxious every time that visa checklist crosses my mind."
+            },
+            {
+              "id": "p06e04-i",
+              "type": "reflective_implicit",
+              "query": "The envelope that decides whether I can stay keeps hovering over my plans."
+            }
+          ]
+        },
+        {
+          "id": "p06e05",
+          "session": 5,
+          "date_time": "2025-04-09T18:40:00",
+          "text": "Laundry day plus a bulk-cook of pasta sauce in the shared kitchen. Traded a jar of it with my flatmate for half his lasagna, an objectively great deal.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p06e05-f",
+              "type": "factual",
+              "query": "What did I trade a jar of sauce for with my flatmate?"
+            },
+            {
+              "id": "p06e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel lightly content about that kitchen barter evening."
+            },
+            {
+              "id": "p06e05-i",
+              "type": "reflective_implicit",
+              "query": "A fair swap over the stove with the guy across the hall drifts back to me."
+            }
+          ]
+        },
+        {
+          "id": "p06e06",
+          "session": 6,
+          "date_time": "2025-04-18T23:00:00",
+          "text": "The synthesis worked. White needles under the scope, ninety-two percent purity on the first pass, and I did a silent victory lap around the empty lab at ten at night.",
+          "emotion": "elation",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p06e06-f",
+              "type": "factual",
+              "query": "What purity did the successful synthesis reach on the first pass?"
+            },
+            {
+              "id": "p06e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel elated all over again when that successful reaction comes to mind."
+            },
+            {
+              "id": "p06e06-i",
+              "type": "reflective_implicit",
+              "query": "Running a quiet lap between the benches with nobody watching still fizzes in me."
+            }
+          ]
+        },
+        {
+          "id": "p06e07",
+          "session": 7,
+          "date_time": "2025-04-27T17:50:00",
+          "text": "Sent my first-author manuscript draft to the group for comments. Twenty-three pages, four figures I remade six times, and one acknowledgment line thanking the night bus.",
+          "emotion": "satisfaction",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p06e07-f",
+              "type": "factual",
+              "query": "How many pages was the manuscript draft I circulated?"
+            },
+            {
+              "id": "p06e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel proud and nervous remembering sending that draft out."
+            },
+            {
+              "id": "p06e07-i",
+              "type": "reflective_implicit",
+              "query": "Months of work compressed into one attachment left my hands that day and it stays with me."
+            }
+          ]
+        },
+        {
+          "id": "p06e08",
+          "session": 8,
+          "date_time": "2025-05-07T21:25:00",
+          "text": "Video call home for Mom's birthday. The connection froze on everyone mid-song, and Dad's cake had my childhood nickname iced on it by mistake, which nobody explained.",
+          "emotion": "homesickness",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p06e08-f",
+              "type": "factual",
+              "query": "What was iced on the cake by mistake during Mom's birthday call?"
+            },
+            {
+              "id": "p06e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel a homesick ache thinking of that frozen birthday call."
+            },
+            {
+              "id": "p06e08-i",
+              "type": "reflective_implicit",
+              "query": "A screen full of my people stuck mid-note, an ocean away, tugs at me on quiet evenings."
+            }
+          ]
+        },
+        {
+          "id": "p06e09",
+          "session": 9,
+          "date_time": "2025-05-16T19:35:00",
+          "text": "Sent my first purple-graded boulder problem after three weeks of trying. Priya filmed it, the whole gym section clapped, and I bought celebratory dumplings on the way home.",
+          "emotion": "triumph",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p06e09-f",
+              "type": "factual",
+              "query": "What did I buy on the way home after sending the purple problem?"
+            },
+            {
+              "id": "p06e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel triumphant remembering finally topping that climb."
+            },
+            {
+              "id": "p06e09-i",
+              "type": "reflective_implicit",
+              "query": "Three weeks of falling ended in one clean line to the top, and it plays back often."
+            }
+          ]
+        },
+        {
+          "id": "p06e10",
+          "session": 10,
+          "date_time": "2025-05-25T20:15:00",
+          "text": "Quiet Sunday: fixed my bike's rear brake, watched a documentary about lighthouses, and answered two emails from undergrads about the lab rotation.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p06e10-f",
+              "type": "factual",
+              "query": "Which part of my bike did I fix that Sunday?"
+            },
+            {
+              "id": "p06e10-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm thinking of that slow documentary Sunday."
+            },
+            {
+              "id": "p06e10-i",
+              "type": "reflective_implicit",
+              "query": "An easy day of small repairs and sea towers on the screen floats back to me."
+            }
+          ]
+        },
+        {
+          "id": "p06e11",
+          "session": 11,
+          "date_time": "2025-06-05T16:45:00",
+          "text": "Visa appointment day. The officer flipped through my folder, asked one question about funding, stamped the extension, and it was over in eleven minutes after three months of dread.",
+          "emotion": "relief",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p06e11-f",
+              "type": "factual",
+              "query": "How long did the visa appointment actually take?"
+            },
+            {
+              "id": "p06e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel washed with relief when that appointment day comes back to me."
+            },
+            {
+              "id": "p06e11-i",
+              "type": "reflective_implicit",
+              "query": "The stamp that let me exhale after a whole season echoes in my chest."
+            }
+          ]
+        },
+        {
+          "id": "p06e12",
+          "session": 12,
+          "date_time": "2025-06-14T18:20:00",
+          "text": "Restocked lab consumables, updated the group wiki page on the spectrometer quirks, and defrosted the ancient freezer nobody admits to owning.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p06e12-f",
+              "type": "factual",
+              "query": "Which appliance did I defrost that nobody admits to owning?"
+            },
+            {
+              "id": "p06e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel mildly satisfied about that lab housekeeping day."
+            },
+            {
+              "id": "p06e12-i",
+              "type": "reflective_implicit",
+              "query": "An afternoon of unglamorous upkeep for the common good drifts through my mind."
+            }
+          ]
+        },
+        {
+          "id": "p06e13",
+          "session": 13,
+          "date_time": "2025-06-23T22:00:00",
+          "text": "Reviewer comments came back on the manuscript: major revision, fourteen points, two experiments to redo. Priya slid a dumpling across the table before I even said anything.",
+          "emotion": "discouragement",
+          "intensity_band": "mild",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p06e13-f",
+              "type": "factual",
+              "query": "How many points did the reviewers raise on my manuscript?"
+            },
+            {
+              "id": "p06e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel deflated thinking about that revision verdict."
+            },
+            {
+              "id": "p06e13-i",
+              "type": "reflective_implicit",
+              "query": "The list that sent me back to the bench sits in my drawer and in my head."
+            }
+          ]
+        },
+        {
+          "id": "p06e14",
+          "session": 14,
+          "date_time": "2025-06-28T19:10:00",
+          "text": "Groceries, a phone call with my sister about her new puppy, and an early gym session where I re-climbed the purple problem just to prove it wasn't luck.",
+          "emotion": "contentment",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p06e14-f",
+              "type": "factual",
+              "query": "What did my sister and I talk about on the phone?"
+            },
+            {
+              "id": "p06e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel light and content recalling that ordinary full day."
+            },
+            {
+              "id": "p06e14-i",
+              "type": "reflective_implicit",
+              "query": "Doing the hard thing a second time, just for myself, comes back when I doubt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p07",
+      "name": "Yuna",
+      "age": 34,
+      "context": "marketing manager and new parent; threads: baby's first year, return to work, sleep",
+      "episodes": [
+        {
+          "id": "p07e01",
+          "session": 1,
+          "date_time": "2025-03-02T14:20:00",
+          "text": "Stocked the freezer with milk pouches, sterilized a week of bottles, and updated the feeding log spreadsheet my partner pretends not to find excessive.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p07e01-f",
+              "type": "factual",
+              "query": "What does my partner pretend not to find excessive?"
+            },
+            {
+              "id": "p07e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm order thinking of those bottle-prep afternoons."
+            },
+            {
+              "id": "p07e01-i",
+              "type": "reflective_implicit",
+              "query": "Rows of tiny containers lined up for the week ahead drift back to me."
+            }
+          ]
+        },
+        {
+          "id": "p07e02",
+          "session": 2,
+          "date_time": "2025-03-11T07:50:00",
+          "text": "Dohyun laughed for the first time, a real belly laugh, because the dog sneezed. We spent twenty minutes making the dog sneeze again and it never worked.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p07e02-f",
+              "type": "factual",
+              "query": "What made Dohyun laugh for the first time?"
+            },
+            {
+              "id": "p07e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel pure joy every time that first laugh replays in my head."
+            },
+            {
+              "id": "p07e02-i",
+              "type": "reflective_implicit",
+              "query": "A brand-new sound filled the kitchen that morning and it lives in me still."
+            }
+          ]
+        },
+        {
+          "id": "p07e03",
+          "session": 3,
+          "date_time": "2025-03-19T03:40:00",
+          "text": "Fourth night of the sleep regression. I rocked him from two to four, watched the streetlight through the curtain, and ate cereal standing up at dawn like a raccoon.",
+          "emotion": "exhaustion",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p07e03-f",
+              "type": "factual",
+              "query": "What did I eat standing up at dawn during the sleep regression?"
+            },
+            {
+              "id": "p07e03-x",
+              "type": "reflective_explicit",
+              "query": "I feel the exhaustion of those regression nights in my bones when I recall them."
+            },
+            {
+              "id": "p07e03-i",
+              "type": "reflective_implicit",
+              "query": "Hours swaying in the half-dark while the lamp outside glowed orange come back to me at 3 a.m."
+            }
+          ]
+        },
+        {
+          "id": "p07e04",
+          "session": 4,
+          "date_time": "2025-03-28T13:10:00",
+          "text": "Daycare tours, three in one day. The second one had a garden with a worm-watching corner and a teacher who knew every child's blanket by name. Shortlisted immediately.",
+          "emotion": "hope",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p07e04-f",
+              "type": "factual",
+              "query": "What special corner did the second daycare's garden have?"
+            },
+            {
+              "id": "p07e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel hopeful remembering the daycare with the wonderful garden."
+            },
+            {
+              "id": "p07e04-i",
+              "type": "reflective_implicit",
+              "query": "One place we visited made the choosing easy, and the image returns to me."
+            }
+          ]
+        },
+        {
+          "id": "p07e05",
+          "session": 5,
+          "date_time": "2025-04-05T21:30:00",
+          "text": "Sorted outgrown newborn clothes into donation bags. Kept the hospital hat and the impossible tiny socks, and sat on the nursery floor longer than the task required.",
+          "emotion": "bittersweet",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p07e05-f",
+              "type": "factual",
+              "query": "Which two items did I keep from the outgrown newborn clothes?"
+            },
+            {
+              "id": "p07e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel a bittersweet ache thinking of packing away those first clothes."
+            },
+            {
+              "id": "p07e05-i",
+              "type": "reflective_implicit",
+              "query": "Folding what no longer fits him took something out of me that evening, and it revisits."
+            }
+          ]
+        },
+        {
+          "id": "p07e06",
+          "session": 6,
+          "date_time": "2025-04-14T12:00:00",
+          "text": "Pediatric checkup: seventy-two centimeters, ninth percentile jump in weight, two teeth confirmed. The doctor called him a textbook baby and he bit the textbook.",
+          "emotion": "amusement",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p07e06-f",
+              "type": "factual",
+              "query": "How tall did Dohyun measure at the pediatric checkup?"
+            },
+            {
+              "id": "p07e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel proud amusement recalling that checkup visit."
+            },
+            {
+              "id": "p07e06-i",
+              "type": "reflective_implicit",
+              "query": "The little rebel chomping the compliment he'd just earned makes me grin inside."
+            }
+          ]
+        },
+        {
+          "id": "p07e07",
+          "session": 7,
+          "date_time": "2025-04-23T22:15:00",
+          "text": "Reviewed the return-to-work handover plan HR sent. Highlighted the parts where my projects were reassigned without asking me, and drafted questions for the meeting.",
+          "emotion": "unease",
+          "intensity_band": "mild",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p07e07-f",
+              "type": "factual",
+              "query": "What did I highlight in the HR handover plan?"
+            },
+            {
+              "id": "p07e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel uneasy remembering what that handover document revealed."
+            },
+            {
+              "id": "p07e07-i",
+              "type": "reflective_implicit",
+              "query": "Reading between the lines of that file changed how I packed for my comeback."
+            }
+          ]
+        },
+        {
+          "id": "p07e08",
+          "session": 8,
+          "date_time": "2025-05-02T20:45:00",
+          "text": "Date night, first since the birth. We ordered the tasting menu, talked about anything except the baby for one whole course, then showed the waiter photos anyway.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p07e08-f",
+              "type": "factual",
+              "query": "What kind of menu did we order on our first date night after the birth?"
+            },
+            {
+              "id": "p07e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel giddy happiness thinking of that first evening out again."
+            },
+            {
+              "id": "p07e08-i",
+              "type": "reflective_implicit",
+              "query": "Two people remembering they were a couple before anything else — that dinner stays lit in me."
+            }
+          ]
+        },
+        {
+          "id": "p07e09",
+          "session": 9,
+          "date_time": "2025-05-12T09:30:00",
+          "text": "First day back at the office. My plant survived, my chair setting did not, and the team put a welcome-back banner over my monitor with my name spelled two different ways.",
+          "emotion": "nervousness",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p07e09-f",
+              "type": "factual",
+              "query": "What was wrong with the welcome-back banner?"
+            },
+            {
+              "id": "p07e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel that nervous flutter again recalling my first day back."
+            },
+            {
+              "id": "p07e09-i",
+              "type": "reflective_implicit",
+              "query": "Walking into the old room as a slightly different person keeps surfacing in me."
+            }
+          ]
+        },
+        {
+          "id": "p07e10",
+          "session": 10,
+          "date_time": "2025-05-21T19:00:00",
+          "text": "Grocery order arrived with someone else's box: forty limes and no diapers. Support sorted it by evening and the neighbor took half the limes for her soda experiments.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p07e10-f",
+              "type": "factual",
+              "query": "What was in the mixed-up grocery box instead of diapers?"
+            },
+            {
+              "id": "p07e10-x",
+              "type": "reflective_explicit",
+              "query": "I feel mild amusement thinking of that delivery mix-up."
+            },
+            {
+              "id": "p07e10-i",
+              "type": "reflective_implicit",
+              "query": "The citrus avalanche that took over our counter pops into my head at checkout."
+            }
+          ]
+        },
+        {
+          "id": "p07e11",
+          "session": 11,
+          "date_time": "2025-05-31T21:50:00",
+          "text": "Dohyun said something that was almost certainly umma while pointing at the fridge. My partner claims it was aimed at the yogurt. I have logged it as a first word regardless.",
+          "emotion": "elation",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p07e11-f",
+              "type": "factual",
+              "query": "What does my partner claim the almost-first-word was aimed at?"
+            },
+            {
+              "id": "p07e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel overjoyed replaying that almost-first-word moment."
+            },
+            {
+              "id": "p07e11-i",
+              "type": "reflective_implicit",
+              "query": "A syllable by the refrigerator door rewrote my whole week and echoes still."
+            }
+          ]
+        },
+        {
+          "id": "p07e12",
+          "session": 12,
+          "date_time": "2025-06-09T22:30:00",
+          "text": "Quarterly campaign review: my slides ran second, the numbers held, and the director asked for my channel plan to be circulated as the template. Sent it before she changed her mind.",
+          "emotion": "pride",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p07e12-f",
+              "type": "factual",
+              "query": "What did the director ask to circulate as the template?"
+            },
+            {
+              "id": "p07e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel steady pride recalling how that review meeting went."
+            },
+            {
+              "id": "p07e12-i",
+              "type": "reflective_implicit",
+              "query": "My work becoming the example others copy drifts back on hard office days."
+            }
+          ]
+        },
+        {
+          "id": "p07e13",
+          "session": 13,
+          "date_time": "2025-06-25T20:40:00",
+          "text": "Daycare orientation packet arrived: cubby number seven, blanket policy, a nap schedule that assumes cooperation. Labeled every sock with iron-on tape after he fell asleep.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p07e13-f",
+              "type": "factual",
+              "query": "Which cubby number did the daycare packet assign?"
+            },
+            {
+              "id": "p07e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel calm preparedness thinking of that labeling evening."
+            },
+            {
+              "id": "p07e13-i",
+              "type": "reflective_implicit",
+              "query": "Tiny names pressed onto tiny things late at night — the scene returns to me."
+            }
+          ]
+        },
+        {
+          "id": "p07e14",
+          "session": 14,
+          "date_time": "2025-06-29T08:15:00",
+          "text": "Morning walk with the stroller before the heat, coffee from the corner stand, and a park bench inventory of ducks. Dohyun counted them as ba, ba, ba. Close enough.",
+          "emotion": "contentment",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p07e14-f",
+              "type": "factual",
+              "query": "What did Dohyun call the ducks at the park?"
+            },
+            {
+              "id": "p07e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel gentle contentment recalling that duck-counting morning."
+            },
+            {
+              "id": "p07e14-i",
+              "type": "reflective_implicit",
+              "query": "An unrushed loop around the pond with my small narrator floats back to me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p08",
+      "name": "Omar",
+      "age": 29,
+      "context": "barista and aspiring novelist; threads: first novel draft, open-mic readings, apartment lease trouble",
+      "episodes": [
+        {
+          "id": "p08e01",
+          "session": 1,
+          "date_time": "2025-03-03T23:10:00",
+          "text": "Hit thirty thousand words on the novel draft. Celebrated by rearranging the plot wall: forty index cards, three colors of string, one detective who still has no motive.",
+          "emotion": "satisfaction",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p08e01-f",
+              "type": "factual",
+              "query": "How many index cards are on my plot wall?"
+            },
+            {
+              "id": "p08e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel quietly proud thinking of crossing that word-count milestone."
+            },
+            {
+              "id": "p08e01-i",
+              "type": "reflective_implicit",
+              "query": "The web of notes and thread above my desk keeps pulling me back to the story."
+            }
+          ]
+        },
+        {
+          "id": "p08e02",
+          "session": 2,
+          "date_time": "2025-03-12T22:30:00",
+          "text": "Read the harbor chapter at the bookshop open mic. My hands shook on the first page, but a woman in the back gasped at the twist and found me after to ask what happens next.",
+          "emotion": "exhilaration",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p08e02-f",
+              "type": "factual",
+              "query": "Which chapter did I read at the bookshop open mic?"
+            },
+            {
+              "id": "p08e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel thrilled all over again remembering that first public reading."
+            },
+            {
+              "id": "p08e02-i",
+              "type": "reflective_implicit",
+              "query": "A stranger hungry for the rest of my story — that evening keeps humming under my ribs."
+            }
+          ]
+        },
+        {
+          "id": "p08e03",
+          "session": 3,
+          "date_time": "2025-03-20T21:00:00",
+          "text": "Inventory night at the cafe: counted beans, cups, and forty-one oat milks, logged the espresso machine's service date, and cycled the pastry stock.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p08e03-f",
+              "type": "factual",
+              "query": "How many oat milks did I count at inventory night?"
+            },
+            {
+              "id": "p08e03-x",
+              "type": "reflective_explicit",
+              "query": "I feel neutral, vaguely soothed, recalling that stocktake shift."
+            },
+            {
+              "id": "p08e03-i",
+              "type": "reflective_implicit",
+              "query": "Tallying shelves in the closed shop after hours drifts back to me sometimes."
+            }
+          ]
+        },
+        {
+          "id": "p08e04",
+          "session": 4,
+          "date_time": "2025-03-29T19:45:00",
+          "text": "Letter from the landlord: building sold, all leases under review, reply within thirty days. I read it three times on the stairwell before going inside.",
+          "emotion": "dread",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p08e04-f",
+              "type": "factual",
+              "query": "How many days did the landlord's letter give me to reply?"
+            },
+            {
+              "id": "p08e04-x",
+              "type": "reflective_explicit",
+              "query": "I still feel dread remembering the letter about the building sale."
+            },
+            {
+              "id": "p08e04-i",
+              "type": "reflective_implicit",
+              "query": "The page I couldn't bring past my own doormat sits heavy in my memory."
+            }
+          ]
+        },
+        {
+          "id": "p08e05",
+          "session": 5,
+          "date_time": "2025-04-06T20:20:00",
+          "text": "Swapped my closing shifts with Renata for two weeks of mornings so I can write in the evenings. Updated the whiteboard schedule and bribed her with a cinnamon loaf.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p08e05-f",
+              "type": "factual",
+              "query": "What did I bribe Renata with for the shift swap?"
+            },
+            {
+              "id": "p08e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel mildly pleased about engineering that schedule swap."
+            },
+            {
+              "id": "p08e05-i",
+              "type": "reflective_implicit",
+              "query": "Trading my hours around to protect the good ones comes back to mind each rota."
+            }
+          ]
+        },
+        {
+          "id": "p08e06",
+          "session": 6,
+          "date_time": "2025-04-14T23:40:00",
+          "text": "Deleted eleven thousand words tonight. The whole middle section was a detour and I knew it for weeks. It felt like pulling a tooth with a novel attached.",
+          "emotion": "anguish",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p08e06-f",
+              "type": "factual",
+              "query": "How many words did I delete from the draft that night?"
+            },
+            {
+              "id": "p08e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel the pain of cutting that whole section every time it comes up."
+            },
+            {
+              "id": "p08e06-i",
+              "type": "reflective_implicit",
+              "query": "The night I unmade weeks of my own sentences returns whenever I hesitate to revise."
+            }
+          ]
+        },
+        {
+          "id": "p08e07",
+          "session": 7,
+          "date_time": "2025-04-22T18:15:00",
+          "text": "Tenant meeting in the laundry room, fourteen of us and a lawyer someone's cousin knows. We drafted a joint response to the new owner and a signup sheet for door duty.",
+          "emotion": "resolve",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p08e07-f",
+              "type": "factual",
+              "query": "Where did the tenant meeting take place?"
+            },
+            {
+              "id": "p08e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel a determined solidarity recalling that tenants' meeting."
+            },
+            {
+              "id": "p08e07-i",
+              "type": "reflective_implicit",
+              "query": "Neighbors becoming a single voice between the washing machines stays with me."
+            }
+          ]
+        },
+        {
+          "id": "p08e08",
+          "session": 8,
+          "date_time": "2025-05-01T22:50:00",
+          "text": "A literary agent who heard the open mic emailed asking for the first three chapters. I typed four drafts of a two-line reply and walked around the block twice before sending.",
+          "emotion": "elation",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p08e08-f",
+              "type": "factual",
+              "query": "How many chapters did the agent ask to see?"
+            },
+            {
+              "id": "p08e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel electric excitement remembering the agent's email."
+            },
+            {
+              "id": "p08e08-i",
+              "type": "reflective_implicit",
+              "query": "One short message made me pace the street at midnight, and it still sparks in me."
+            }
+          ]
+        },
+        {
+          "id": "p08e09",
+          "session": 9,
+          "date_time": "2025-05-09T21:05:00",
+          "text": "Descaled both espresso machines, retrained the new hire on milk texture, and fixed the wobbly table with a folded coaster, engineering at its finest.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p08e09-f",
+              "type": "factual",
+              "query": "How did I fix the wobbly table at the cafe?"
+            },
+            {
+              "id": "p08e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel workmanlike calm thinking of that maintenance shift."
+            },
+            {
+              "id": "p08e09-i",
+              "type": "reflective_implicit",
+              "query": "Small fixes that keep a shop standing drift through my head on slow days."
+            }
+          ]
+        },
+        {
+          "id": "p08e10",
+          "session": 10,
+          "date_time": "2025-05-18T20:35:00",
+          "text": "The agent passed. Kind words about the prose, the market is crowded, best of luck. I closed the laptop, made tea I didn't drink, and stared at the plot wall until midnight.",
+          "emotion": "despair",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p08e10-f",
+              "type": "factual",
+              "query": "What reason did the agent give for passing on the chapters?"
+            },
+            {
+              "id": "p08e10-x",
+              "type": "reflective_explicit",
+              "query": "The despair of that rejection email still washes over me sometimes."
+            },
+            {
+              "id": "p08e10-i",
+              "type": "reflective_implicit",
+              "query": "A cup going cold beside me in front of all my plans — that night resurfaces."
+            }
+          ]
+        },
+        {
+          "id": "p08e11",
+          "session": 11,
+          "date_time": "2025-05-27T19:25:00",
+          "text": "New owner's management company accepted the tenants' counterproposal: two-year extensions at a capped increase. Renata high-fived me so hard my palm buzzed through the shift.",
+          "emotion": "triumph",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p08e11-f",
+              "type": "factual",
+              "query": "What terms did the management company accept from the tenants?"
+            },
+            {
+              "id": "p08e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel a rush of victorious relief recalling the lease outcome."
+            },
+            {
+              "id": "p08e11-i",
+              "type": "reflective_implicit",
+              "query": "The day the building let us all breathe again keeps ringing in my hand."
+            }
+          ]
+        },
+        {
+          "id": "p08e12",
+          "session": 12,
+          "date_time": "2025-06-08T21:15:00",
+          "text": "Back to the draft after three weeks away. Reread the harbor chapter aloud, liked more of it than I feared, and outlined the new middle on one page instead of forty cards.",
+          "emotion": "hope",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p08e12-f",
+              "type": "factual",
+              "query": "How did I outline the new middle section this time?"
+            },
+            {
+              "id": "p08e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel cautious hope remembering my return to the manuscript."
+            },
+            {
+              "id": "p08e12-i",
+              "type": "reflective_implicit",
+              "query": "Picking the story back up and finding it still warm returns to me on tired evenings."
+            }
+          ]
+        },
+        {
+          "id": "p08e13",
+          "session": 13,
+          "date_time": "2025-06-24T20:00:00",
+          "text": "Signed the two-year lease extension at the management office, then bought a secondhand bookshelf on the walk home because permanence deserves furniture.",
+          "emotion": "contentment",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p08e13-f",
+              "type": "factual",
+              "query": "What did I buy on the walk home after signing the lease?"
+            },
+            {
+              "id": "p08e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel settled contentment recalling the day I signed the extension."
+            },
+            {
+              "id": "p08e13-i",
+              "type": "reflective_implicit",
+              "query": "Hauling something heavy up my own street since I get to stay — it lingers with me."
+            }
+          ]
+        },
+        {
+          "id": "p08e14",
+          "session": 14,
+          "date_time": "2025-06-28T23:30:00",
+          "text": "Closing shift, then two pages of the new middle written at the corner table after lockup. The espresso machine ticked as it cooled, which is the shop's way of keeping me company.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p08e14-f",
+              "type": "factual",
+              "query": "How many pages did I write at the corner table after lockup?"
+            },
+            {
+              "id": "p08e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel a calm focus thinking of writing in the closed shop that night."
+            },
+            {
+              "id": "p08e14-i",
+              "type": "reflective_implicit",
+              "query": "Words arriving after hours while the metal settled itself quiet — it drifts back to me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p09",
+      "name": "Iris",
+      "age": 16,
+      "context": "high-school swimmer; threads: relay team, falling-out with best friend, grandmother's recipes",
+      "episodes": [
+        {
+          "id": "p09e01",
+          "session": 1,
+          "date_time": "2025-03-04T18:45:00",
+          "text": "Season opener practice: six by two hundred freestyle, then relay exchanges until our timing stopped embarrassing coach. My shoulders ache in a way that means progress.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p09e01-f",
+              "type": "factual",
+              "query": "What freestyle set did we swim at the season opener practice?"
+            },
+            {
+              "id": "p09e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel steady satisfaction thinking of that first hard practice."
+            },
+            {
+              "id": "p09e01-i",
+              "type": "reflective_implicit",
+              "query": "The good kind of tired from that first week in the pool comes back to me."
+            }
+          ]
+        },
+        {
+          "id": "p09e02",
+          "session": 2,
+          "date_time": "2025-03-13T20:30:00",
+          "text": "Learned Grandma's doenjang stew properly at her place. She measures nothing, corrects everything, and made me stir until my wrist learned what enough means.",
+          "emotion": "tenderness",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p09e02-f",
+              "type": "factual",
+              "query": "Which stew did Grandma teach me at her place?"
+            },
+            {
+              "id": "p09e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel warm affection remembering that cooking lesson with Grandma."
+            },
+            {
+              "id": "p09e02-i",
+              "type": "reflective_implicit",
+              "query": "An old kitchen where my hands were taught by someone else's patience returns to me."
+            }
+          ]
+        },
+        {
+          "id": "p09e03",
+          "session": 3,
+          "date_time": "2025-03-22T21:15:00",
+          "text": "Suha told the whole group chat about the crush I confided only to her. Forty messages of teasing before dinner. I turned my phone face down and skipped dessert.",
+          "emotion": "betrayal",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p09e03-f",
+              "type": "factual",
+              "query": "What did Suha reveal to the group chat?"
+            },
+            {
+              "id": "p09e03-x",
+              "type": "reflective_explicit",
+              "query": "I still feel betrayed and hurt when I remember what Suha did."
+            },
+            {
+              "id": "p09e03-i",
+              "type": "reflective_implicit",
+              "query": "The buzzing screen I had to turn over that evening keeps buzzing somewhere in me."
+            }
+          ]
+        },
+        {
+          "id": "p09e04",
+          "session": 4,
+          "date_time": "2025-03-31T19:00:00",
+          "text": "New swim caps and goggles arrived, team-navy with our names printed. Mine says IRSI. Coach says the typo builds character and refuses to reorder.",
+          "emotion": "amusement",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p09e04-f",
+              "type": "factual",
+              "query": "What typo is printed on my new swim cap?"
+            },
+            {
+              "id": "p09e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel giggly amusement thinking of the misprinted gear."
+            },
+            {
+              "id": "p09e04-i",
+              "type": "reflective_implicit",
+              "query": "Four wrong letters that became my nickname drift back and make the lane lighter."
+            }
+          ]
+        },
+        {
+          "id": "p09e05",
+          "session": 5,
+          "date_time": "2025-04-09T20:50:00",
+          "text": "Sat alone at lunch for the second week. Suha's table laughed at something and I convinced myself it wasn't about me for exactly four minutes.",
+          "emotion": "loneliness",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p09e05-f",
+              "type": "factual",
+              "query": "How long did I manage to believe the laughing wasn't about me?"
+            },
+            {
+              "id": "p09e05-x",
+              "type": "reflective_explicit",
+              "query": "The loneliness of those solo lunches still stings when it surfaces."
+            },
+            {
+              "id": "p09e05-i",
+              "type": "reflective_implicit",
+              "query": "A cafeteria that got very large around a seat for one comes back to me in crowds."
+            }
+          ]
+        },
+        {
+          "id": "p09e06",
+          "session": 6,
+          "date_time": "2025-04-18T18:20:00",
+          "text": "Dropped one point eight seconds off my hundred free at time trials. Coach moved me to third leg of the relay, the comeback slot, and wrote my split on the whiteboard.",
+          "emotion": "triumph",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p09e06-f",
+              "type": "factual",
+              "query": "How much time did I drop off my hundred free at trials?"
+            },
+            {
+              "id": "p09e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel fierce pride remembering that time-trial swim."
+            },
+            {
+              "id": "p09e06-i",
+              "type": "reflective_implicit",
+              "query": "My number going up on the board for everyone to chase — it resurfaces before every race."
+            }
+          ]
+        },
+        {
+          "id": "p09e07",
+          "session": 7,
+          "date_time": "2025-04-27T17:40:00",
+          "text": "Batch-cooked Grandma's stew for the family, first solo attempt. Dad had seconds; Grandma, over video, judged the color through the screen and allowed a seven out of ten.",
+          "emotion": "satisfaction",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p09e07-f",
+              "type": "factual",
+              "query": "What score did Grandma give my first solo stew?"
+            },
+            {
+              "id": "p09e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel proud warmth recalling my first solo attempt at her dish."
+            },
+            {
+              "id": "p09e07-i",
+              "type": "reflective_implicit",
+              "query": "Serving my people something inherited, shaped by my own hands — it stays glowing in me."
+            }
+          ]
+        },
+        {
+          "id": "p09e08",
+          "session": 8,
+          "date_time": "2025-05-06T21:30:00",
+          "text": "Homework night: physics problem set, vocabulary flashcards, and a worksheet on the French Revolution. Rewarded myself with one episode and actually stopped at one.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p09e08-f",
+              "type": "factual",
+              "query": "What historical topic was my worksheet about that night?"
+            },
+            {
+              "id": "p09e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel disciplined calm thinking of that homework evening."
+            },
+            {
+              "id": "p09e08-i",
+              "type": "reflective_implicit",
+              "query": "A study evening where I honored my own promise floats back when I procrastinate."
+            }
+          ]
+        },
+        {
+          "id": "p09e09",
+          "session": 9,
+          "date_time": "2025-05-16T22:00:00",
+          "text": "Suha waited by my locker with a handwritten letter and red eyes. We talked through two class periods in the stairwell. Not fixed, but the door isn't locked anymore.",
+          "emotion": "cautious relief",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p09e09-f",
+              "type": "factual",
+              "query": "What was Suha holding when she waited by my locker?"
+            },
+            {
+              "id": "p09e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel a fragile relief remembering that stairwell talk with Suha."
+            },
+            {
+              "id": "p09e09-i",
+              "type": "reflective_implicit",
+              "query": "Two bells rang past us on those steps, and that conversation keeps returning."
+            }
+          ]
+        },
+        {
+          "id": "p09e10",
+          "session": 10,
+          "date_time": "2025-05-25T16:10:00",
+          "text": "Regionals. I dove in fourth and touched first on my leg; we took silver by a fingertip and screamed so loud the lifeguard whistled at us. The medal is on my desk lamp.",
+          "emotion": "elation",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p09e10-f",
+              "type": "factual",
+              "query": "Where do I keep the regionals silver medal?"
+            },
+            {
+              "id": "p09e10-x",
+              "type": "reflective_explicit",
+              "query": "I feel that burst of joy again whenever the relay final replays."
+            },
+            {
+              "id": "p09e10-i",
+              "type": "reflective_implicit",
+              "query": "Entering the water behind and coming up ahead — that stretch of seconds lives in me."
+            }
+          ]
+        },
+        {
+          "id": "p09e11",
+          "session": 11,
+          "date_time": "2025-06-03T19:35:00",
+          "text": "Swapped my locker to the second floor, re-taped my class schedule inside the door, and finally returned the library's poetry anthology, nine days overdue.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p09e11-f",
+              "type": "factual",
+              "query": "How many days overdue was the poetry anthology I returned?"
+            },
+            {
+              "id": "p09e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel tidy and calm recalling that reorganizing day."
+            },
+            {
+              "id": "p09e11-i",
+              "type": "reflective_implicit",
+              "query": "Little moves and handed-back borrowings drift through my mind between terms."
+            }
+          ]
+        },
+        {
+          "id": "p09e12",
+          "session": 12,
+          "date_time": "2025-06-13T20:25:00",
+          "text": "Grandma gave me her handwritten recipe notebook to copy over the summer, the one with sauce stains older than me. She said recipes die in drawers and live in wrists.",
+          "emotion": "tenderness",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p09e12-f",
+              "type": "factual",
+              "query": "What did Grandma say recipes die in and live in?"
+            },
+            {
+              "id": "p09e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel moved and honored remembering her handing me that notebook."
+            },
+            {
+              "id": "p09e12-i",
+              "type": "reflective_implicit",
+              "query": "Pages marked by decades of dinners were placed in my care, and the weight stays."
+            }
+          ]
+        },
+        {
+          "id": "p09e13",
+          "session": 13,
+          "date_time": "2025-06-26T18:50:00",
+          "text": "Summer training plan posted: three morning swims a week, two gym sessions, and a taper before August meets. Highlighted the rest days first, obviously.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p09e13-f",
+              "type": "factual",
+              "query": "What did I highlight first on the summer training plan?"
+            },
+            {
+              "id": "p09e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel organized calm thinking about that posted schedule."
+            },
+            {
+              "id": "p09e13-i",
+              "type": "reflective_implicit",
+              "query": "Mapping the season ahead lane by lane floats into my head at night."
+            }
+          ]
+        },
+        {
+          "id": "p09e14",
+          "session": 13,
+          "date_time": "2025-06-26T21:40:00",
+          "text": "Suha came over for the first time since March. We made the stew together from Grandma's notebook, argued about garlic amounts, and it tasted like before.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p09e14-f",
+              "type": "factual",
+              "query": "What did Suha and I argue about while cooking?"
+            },
+            {
+              "id": "p09e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel healed happiness remembering cooking with Suha again."
+            },
+            {
+              "id": "p09e14-i",
+              "type": "reflective_implicit",
+              "query": "A familiar taste returning to my kitchen with a familiar person keeps warming me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p10",
+      "name": "Dane",
+      "age": 33,
+      "context": "carpenter; threads: workshop commissions, lake cabin restoration, reunion with an old friend",
+      "episodes": [
+        {
+          "id": "p10e01",
+          "session": 1,
+          "date_time": "2025-03-02T18:30:00",
+          "text": "Milled the walnut boards for the dining table commission and stickered them to dry. Swept the shop, oiled the jointer, and lined up cuts for the weekend.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p10e01-f",
+              "type": "factual",
+              "query": "Which wood did I mill for the dining table commission?"
+            },
+            {
+              "id": "p10e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel workmanlike calm thinking of that prep day in the shop."
+            },
+            {
+              "id": "p10e01-i",
+              "type": "reflective_implicit",
+              "query": "Stacked lumber waiting patiently under the window drifts back to me."
+            }
+          ]
+        },
+        {
+          "id": "p10e02",
+          "session": 2,
+          "date_time": "2025-03-11T20:15:00",
+          "text": "Marco messaged out of nowhere after nine years: found my workshop page, said the tool cabinet I built in trade school is still in his garage. We talked until my phone died.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p10e02-f",
+              "type": "factual",
+              "query": "What did Marco say is still in his garage?"
+            },
+            {
+              "id": "p10e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel a rush of happiness remembering Marco reaching out again."
+            },
+            {
+              "id": "p10e02-i",
+              "type": "reflective_implicit",
+              "query": "Years of silence ended by a single ping, and the glow of it keeps returning."
+            }
+          ]
+        },
+        {
+          "id": "p10e03",
+          "session": 3,
+          "date_time": "2025-03-20T19:40:00",
+          "text": "First trip of the year to the lake cabin. The roof held through winter but the porch boards went spongy; measured everything and budgeted the lumber on the drive home.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p10e03-f",
+              "type": "factual",
+              "query": "What went spongy at the cabin over winter?"
+            },
+            {
+              "id": "p10e03-x",
+              "type": "reflective_explicit",
+              "query": "I feel practical calm recalling that first cabin inspection."
+            },
+            {
+              "id": "p10e03-i",
+              "type": "reflective_implicit",
+              "query": "Walking the old place after the cold months, notebook in hand, comes back to me."
+            }
+          ]
+        },
+        {
+          "id": "p10e04",
+          "session": 4,
+          "date_time": "2025-03-30T21:00:00",
+          "text": "Client rejected the finished bookcase over a stain shade she approved in writing. Held my tongue, photographed everything, and quoted the refinish at full rate.",
+          "emotion": "anger",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p10e04-f",
+              "type": "factual",
+              "query": "What did the client reject the bookcase over?"
+            },
+            {
+              "id": "p10e04-x",
+              "type": "reflective_explicit",
+              "query": "I still feel that flare of anger about the bookcase dispute."
+            },
+            {
+              "id": "p10e04-i",
+              "type": "reflective_implicit",
+              "query": "Swallowing my first reply and reaching for the camera instead — that moment revisits me."
+            }
+          ]
+        },
+        {
+          "id": "p10e05",
+          "session": 5,
+          "date_time": "2025-04-08T17:20:00",
+          "text": "Restocked screws and glue, replaced two sawblades, and finally labeled the hardware drawers after three years of educated guessing.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p10e05-f",
+              "type": "factual",
+              "query": "What did I finally label after three years?"
+            },
+            {
+              "id": "p10e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel mild satisfaction thinking of that supply-run afternoon."
+            },
+            {
+              "id": "p10e05-i",
+              "type": "reflective_implicit",
+              "query": "Order imposed at last on years of rummaging drifts back to me mid-project."
+            }
+          ]
+        },
+        {
+          "id": "p10e06",
+          "session": 6,
+          "date_time": "2025-04-19T22:10:00",
+          "text": "Ripped a board without the guard like an idiot in a hurry and took a kickback bruise across the forearm. Nothing broken, everything humbling. Sat outside for a long while after.",
+          "emotion": "fear",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p10e06-f",
+              "type": "factual",
+              "query": "Where did the kickback bruise land?"
+            },
+            {
+              "id": "p10e06-x",
+              "type": "reflective_explicit",
+              "query": "I still feel the scare of that kickback whenever the saw spins up."
+            },
+            {
+              "id": "p10e06-i",
+              "type": "reflective_implicit",
+              "query": "The half-second the machine reminded me who's boss replays before every cut."
+            }
+          ]
+        },
+        {
+          "id": "p10e07",
+          "session": 7,
+          "date_time": "2025-04-27T19:50:00",
+          "text": "Delivered the walnut table. The couple's kid immediately claimed the underside as a cave, and they sent a photo an hour later of dinner set for four on it.",
+          "emotion": "pride",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p10e07-f",
+              "type": "factual",
+              "query": "What did the couple's kid claim the table's underside as?"
+            },
+            {
+              "id": "p10e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel deep pride remembering the table delivery day."
+            },
+            {
+              "id": "p10e07-i",
+              "type": "reflective_implicit",
+              "query": "Something I built becoming the middle of a family's evening stays warm in me."
+            }
+          ]
+        },
+        {
+          "id": "p10e08",
+          "session": 8,
+          "date_time": "2025-05-06T20:30:00",
+          "text": "Marco drove down for the weekend. We rebuilt the cabin porch in two days, argued about joinery like no time had passed, and burned the old boards in a lakeside fire.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p10e08-f",
+              "type": "factual",
+              "query": "What did Marco and I burn in the lakeside fire?"
+            },
+            {
+              "id": "p10e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel full-hearted happiness recalling that porch weekend with Marco."
+            },
+            {
+              "id": "p10e08-i",
+              "type": "reflective_implicit",
+              "query": "Two days of hammering beside an old companion, flames by the water after — it returns often."
+            }
+          ]
+        },
+        {
+          "id": "p10e09",
+          "session": 9,
+          "date_time": "2025-05-15T18:00:00",
+          "text": "Quoted three new commissions: a crib, a bench, and a standing desk. Turned down a fourth asking for next-week delivery, politely, then less politely when he called twice.",
+          "emotion": "mild annoyance",
+          "intensity_band": "low",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p10e09-f",
+              "type": "factual",
+              "query": "Which three commissions did I quote that day?"
+            },
+            {
+              "id": "p10e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel lightly irritated recalling that pushy delivery request."
+            },
+            {
+              "id": "p10e09-i",
+              "type": "reflective_implicit",
+              "query": "Saying no twice to the same voice on the phone crosses my mind when I schedule."
+            }
+          ]
+        },
+        {
+          "id": "p10e10",
+          "session": 10,
+          "date_time": "2025-05-24T21:20:00",
+          "text": "Dad's old hand plane, seized since he passed, finally freed up after a week in penetrating oil. Flattened a scrap of pine with it and kept the shaving curl on the windowsill.",
+          "emotion": "grief",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p10e10-f",
+              "type": "factual",
+              "query": "What did I keep on the windowsill after using Dad's plane?"
+            },
+            {
+              "id": "p10e10-x",
+              "type": "reflective_explicit",
+              "query": "Grief and love mix in me whenever that afternoon with Dad's plane returns."
+            },
+            {
+              "id": "p10e10-i",
+              "type": "reflective_implicit",
+              "query": "A tool that remembered his grip waking up in mine — that hour stays lodged deep."
+            }
+          ]
+        },
+        {
+          "id": "p10e11",
+          "session": 11,
+          "date_time": "2025-06-03T19:10:00",
+          "text": "Invoice day: three payments chased, quarterly tax folder sorted, and the van's oil changed. Rewarded myself with dumplings from the corner place.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p10e11-f",
+              "type": "factual",
+              "query": "What did I reward myself with after invoice day?"
+            },
+            {
+              "id": "p10e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel dutiful calm thinking of that paperwork day."
+            },
+            {
+              "id": "p10e11-i",
+              "type": "reflective_implicit",
+              "query": "A day of spreadsheets instead of sawdust drifts back when the paperwork season rolls around."
+            }
+          ]
+        },
+        {
+          "id": "p10e12",
+          "session": 12,
+          "date_time": "2025-06-14T20:45:00",
+          "text": "Finished the crib, sanded to four hundred grit, every edge rounded twice. The expecting parents teared up at pickup and I pretended the dust extractor needed adjusting.",
+          "emotion": "tenderness",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p10e12-f",
+              "type": "factual",
+              "query": "What grit did I sand the crib to?"
+            },
+            {
+              "id": "p10e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel moved remembering the parents picking up that crib."
+            },
+            {
+              "id": "p10e12-i",
+              "type": "reflective_implicit",
+              "query": "Handing over something made for a person who hasn't arrived yet stays with me."
+            }
+          ]
+        },
+        {
+          "id": "p10e13",
+          "session": 13,
+          "date_time": "2025-06-25T18:30:00",
+          "text": "Cabin weekend: hung the new screen door, planted mint by the steps in Mom's old kettle, and watched a heron work the shallows until dusk.",
+          "emotion": "contentment",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p10e13-f",
+              "type": "factual",
+              "query": "What did I plant mint in by the cabin steps?"
+            },
+            {
+              "id": "p10e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel deep peace recalling that evening at the lake."
+            },
+            {
+              "id": "p10e13-i",
+              "type": "reflective_implicit",
+              "query": "A tall bird fishing in the last light while I sat still — it keeps coming back."
+            }
+          ]
+        },
+        {
+          "id": "p10e14",
+          "session": 14,
+          "date_time": "2025-06-29T17:00:00",
+          "text": "Shop reset for the bench build: sharpened chisels, dressed the grinder wheel, and drew the joinery full-scale on plywood. Cut list taped where the coffee can't reach it.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p10e14-f",
+              "type": "factual",
+              "query": "Where did I tape the cut list for the bench build?"
+            },
+            {
+              "id": "p10e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel ready and calm thinking of that shop reset."
+            },
+            {
+              "id": "p10e14-i",
+              "type": "reflective_implicit",
+              "query": "The unhurried ritual before fresh work starts hums in my head on every eve of making."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p11",
+      "name": "Noor",
+      "age": 24,
+      "context": "junior backend developer, first job; threads: probation review, houseplant collection, driving test",
+      "episodes": [
+        {
+          "id": "p11e01",
+          "session": 1,
+          "date_time": "2025-03-05T21:00:00",
+          "text": "Onboarding week done: laptop configured, repos cloned, and my first ticket merged, a one-line logging fix that I screenshotted like a diploma.",
+          "emotion": "hope",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p11e01-f",
+              "type": "factual",
+              "query": "What was my first merged ticket at the new job?"
+            },
+            {
+              "id": "p11e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel bright hope thinking of that first merged change."
+            },
+            {
+              "id": "p11e01-i",
+              "type": "reflective_implicit",
+              "query": "One tiny contribution with my name on it, saved like a trophy, resurfaces when I doubt myself."
+            }
+          ]
+        },
+        {
+          "id": "p11e02",
+          "session": 2,
+          "date_time": "2025-03-14T19:30:00",
+          "text": "Bought a monstera from the flower market and named her Clementine. Repotted her on newspaper on the kitchen floor, roots like pale noodles, dirt absolutely everywhere.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p11e02-f",
+              "type": "factual",
+              "query": "What did I name the monstera from the flower market?"
+            },
+            {
+              "id": "p11e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel cozy contentment recalling that repotting mess."
+            },
+            {
+              "id": "p11e02-i",
+              "type": "reflective_implicit",
+              "query": "Soil under my nails and a new green housemate — that afternoon drifts back to me."
+            }
+          ]
+        },
+        {
+          "id": "p11e03",
+          "session": 3,
+          "date_time": "2025-03-23T22:40:00",
+          "text": "Deployed a migration that locked the users table for eleven minutes in production. Senior devs were kind, the postmortem was kind, and I still rewrote my apology four times.",
+          "emotion": "shame",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p11e03-f",
+              "type": "factual",
+              "query": "How long did my migration lock the users table?"
+            },
+            {
+              "id": "p11e03-x",
+              "type": "reflective_explicit",
+              "query": "I still burn with embarrassment remembering that production incident."
+            },
+            {
+              "id": "p11e03-i",
+              "type": "reflective_implicit",
+              "query": "The damage I caused and couldn't undo keeps replaying every release I push out."
+            }
+          ]
+        },
+        {
+          "id": "p11e04",
+          "session": 4,
+          "date_time": "2025-04-01T20:15:00",
+          "text": "First driving lesson. Stalled twice at the same intersection, and the instructor said my mirror checks were textbook, which I am choosing to make my whole identity.",
+          "emotion": "nervousness",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p11e04-f",
+              "type": "factual",
+              "query": "What did the driving instructor call textbook?"
+            },
+            {
+              "id": "p11e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel jittery but proud remembering that first lesson behind the wheel."
+            },
+            {
+              "id": "p11e04-i",
+              "type": "reflective_implicit",
+              "query": "The engine dying twice at one crossing stays with me every time I buckle in."
+            }
+          ]
+        },
+        {
+          "id": "p11e05",
+          "session": 5,
+          "date_time": "2025-04-10T21:45:00",
+          "text": "Weekly chores plus a fridge purge of three science experiments formerly known as leftovers. Watered all nine plants and rotated Clementine a quarter turn toward the light.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p11e05-f",
+              "type": "factual",
+              "query": "How many plants did I water on chore night?"
+            },
+            {
+              "id": "p11e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel tidy calm thinking of that chore evening."
+            },
+            {
+              "id": "p11e05-i",
+              "type": "reflective_implicit",
+              "query": "The small ceremony of turning each pot toward the window comes back to me."
+            }
+          ]
+        },
+        {
+          "id": "p11e06",
+          "session": 6,
+          "date_time": "2025-04-19T18:50:00",
+          "text": "Shipped the rate-limiter feature I owned end to end. Code review had one comment: nice. I walked home the long way and bought a pastry shaped like a fish.",
+          "emotion": "pride",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p11e06-f",
+              "type": "factual",
+              "query": "What shape was the pastry I bought after shipping the feature?"
+            },
+            {
+              "id": "p11e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel glowing pride recalling the day my feature shipped."
+            },
+            {
+              "id": "p11e06-i",
+              "type": "reflective_implicit",
+              "query": "Something I built alone running out there for everyone keeps straightening my back."
+            }
+          ]
+        },
+        {
+          "id": "p11e07",
+          "session": 7,
+          "date_time": "2025-04-28T23:20:00",
+          "text": "Clementine has root rot. Emergency surgery on the balcony at ten at night: trimmed the mush, repotted into dry mix, and lit a candle for her like a maniac.",
+          "emotion": "worry",
+          "intensity_band": "mild",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p11e07-f",
+              "type": "factual",
+              "query": "What did Clementine come down with?"
+            },
+            {
+              "id": "p11e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel anxious fondness remembering that midnight plant surgery."
+            },
+            {
+              "id": "p11e07-i",
+              "type": "reflective_implicit",
+              "query": "Kneeling over a sick green thing under a tiny flame drifts back whenever leaves droop."
+            }
+          ]
+        },
+        {
+          "id": "p11e08",
+          "session": 8,
+          "date_time": "2025-05-08T20:00:00",
+          "text": "Failed the driving test: reverse parallel park, clipped the cone at the very end of an otherwise clean run. The examiner said almost with genuine sympathy, and I rebooked for June.",
+          "emotion": "disappointment",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p11e08-f",
+              "type": "factual",
+              "query": "Which maneuver failed my driving test?"
+            },
+            {
+              "id": "p11e08-x",
+              "type": "reflective_explicit",
+              "query": "I still feel the sting of disappointment from that failed test."
+            },
+            {
+              "id": "p11e08-i",
+              "type": "reflective_implicit",
+              "query": "One orange marker at the finish undid a whole smooth attempt, and it nags me in queues."
+            }
+          ]
+        },
+        {
+          "id": "p11e09",
+          "session": 9,
+          "date_time": "2025-05-17T19:40:00",
+          "text": "Team offsite: escape room where I found the magnet key everyone walked past, then barbecue where the CTO grilled and undercooked with total confidence.",
+          "emotion": "amusement",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p11e09-f",
+              "type": "factual",
+              "query": "What did I find in the escape room that everyone missed?"
+            },
+            {
+              "id": "p11e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel cheerful belonging remembering that team offsite."
+            },
+            {
+              "id": "p11e09-i",
+              "type": "reflective_implicit",
+              "query": "Being the one who noticed what the rest overlooked comes back to me in meetings."
+            }
+          ]
+        },
+        {
+          "id": "p11e10",
+          "session": 10,
+          "date_time": "2025-05-27T21:10:00",
+          "text": "Prepped my probation review portfolio: twelve merged PRs, the incident postmortem with my remediation items all closed, and a one-pager on the rate limiter.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p11e10-f",
+              "type": "factual",
+              "query": "How many merged PRs went into my probation portfolio?"
+            },
+            {
+              "id": "p11e10-x",
+              "type": "reflective_explicit",
+              "query": "I feel composed thinking of assembling that review folder."
+            },
+            {
+              "id": "p11e10-i",
+              "type": "reflective_implicit",
+              "query": "Laying out months of my work on one desk to be judged floats back before evaluations."
+            }
+          ]
+        },
+        {
+          "id": "p11e11",
+          "session": 11,
+          "date_time": "2025-06-06T18:30:00",
+          "text": "Passed probation. My manager said the incident response impressed them more than the feature, handed me a permanent badge, and the team stuck a bow on my monitor.",
+          "emotion": "elation",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p11e11-f",
+              "type": "factual",
+              "query": "What did the team stick on my monitor after I passed probation?"
+            },
+            {
+              "id": "p11e11-x",
+              "type": "reflective_explicit",
+              "query": "I feel elated relief every time that probation result comes to mind."
+            },
+            {
+              "id": "p11e11-i",
+              "type": "reflective_implicit",
+              "query": "The day my desk stopped being borrowed territory keeps glowing in me."
+            }
+          ]
+        },
+        {
+          "id": "p11e12",
+          "session": 12,
+          "date_time": "2025-06-16T20:20:00",
+          "text": "Clementine unfurled a new leaf, the first since the rot, with two proper holes in it. I photographed it from six angles like a proud relative at a graduation.",
+          "emotion": "joy",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p11e12-f",
+              "type": "factual",
+              "query": "How many holes did Clementine's new leaf have?"
+            },
+            {
+              "id": "p11e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel disproportionate joy recalling that new leaf appearing."
+            },
+            {
+              "id": "p11e12-i",
+              "type": "reflective_implicit",
+              "query": "Green proof that the patient pulled through keeps brightening my mornings."
+            }
+          ]
+        },
+        {
+          "id": "p11e13",
+          "session": 13,
+          "date_time": "2025-06-24T19:00:00",
+          "text": "Passed the driving retest, parallel park included, cone untouched. Drove Mom around the block exactly once with both hands at ten and two while she applauded.",
+          "emotion": "triumph",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p11e13-f",
+              "type": "factual",
+              "query": "Who did I drive around the block after passing the retest?"
+            },
+            {
+              "id": "p11e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel victorious remembering the retest and that lap with Mom."
+            },
+            {
+              "id": "p11e13-i",
+              "type": "reflective_implicit",
+              "query": "The marker that stayed upright this time keeps replaying like a highlight reel."
+            }
+          ]
+        },
+        {
+          "id": "p11e14",
+          "session": 14,
+          "date_time": "2025-06-28T21:30:00",
+          "text": "Meal-prepped for the week, dusted every leaf in the apartment jungle, and set up autopay for the new car insurance. Extremely licensed behavior.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p11e14-f",
+              "type": "factual",
+              "query": "What did I set up autopay for?"
+            },
+            {
+              "id": "p11e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel settled calm thinking of that Sunday of small upgrades."
+            },
+            {
+              "id": "p11e14-i",
+              "type": "reflective_implicit",
+              "query": "A quiet weekend of grown-up housekeeping drifts through my mind at month's start."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "persona_id": "p12",
+      "name": "Leo",
+      "age": 21,
+      "context": "barback and bassist; threads: band's first EP, saving for a proper bass, sister moving abroad",
+      "episodes": [
+        {
+          "id": "p12e01",
+          "session": 1,
+          "date_time": "2025-03-06T23:30:00",
+          "text": "Band practice in Juho's garage: nailed the bridge of the new song after twenty takes, and decided the EP will have four tracks, not five, after a democratic shouting match.",
+          "emotion": "satisfaction",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e01-f",
+              "type": "factual",
+              "query": "How many tracks did the band decide the EP would have?"
+            },
+            {
+              "id": "p12e01-x",
+              "type": "reflective_explicit",
+              "query": "I feel satisfied energy thinking of that garage practice."
+            },
+            {
+              "id": "p12e01-i",
+              "type": "reflective_implicit",
+              "query": "All those tries until the middle section clicked — that night keeps grooving in my head."
+            }
+          ]
+        },
+        {
+          "id": "p12e02",
+          "session": 2,
+          "date_time": "2025-03-15T22:00:00",
+          "text": "Closing at the bar: restocked the coolers, polished two racks of glasses, and mopped to the playlist I'm not allowed to control on weekends.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "neutral",
+          "probes": [
+            {
+              "id": "p12e02-f",
+              "type": "factual",
+              "query": "What am I not allowed to control at the bar on weekends?"
+            },
+            {
+              "id": "p12e02-x",
+              "type": "reflective_explicit",
+              "query": "I feel neutral, almost meditative, recalling those closing routines."
+            },
+            {
+              "id": "p12e02-i",
+              "type": "reflective_implicit",
+              "query": "The shine of stacked glassware at the end of a shift drifts back to me."
+            }
+          ]
+        },
+        {
+          "id": "p12e03",
+          "session": 3,
+          "date_time": "2025-03-24T21:15:00",
+          "text": "Sohee got the Berlin research fellowship. Two years. She told me over tteokbokki and I said all the right congratulations while something in me quietly sat down on the floor.",
+          "emotion": "grief",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p12e03-f",
+              "type": "factual",
+              "query": "Which city is Sohee's fellowship in?"
+            },
+            {
+              "id": "p12e03-x",
+              "type": "reflective_explicit",
+              "query": "I feel that quiet sadness again remembering when my sister shared her news."
+            },
+            {
+              "id": "p12e03-i",
+              "type": "reflective_implicit",
+              "query": "Saying the proper words at dinner while the rest of me crumpled somewhere unseen — it returns often."
+            }
+          ]
+        },
+        {
+          "id": "p12e04",
+          "session": 4,
+          "date_time": "2025-04-02T20:30:00",
+          "text": "Savings check-in: bass fund at sixty percent after two extra shifts. Taped a photo of the sunburst model inside my locker like motivation contraband.",
+          "emotion": "hope",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e04-f",
+              "type": "factual",
+              "query": "What percentage did the bass fund reach at the check-in?"
+            },
+            {
+              "id": "p12e04-x",
+              "type": "reflective_explicit",
+              "query": "I feel hopeful drive thinking of that savings milestone."
+            },
+            {
+              "id": "p12e04-i",
+              "type": "reflective_implicit",
+              "query": "The picture I hid where only I would see it, of the thing I'm working for, keeps me going."
+            }
+          ]
+        },
+        {
+          "id": "p12e05",
+          "session": 5,
+          "date_time": "2025-04-11T23:45:00",
+          "text": "Recorded bass tracks for two EP songs at the studio Juho's uncle lent us. My fingertips split on the last take but the engineer said keep it, the grit fits.",
+          "emotion": "exhilaration",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e05-f",
+              "type": "factual",
+              "query": "What did the engineer say about my last bass take?"
+            },
+            {
+              "id": "p12e05-x",
+              "type": "reflective_explicit",
+              "query": "I feel wired excitement remembering that recording session."
+            },
+            {
+              "id": "p12e05-i",
+              "type": "reflective_implicit",
+              "query": "Blood on the strings and a red light overhead — that session keeps pulsing in me."
+            }
+          ]
+        },
+        {
+          "id": "p12e06",
+          "session": 6,
+          "date_time": "2025-04-20T19:20:00",
+          "text": "Helped Sohee sort her apartment: three donate boxes, one ship box, and a keep pile that is mostly books she swears she'll reread. We found our childhood walkie-talkies.",
+          "emotion": "bittersweet",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p12e06-f",
+              "type": "factual",
+              "query": "What childhood item did Sohee and I find while sorting?"
+            },
+            {
+              "id": "p12e06-x",
+              "type": "reflective_explicit",
+              "query": "I feel bittersweet heaviness recalling that packing day with her."
+            },
+            {
+              "id": "p12e06-i",
+              "type": "reflective_implicit",
+              "query": "Boxing up a life beside someone leaving soon — that day circles back to me."
+            }
+          ]
+        },
+        {
+          "id": "p12e07",
+          "session": 7,
+          "date_time": "2025-04-29T21:00:00",
+          "text": "Bar inventory night plus a delivery mix-up: forty crates of sparkling water nobody ordered. Manager and I built a fort out of them by the storeroom door as a statement.",
+          "emotion": "amusement",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e07-f",
+              "type": "factual",
+              "query": "What did the manager and I build out of the mistaken delivery?"
+            },
+            {
+              "id": "p12e07-x",
+              "type": "reflective_explicit",
+              "query": "I feel silly amusement thinking of that delivery mix-up night."
+            },
+            {
+              "id": "p12e07-i",
+              "type": "reflective_implicit",
+              "query": "A tower of boxes stacked into a joke drifts back to me during stocktakes."
+            }
+          ]
+        },
+        {
+          "id": "p12e08",
+          "session": 8,
+          "date_time": "2025-05-09T00:15:00",
+          "text": "EP release show at the basement venue. Sixty people, our banner crooked, and during the last chorus the whole room sang words I wrote at a bus stop. I forgot to breathe.",
+          "emotion": "euphoria",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e08-f",
+              "type": "factual",
+              "query": "Where did I write the words the crowd sang at the release show?"
+            },
+            {
+              "id": "p12e08-x",
+              "type": "reflective_explicit",
+              "query": "I feel euphoric chills every time that release show replays."
+            },
+            {
+              "id": "p12e08-i",
+              "type": "reflective_implicit",
+              "query": "An underground place full of voices carrying my lines back at me — it loops in my chest."
+            }
+          ]
+        },
+        {
+          "id": "p12e09",
+          "session": 9,
+          "date_time": "2025-05-18T20:40:00",
+          "text": "Laundry, bass restring, and a call with Grandpa who asked if the band plays anything a person could waltz to. Promised him a waltz on the next EP, witnessed by Mom.",
+          "emotion": "neutral",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e09-f",
+              "type": "factual",
+              "query": "What did Grandpa ask if the band could play?"
+            },
+            {
+              "id": "p12e09-x",
+              "type": "reflective_explicit",
+              "query": "I feel fond amusement recalling Grandpa's waltz request."
+            },
+            {
+              "id": "p12e09-i",
+              "type": "reflective_implicit",
+              "query": "A pledge given over the phone with an audience listening in comes back to me at practice."
+            }
+          ]
+        },
+        {
+          "id": "p12e10",
+          "session": 10,
+          "date_time": "2025-05-28T22:30:00",
+          "text": "The EP got reviewed by a webzine: three and a half stars, called the bass lines the spine of the record. Juho printed the paragraph and framed it above the garage amp.",
+          "emotion": "pride",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e10-f",
+              "type": "factual",
+              "query": "What did the webzine review call the bass lines?"
+            },
+            {
+              "id": "p12e10-x",
+              "type": "reflective_explicit",
+              "query": "I feel swelling pride remembering that review of our record."
+            },
+            {
+              "id": "p12e10-i",
+              "type": "reflective_implicit",
+              "query": "A stranger hearing exactly what I put underneath the songs stays lit in me."
+            }
+          ]
+        },
+        {
+          "id": "p12e11",
+          "session": 11,
+          "date_time": "2025-06-07T14:00:00",
+          "text": "Airport day. Sohee cried at security, I held it together until her gate disappeared from the board, then called Mom from the parking lot and lost it completely.",
+          "emotion": "grief",
+          "intensity_band": "high",
+          "valence": "negative",
+          "probes": [
+            {
+              "id": "p12e11-f",
+              "type": "factual",
+              "query": "Where was I when I finally broke down after Sohee left?"
+            },
+            {
+              "id": "p12e11-x",
+              "type": "reflective_explicit",
+              "query": "The grief of that airport goodbye still hits me in waves."
+            },
+            {
+              "id": "p12e11-i",
+              "type": "reflective_implicit",
+              "query": "The moment her flight vanished from the screen hollowed me out, and it revisits me."
+            }
+          ]
+        },
+        {
+          "id": "p12e12",
+          "session": 12,
+          "date_time": "2025-06-16T21:50:00",
+          "text": "First video call with Sohee from Berlin: her flat is a shoebox with good light, she found a Korean grocer two streets over, and the walkie-talkie sits on her bookshelf.",
+          "emotion": "tenderness",
+          "intensity_band": "mild",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e12-f",
+              "type": "factual",
+              "query": "What sits on Sohee's bookshelf in Berlin?"
+            },
+            {
+              "id": "p12e12-x",
+              "type": "reflective_explicit",
+              "query": "I feel warm relief recalling that first call from her new city."
+            },
+            {
+              "id": "p12e12-i",
+              "type": "reflective_implicit",
+              "query": "Seeing her settled in a small bright room far away eased something that stays eased."
+            }
+          ]
+        },
+        {
+          "id": "p12e13",
+          "session": 13,
+          "date_time": "2025-06-26T18:10:00",
+          "text": "Bass fund complete. Bought the sunburst model, second hand but mint, from a session player who threw in the hard case because, quote, it belongs with someone hungry.",
+          "emotion": "elation",
+          "intensity_band": "high",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e13-f",
+              "type": "factual",
+              "query": "What did the session player throw in with the bass?"
+            },
+            {
+              "id": "p12e13-x",
+              "type": "reflective_explicit",
+              "query": "I feel pure elation remembering the day I finally bought that bass."
+            },
+            {
+              "id": "p12e13-i",
+              "type": "reflective_implicit",
+              "query": "Months of extra hours turning into an instrument in my arms keeps resonating."
+            }
+          ]
+        },
+        {
+          "id": "p12e14",
+          "session": 14,
+          "date_time": "2025-06-29T22:20:00",
+          "text": "Quiet shift, early close. Wiped down the taps, cashed out, and practiced walking bass lines in the empty bar with the amp at one, for Grandpa's waltz.",
+          "emotion": "contentment",
+          "intensity_band": "low",
+          "valence": "positive",
+          "probes": [
+            {
+              "id": "p12e14-f",
+              "type": "factual",
+              "query": "What was I practicing in the empty bar after early close?"
+            },
+            {
+              "id": "p12e14-x",
+              "type": "reflective_explicit",
+              "query": "I feel gentle contentment thinking of practicing alone in the closed bar."
+            },
+            {
+              "id": "p12e14-i",
+              "type": "reflective_implicit",
+              "query": "Low notes for an old man's request filling the hushed room after closing drift back to me."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "persona_id": "p10",
+  "name": "Dane",
+  "age": 33,
+  "context": "carpenter; threads: workshop commissions, lake cabin restoration, reunion with an old friend",
+  "episodes": [
+    {
+      "id": "p10e01", "session": 1, "date_time": "2025-03-02T18:30:00",
+      "text": "Milled the walnut boards for the dining table commission and stickered them to dry. Swept the shop, oiled the jointer, and lined up cuts for the weekend.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p10e01-f", "type": "factual", "query": "Which wood did I mill for the dining table commission?"},
+        {"id": "p10e01-x", "type": "reflective_explicit", "query": "I feel workmanlike calm thinking of that prep day in the shop."},
+        {"id": "p10e01-i", "type": "reflective_implicit", "query": "Stacked lumber waiting patiently under the window drifts back to me."}
+      ]
+    },
+    {
+      "id": "p10e02", "session": 2, "date_time": "2025-03-11T20:15:00",
+      "text": "Marco messaged out of nowhere after nine years: found my workshop page, said the tool cabinet I built in trade school is still in his garage. We talked until my phone died.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p10e02-f", "type": "factual", "query": "What did Marco say is still in his garage?"},
+        {"id": "p10e02-x", "type": "reflective_explicit", "query": "I feel a rush of happiness remembering Marco reaching out again."},
+        {"id": "p10e02-i", "type": "reflective_implicit", "query": "Years of silence ended by a single ping, and the glow of it keeps returning."}
+      ]
+    },
+    {
+      "id": "p10e03", "session": 3, "date_time": "2025-03-20T19:40:00",
+      "text": "First trip of the year to the lake cabin. The roof held through winter but the porch boards went spongy; measured everything and budgeted the lumber on the drive home.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p10e03-f", "type": "factual", "query": "What went spongy at the cabin over winter?"},
+        {"id": "p10e03-x", "type": "reflective_explicit", "query": "I feel practical calm recalling that first cabin inspection."},
+        {"id": "p10e03-i", "type": "reflective_implicit", "query": "Walking the old place after the cold months, notebook in hand, comes back to me."}
+      ]
+    },
+    {
+      "id": "p10e04", "session": 4, "date_time": "2025-03-30T21:00:00",
+      "text": "Client rejected the finished bookcase over a stain shade she approved in writing. Held my tongue, photographed everything, and quoted the refinish at full rate.",
+      "emotion": "anger", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p10e04-f", "type": "factual", "query": "What did the client reject the bookcase over?"},
+        {"id": "p10e04-x", "type": "reflective_explicit", "query": "I still feel that flare of anger about the bookcase dispute."},
+        {"id": "p10e04-i", "type": "reflective_implicit", "query": "Swallowing my first reply and reaching for the camera instead — that moment revisits me."}
+      ]
+    },
+    {
+      "id": "p10e05", "session": 5, "date_time": "2025-04-08T17:20:00",
+      "text": "Restocked screws and glue, replaced two sawblades, and finally labeled the hardware drawers after three years of educated guessing.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p10e05-f", "type": "factual", "query": "What did I finally label after three years?"},
+        {"id": "p10e05-x", "type": "reflective_explicit", "query": "I feel mild satisfaction thinking of that supply-run afternoon."},
+        {"id": "p10e05-i", "type": "reflective_implicit", "query": "Order imposed at last on years of rummaging drifts back to me mid-project."}
+      ]
+    },
+    {
+      "id": "p10e06", "session": 6, "date_time": "2025-04-19T22:10:00",
+      "text": "Ripped a board without the guard like an idiot in a hurry and took a kickback bruise across the forearm. Nothing broken, everything humbling. Sat outside for a long while after.",
+      "emotion": "fear", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p10e06-f", "type": "factual", "query": "Where did the kickback bruise land?"},
+        {"id": "p10e06-x", "type": "reflective_explicit", "query": "I still feel the scare of that kickback whenever the saw spins up."},
+        {"id": "p10e06-i", "type": "reflective_implicit", "query": "The half-second the machine reminded me who's boss replays before every cut."}
+      ]
+    },
+    {
+      "id": "p10e07", "session": 7, "date_time": "2025-04-27T19:50:00",
+      "text": "Delivered the walnut table. The couple's kid immediately claimed the underside as a cave, and they sent a photo an hour later of dinner set for four on it.",
+      "emotion": "pride", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p10e07-f", "type": "factual", "query": "What did the couple's kid claim the table's underside as?"},
+        {"id": "p10e07-x", "type": "reflective_explicit", "query": "I feel deep pride remembering the table delivery day."},
+        {"id": "p10e07-i", "type": "reflective_implicit", "query": "Something I built becoming the middle of a family's evening stays warm in me."}
+      ]
+    },
+    {
+      "id": "p10e08", "session": 8, "date_time": "2025-05-06T20:30:00",
+      "text": "Marco drove down for the weekend. We rebuilt the cabin porch in two days, argued about joinery like no time had passed, and burned the old boards in a lakeside fire.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p10e08-f", "type": "factual", "query": "What did Marco and I burn in the lakeside fire?"},
+        {"id": "p10e08-x", "type": "reflective_explicit", "query": "I feel full-hearted happiness recalling that porch weekend with Marco."},
+        {"id": "p10e08-i", "type": "reflective_implicit", "query": "Two days of hammering beside an old companion, flames by the water after — it returns often."}
+      ]
+    },
+    {
+      "id": "p10e09", "session": 9, "date_time": "2025-05-15T18:00:00",
+      "text": "Quoted three new commissions: a crib, a bench, and a standing desk. Turned down a fourth asking for next-week delivery, politely, then less politely when he called twice.",
+      "emotion": "mild annoyance", "intensity_band": "low", "valence": "negative",
+      "probes": [
+        {"id": "p10e09-f", "type": "factual", "query": "Which three commissions did I quote that day?"},
+        {"id": "p10e09-x", "type": "reflective_explicit", "query": "I feel lightly irritated recalling that pushy delivery request."},
+        {"id": "p10e09-i", "type": "reflective_implicit", "query": "Saying no twice to the same voice on the phone crosses my mind when I schedule."}
+      ]
+    },
+    {
+      "id": "p10e10", "session": 10, "date_time": "2025-05-24T21:20:00",
+      "text": "Dad's old hand plane, seized since he passed, finally freed up after a week in penetrating oil. Flattened a scrap of pine with it and kept the shaving curl on the windowsill.",
+      "emotion": "grief", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p10e10-f", "type": "factual", "query": "What did I keep on the windowsill after using Dad's plane?"},
+        {"id": "p10e10-x", "type": "reflective_explicit", "query": "Grief and love mix in me whenever that afternoon with Dad's plane returns."},
+        {"id": "p10e10-i", "type": "reflective_implicit", "query": "A tool that remembered his grip waking up in mine — that hour stays lodged deep."}
+      ]
+    },
+    {
+      "id": "p10e11", "session": 11, "date_time": "2025-06-03T19:10:00",
+      "text": "Invoice day: three payments chased, quarterly tax folder sorted, and the van's oil changed. Rewarded myself with dumplings from the corner place.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p10e11-f", "type": "factual", "query": "What did I reward myself with after invoice day?"},
+        {"id": "p10e11-x", "type": "reflective_explicit", "query": "I feel dutiful calm thinking of that paperwork day."},
+        {"id": "p10e11-i", "type": "reflective_implicit", "query": "A day of spreadsheets instead of sawdust drifts back when the paperwork season rolls around."}
+      ]
+    },
+    {
+      "id": "p10e12", "session": 12, "date_time": "2025-06-14T20:45:00",
+      "text": "Finished the crib, sanded to four hundred grit, every edge rounded twice. The expecting parents teared up at pickup and I pretended the dust extractor needed adjusting.",
+      "emotion": "tenderness", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p10e12-f", "type": "factual", "query": "What grit did I sand the crib to?"},
+        {"id": "p10e12-x", "type": "reflective_explicit", "query": "I feel moved remembering the parents picking up that crib."},
+        {"id": "p10e12-i", "type": "reflective_implicit", "query": "Handing over something made for a person who hasn't arrived yet stays with me."}
+      ]
+    },
+    {
+      "id": "p10e13", "session": 13, "date_time": "2025-06-25T18:30:00",
+      "text": "Cabin weekend: hung the new screen door, planted mint by the steps in Mom's old kettle, and watched a heron work the shallows until dusk.",
+      "emotion": "contentment", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p10e13-f", "type": "factual", "query": "What did I plant mint in by the cabin steps?"},
+        {"id": "p10e13-x", "type": "reflective_explicit", "query": "I feel deep peace recalling that evening at the lake."},
+        {"id": "p10e13-i", "type": "reflective_implicit", "query": "A tall bird fishing in the last light while I sat still — it keeps coming back."}
+      ]
+    },
+    {
+      "id": "p10e14", "session": 14, "date_time": "2025-06-29T17:00:00",
+      "text": "Shop reset for the bench build: sharpened chisels, dressed the grinder wheel, and drew the joinery full-scale on plywood. Cut list taped where the coffee can't reach it.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p10e14-f", "type": "factual", "query": "Where did I tape the cut list for the bench build?"},
+        {"id": "p10e14-x", "type": "reflective_explicit", "query": "I feel ready and calm thinking of that shop reset."},
+        {"id": "p10e14-i", "type": "reflective_implicit", "query": "The unhurried ritual before fresh work starts hums in my head on every eve of making."}
+      ]
+    }
+  ]
+}

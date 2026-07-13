@@ -1,0 +1,148 @@
+{
+  "persona_id": "p11",
+  "name": "Noor",
+  "age": 24,
+  "context": "junior backend developer, first job; threads: probation review, houseplant collection, driving test",
+  "episodes": [
+    {
+      "id": "p11e01", "session": 1, "date_time": "2025-03-05T21:00:00",
+      "text": "Onboarding week done: laptop configured, repos cloned, and my first ticket merged, a one-line logging fix that I screenshotted like a diploma.",
+      "emotion": "hope", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p11e01-f", "type": "factual", "query": "What was my first merged ticket at the new job?"},
+        {"id": "p11e01-x", "type": "reflective_explicit", "query": "I feel bright hope thinking of that first merged change."},
+        {"id": "p11e01-i", "type": "reflective_implicit", "query": "One tiny contribution with my name on it, saved like a trophy, resurfaces when I doubt myself."}
+      ]
+    },
+    {
+      "id": "p11e02", "session": 2, "date_time": "2025-03-14T19:30:00",
+      "text": "Bought a monstera from the flower market and named her Clementine. Repotted her on newspaper on the kitchen floor, roots like pale noodles, dirt absolutely everywhere.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "positive",
+      "probes": [
+        {"id": "p11e02-f", "type": "factual", "query": "What did I name the monstera from the flower market?"},
+        {"id": "p11e02-x", "type": "reflective_explicit", "query": "I feel cozy contentment recalling that repotting mess."},
+        {"id": "p11e02-i", "type": "reflective_implicit", "query": "Soil under my nails and a new green housemate — that afternoon drifts back to me."}
+      ]
+    },
+    {
+      "id": "p11e03", "session": 3, "date_time": "2025-03-23T22:40:00",
+      "text": "Deployed a migration that locked the users table for eleven minutes in production. Senior devs were kind, the postmortem was kind, and I still rewrote my apology four times.",
+      "emotion": "shame", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p11e03-f", "type": "factual", "query": "How long did my migration lock the users table?"},
+        {"id": "p11e03-x", "type": "reflective_explicit", "query": "I still burn with embarrassment remembering that production incident."},
+        {"id": "p11e03-i", "type": "reflective_implicit", "query": "The damage I caused and couldn't undo keeps replaying every release I push out."}
+      ]
+    },
+    {
+      "id": "p11e04", "session": 4, "date_time": "2025-04-01T20:15:00",
+      "text": "First driving lesson. Stalled twice at the same intersection, and the instructor said my mirror checks were textbook, which I am choosing to make my whole identity.",
+      "emotion": "nervousness", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p11e04-f", "type": "factual", "query": "What did the driving instructor call textbook?"},
+        {"id": "p11e04-x", "type": "reflective_explicit", "query": "I feel jittery but proud remembering that first lesson behind the wheel."},
+        {"id": "p11e04-i", "type": "reflective_implicit", "query": "The engine dying twice at one crossing stays with me every time I buckle in."}
+      ]
+    },
+    {
+      "id": "p11e05", "session": 5, "date_time": "2025-04-10T21:45:00",
+      "text": "Weekly chores plus a fridge purge of three science experiments formerly known as leftovers. Watered all nine plants and rotated Clementine a quarter turn toward the light.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p11e05-f", "type": "factual", "query": "How many plants did I water on chore night?"},
+        {"id": "p11e05-x", "type": "reflective_explicit", "query": "I feel tidy calm thinking of that chore evening."},
+        {"id": "p11e05-i", "type": "reflective_implicit", "query": "The small ceremony of turning each pot toward the window comes back to me."}
+      ]
+    },
+    {
+      "id": "p11e06", "session": 6, "date_time": "2025-04-19T18:50:00",
+      "text": "Shipped the rate-limiter feature I owned end to end. Code review had one comment: nice. I walked home the long way and bought a pastry shaped like a fish.",
+      "emotion": "pride", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p11e06-f", "type": "factual", "query": "What shape was the pastry I bought after shipping the feature?"},
+        {"id": "p11e06-x", "type": "reflective_explicit", "query": "I feel glowing pride recalling the day my feature shipped."},
+        {"id": "p11e06-i", "type": "reflective_implicit", "query": "Something I built alone running out there for everyone keeps straightening my back."}
+      ]
+    },
+    {
+      "id": "p11e07", "session": 7, "date_time": "2025-04-28T23:20:00",
+      "text": "Clementine has root rot. Emergency surgery on the balcony at ten at night: trimmed the mush, repotted into dry mix, and lit a candle for her like a maniac.",
+      "emotion": "worry", "intensity_band": "mild", "valence": "negative",
+      "probes": [
+        {"id": "p11e07-f", "type": "factual", "query": "What did Clementine come down with?"},
+        {"id": "p11e07-x", "type": "reflective_explicit", "query": "I feel anxious fondness remembering that midnight plant surgery."},
+        {"id": "p11e07-i", "type": "reflective_implicit", "query": "Kneeling over a sick green thing under a tiny flame drifts back whenever leaves droop."}
+      ]
+    },
+    {
+      "id": "p11e08", "session": 8, "date_time": "2025-05-08T20:00:00",
+      "text": "Failed the driving test: reverse parallel park, clipped the cone at the very end of an otherwise clean run. The examiner said almost with genuine sympathy, and I rebooked for June.",
+      "emotion": "disappointment", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p11e08-f", "type": "factual", "query": "Which maneuver failed my driving test?"},
+        {"id": "p11e08-x", "type": "reflective_explicit", "query": "I still feel the sting of disappointment from that failed test."},
+        {"id": "p11e08-i", "type": "reflective_implicit", "query": "One orange marker at the finish undid a whole smooth attempt, and it nags me in queues."}
+      ]
+    },
+    {
+      "id": "p11e09", "session": 9, "date_time": "2025-05-17T19:40:00",
+      "text": "Team offsite: escape room where I found the magnet key everyone walked past, then barbecue where the CTO grilled and undercooked with total confidence.",
+      "emotion": "amusement", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p11e09-f", "type": "factual", "query": "What did I find in the escape room that everyone missed?"},
+        {"id": "p11e09-x", "type": "reflective_explicit", "query": "I feel cheerful belonging remembering that team offsite."},
+        {"id": "p11e09-i", "type": "reflective_implicit", "query": "Being the one who noticed what the rest overlooked comes back to me in meetings."}
+      ]
+    },
+    {
+      "id": "p11e10", "session": 10, "date_time": "2025-05-27T21:10:00",
+      "text": "Prepped my probation review portfolio: twelve merged PRs, the incident postmortem with my remediation items all closed, and a one-pager on the rate limiter.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p11e10-f", "type": "factual", "query": "How many merged PRs went into my probation portfolio?"},
+        {"id": "p11e10-x", "type": "reflective_explicit", "query": "I feel composed thinking of assembling that review folder."},
+        {"id": "p11e10-i", "type": "reflective_implicit", "query": "Laying out months of my work on one desk to be judged floats back before evaluations."}
+      ]
+    },
+    {
+      "id": "p11e11", "session": 11, "date_time": "2025-06-06T18:30:00",
+      "text": "Passed probation. My manager said the incident response impressed them more than the feature, handed me a permanent badge, and the team stuck a bow on my monitor.",
+      "emotion": "elation", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p11e11-f", "type": "factual", "query": "What did the team stick on my monitor after I passed probation?"},
+        {"id": "p11e11-x", "type": "reflective_explicit", "query": "I feel elated relief every time that probation result comes to mind."},
+        {"id": "p11e11-i", "type": "reflective_implicit", "query": "The day my desk stopped being borrowed territory keeps glowing in me."}
+      ]
+    },
+    {
+      "id": "p11e12", "session": 12, "date_time": "2025-06-16T20:20:00",
+      "text": "Clementine unfurled a new leaf, the first since the rot, with two proper holes in it. I photographed it from six angles like a proud relative at a graduation.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p11e12-f", "type": "factual", "query": "How many holes did Clementine's new leaf have?"},
+        {"id": "p11e12-x", "type": "reflective_explicit", "query": "I feel disproportionate joy recalling that new leaf appearing."},
+        {"id": "p11e12-i", "type": "reflective_implicit", "query": "Green proof that the patient pulled through keeps brightening my mornings."}
+      ]
+    },
+    {
+      "id": "p11e13", "session": 13, "date_time": "2025-06-24T19:00:00",
+      "text": "Passed the driving retest, parallel park included, cone untouched. Drove Mom around the block exactly once with both hands at ten and two while she applauded.",
+      "emotion": "triumph", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p11e13-f", "type": "factual", "query": "Who did I drive around the block after passing the retest?"},
+        {"id": "p11e13-x", "type": "reflective_explicit", "query": "I feel victorious remembering the retest and that lap with Mom."},
+        {"id": "p11e13-i", "type": "reflective_implicit", "query": "The marker that stayed upright this time keeps replaying like a highlight reel."}
+      ]
+    },
+    {
+      "id": "p11e14", "session": 14, "date_time": "2025-06-28T21:30:00",
+      "text": "Meal-prepped for the week, dusted every leaf in the apartment jungle, and set up autopay for the new car insurance. Extremely licensed behavior.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p11e14-f", "type": "factual", "query": "What did I set up autopay for?"},
+        {"id": "p11e14-x", "type": "reflective_explicit", "query": "I feel settled calm thinking of that Sunday of small upgrades."},
+        {"id": "p11e14-i", "type": "reflective_implicit", "query": "A quiet weekend of grown-up housekeeping drifts through my mind at month's start."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use EpiRec, please cite it as below."
+title: "EpiRec: Episodic Recall — A Benchmark for Emotional Resurfacing and Factual Lookup in Memory-Augmented Agents"
+version: "1.0"
+date-released: 2026-07-13
+repository-code: "https://github.com/sukoji/epirec"
+license: CC-BY-4.0
+type: dataset
+authors:
+  - family-names: Jin
+    given-names: Seokho
+abstract: >
+  A synthetic, pre-registered, mechanically-validated benchmark for episodic-memory
+  retrieval in journaling agents: 12 personas, 168 timestamped first-person episodes
+  with authored emotional-intensity and valence labels, and 504 probes split into
+  factual, reflective-explicit, and reflective-implicit types. Generated with
+  Claude (Anthropic).

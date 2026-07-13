@@ -1,0 +1,148 @@
+{
+  "persona_id": "p08",
+  "name": "Omar",
+  "age": 29,
+  "context": "barista and aspiring novelist; threads: first novel draft, open-mic readings, apartment lease trouble",
+  "episodes": [
+    {
+      "id": "p08e01", "session": 1, "date_time": "2025-03-03T23:10:00",
+      "text": "Hit thirty thousand words on the novel draft. Celebrated by rearranging the plot wall: forty index cards, three colors of string, one detective who still has no motive.",
+      "emotion": "satisfaction", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p08e01-f", "type": "factual", "query": "How many index cards are on my plot wall?"},
+        {"id": "p08e01-x", "type": "reflective_explicit", "query": "I feel quietly proud thinking of crossing that word-count milestone."},
+        {"id": "p08e01-i", "type": "reflective_implicit", "query": "The web of notes and thread above my desk keeps pulling me back to the story."}
+      ]
+    },
+    {
+      "id": "p08e02", "session": 2, "date_time": "2025-03-12T22:30:00",
+      "text": "Read the harbor chapter at the bookshop open mic. My hands shook on the first page, but a woman in the back gasped at the twist and found me after to ask what happens next.",
+      "emotion": "exhilaration", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p08e02-f", "type": "factual", "query": "Which chapter did I read at the bookshop open mic?"},
+        {"id": "p08e02-x", "type": "reflective_explicit", "query": "I feel thrilled all over again remembering that first public reading."},
+        {"id": "p08e02-i", "type": "reflective_implicit", "query": "A stranger hungry for the rest of my story — that evening keeps humming under my ribs."}
+      ]
+    },
+    {
+      "id": "p08e03", "session": 3, "date_time": "2025-03-20T21:00:00",
+      "text": "Inventory night at the cafe: counted beans, cups, and forty-one oat milks, logged the espresso machine's service date, and cycled the pastry stock.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p08e03-f", "type": "factual", "query": "How many oat milks did I count at inventory night?"},
+        {"id": "p08e03-x", "type": "reflective_explicit", "query": "I feel neutral, vaguely soothed, recalling that stocktake shift."},
+        {"id": "p08e03-i", "type": "reflective_implicit", "query": "Tallying shelves in the closed shop after hours drifts back to me sometimes."}
+      ]
+    },
+    {
+      "id": "p08e04", "session": 4, "date_time": "2025-03-29T19:45:00",
+      "text": "Letter from the landlord: building sold, all leases under review, reply within thirty days. I read it three times on the stairwell before going inside.",
+      "emotion": "dread", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p08e04-f", "type": "factual", "query": "How many days did the landlord's letter give me to reply?"},
+        {"id": "p08e04-x", "type": "reflective_explicit", "query": "I still feel dread remembering the letter about the building sale."},
+        {"id": "p08e04-i", "type": "reflective_implicit", "query": "The page I couldn't bring past my own doormat sits heavy in my memory."}
+      ]
+    },
+    {
+      "id": "p08e05", "session": 5, "date_time": "2025-04-06T20:20:00",
+      "text": "Swapped my closing shifts with Renata for two weeks of mornings so I can write in the evenings. Updated the whiteboard schedule and bribed her with a cinnamon loaf.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p08e05-f", "type": "factual", "query": "What did I bribe Renata with for the shift swap?"},
+        {"id": "p08e05-x", "type": "reflective_explicit", "query": "I feel mildly pleased about engineering that schedule swap."},
+        {"id": "p08e05-i", "type": "reflective_implicit", "query": "Trading my hours around to protect the good ones comes back to mind each rota."}
+      ]
+    },
+    {
+      "id": "p08e06", "session": 6, "date_time": "2025-04-14T23:40:00",
+      "text": "Deleted eleven thousand words tonight. The whole middle section was a detour and I knew it for weeks. It felt like pulling a tooth with a novel attached.",
+      "emotion": "anguish", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p08e06-f", "type": "factual", "query": "How many words did I delete from the draft that night?"},
+        {"id": "p08e06-x", "type": "reflective_explicit", "query": "I feel the pain of cutting that whole section every time it comes up."},
+        {"id": "p08e06-i", "type": "reflective_implicit", "query": "The night I unmade weeks of my own sentences returns whenever I hesitate to revise."}
+      ]
+    },
+    {
+      "id": "p08e07", "session": 7, "date_time": "2025-04-22T18:15:00",
+      "text": "Tenant meeting in the laundry room, fourteen of us and a lawyer someone's cousin knows. We drafted a joint response to the new owner and a signup sheet for door duty.",
+      "emotion": "resolve", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p08e07-f", "type": "factual", "query": "Where did the tenant meeting take place?"},
+        {"id": "p08e07-x", "type": "reflective_explicit", "query": "I feel a determined solidarity recalling that tenants' meeting."},
+        {"id": "p08e07-i", "type": "reflective_implicit", "query": "Neighbors becoming a single voice between the washing machines stays with me."}
+      ]
+    },
+    {
+      "id": "p08e08", "session": 8, "date_time": "2025-05-01T22:50:00",
+      "text": "A literary agent who heard the open mic emailed asking for the first three chapters. I typed four drafts of a two-line reply and walked around the block twice before sending.",
+      "emotion": "elation", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p08e08-f", "type": "factual", "query": "How many chapters did the agent ask to see?"},
+        {"id": "p08e08-x", "type": "reflective_explicit", "query": "I feel electric excitement remembering the agent's email."},
+        {"id": "p08e08-i", "type": "reflective_implicit", "query": "One short message made me pace the street at midnight, and it still sparks in me."}
+      ]
+    },
+    {
+      "id": "p08e09", "session": 9, "date_time": "2025-05-09T21:05:00",
+      "text": "Descaled both espresso machines, retrained the new hire on milk texture, and fixed the wobbly table with a folded coaster, engineering at its finest.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p08e09-f", "type": "factual", "query": "How did I fix the wobbly table at the cafe?"},
+        {"id": "p08e09-x", "type": "reflective_explicit", "query": "I feel workmanlike calm thinking of that maintenance shift."},
+        {"id": "p08e09-i", "type": "reflective_implicit", "query": "Small fixes that keep a shop standing drift through my head on slow days."}
+      ]
+    },
+    {
+      "id": "p08e10", "session": 10, "date_time": "2025-05-18T20:35:00",
+      "text": "The agent passed. Kind words about the prose, the market is crowded, best of luck. I closed the laptop, made tea I didn't drink, and stared at the plot wall until midnight.",
+      "emotion": "despair", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p08e10-f", "type": "factual", "query": "What reason did the agent give for passing on the chapters?"},
+        {"id": "p08e10-x", "type": "reflective_explicit", "query": "The despair of that rejection email still washes over me sometimes."},
+        {"id": "p08e10-i", "type": "reflective_implicit", "query": "A cup going cold beside me in front of all my plans — that night resurfaces."}
+      ]
+    },
+    {
+      "id": "p08e11", "session": 11, "date_time": "2025-05-27T19:25:00",
+      "text": "New owner's management company accepted the tenants' counterproposal: two-year extensions at a capped increase. Renata high-fived me so hard my palm buzzed through the shift.",
+      "emotion": "triumph", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p08e11-f", "type": "factual", "query": "What terms did the management company accept from the tenants?"},
+        {"id": "p08e11-x", "type": "reflective_explicit", "query": "I feel a rush of victorious relief recalling the lease outcome."},
+        {"id": "p08e11-i", "type": "reflective_implicit", "query": "The day the building let us all breathe again keeps ringing in my hand."}
+      ]
+    },
+    {
+      "id": "p08e12", "session": 12, "date_time": "2025-06-08T21:15:00",
+      "text": "Back to the draft after three weeks away. Reread the harbor chapter aloud, liked more of it than I feared, and outlined the new middle on one page instead of forty cards.",
+      "emotion": "hope", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p08e12-f", "type": "factual", "query": "How did I outline the new middle section this time?"},
+        {"id": "p08e12-x", "type": "reflective_explicit", "query": "I feel cautious hope remembering my return to the manuscript."},
+        {"id": "p08e12-i", "type": "reflective_implicit", "query": "Picking the story back up and finding it still warm returns to me on tired evenings."}
+      ]
+    },
+    {
+      "id": "p08e13", "session": 13, "date_time": "2025-06-24T20:00:00",
+      "text": "Signed the two-year lease extension at the management office, then bought a secondhand bookshelf on the walk home because permanence deserves furniture.",
+      "emotion": "contentment", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p08e13-f", "type": "factual", "query": "What did I buy on the walk home after signing the lease?"},
+        {"id": "p08e13-x", "type": "reflective_explicit", "query": "I feel settled contentment recalling the day I signed the extension."},
+        {"id": "p08e13-i", "type": "reflective_implicit", "query": "Hauling something heavy up my own street since I get to stay — it lingers with me."}
+      ]
+    },
+    {
+      "id": "p08e14", "session": 14, "date_time": "2025-06-28T23:30:00",
+      "text": "Closing shift, then two pages of the new middle written at the corner table after lockup. The espresso machine ticked as it cooled, which is the shop's way of keeping me company.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p08e14-f", "type": "factual", "query": "How many pages did I write at the corner table after lockup?"},
+        {"id": "p08e14-x", "type": "reflective_explicit", "query": "I feel a calm focus thinking of writing in the closed shop that night."},
+        {"id": "p08e14-i", "type": "reflective_implicit", "query": "Words arriving after hours while the metal settled itself quiet — it drifts back to me."}
+      ]
+    }
+  ]
+}

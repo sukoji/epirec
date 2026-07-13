@@ -1,0 +1,68 @@
+{
+  "recency-only": {
+    "factual": {
+      "r3": 0.214,
+      "r1": 0.071,
+      "mrr": 0.232
+    },
+    "reflective_explicit": {
+      "r3": 0.214,
+      "r1": 0.071,
+      "mrr": 0.232
+    },
+    "reflective_implicit": {
+      "r3": 0.214,
+      "r1": 0.071,
+      "mrr": 0.232
+    },
+    "overall": {
+      "r3": 0.214,
+      "r1": 0.071,
+      "mrr": 0.232
+    }
+  },
+  "similarity (hashing)": {
+    "factual": {
+      "r3": 0.857,
+      "r1": 0.679,
+      "mrr": 0.783
+    },
+    "reflective_explicit": {
+      "r3": 0.488,
+      "r1": 0.238,
+      "mrr": 0.42
+    },
+    "reflective_implicit": {
+      "r3": 0.304,
+      "r1": 0.065,
+      "mrr": 0.258
+    },
+    "overall": {
+      "r3": 0.55,
+      "r1": 0.327,
+      "mrr": 0.487
+    }
+  },
+  "similarity (MiniLM)": {
+    "factual": {
+      "r3": 1.0,
+      "r1": 0.935,
+      "mrr": 0.965
+    },
+    "reflective_explicit": {
+      "r3": 0.875,
+      "r1": 0.655,
+      "mrr": 0.773
+    },
+    "reflective_implicit": {
+      "r3": 0.655,
+      "r1": 0.375,
+      "mrr": 0.552
+    },
+    "overall": {
+      "r3": 0.843,
+      "r1": 0.655,
+      "mrr": 0.763
+    }
+  }
+}

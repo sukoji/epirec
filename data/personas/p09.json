@@ -1,0 +1,148 @@
+{
+  "persona_id": "p09",
+  "name": "Iris",
+  "age": 16,
+  "context": "high-school swimmer; threads: relay team, falling-out with best friend, grandmother's recipes",
+  "episodes": [
+    {
+      "id": "p09e01", "session": 1, "date_time": "2025-03-04T18:45:00",
+      "text": "Season opener practice: six by two hundred freestyle, then relay exchanges until our timing stopped embarrassing coach. My shoulders ache in a way that means progress.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p09e01-f", "type": "factual", "query": "What freestyle set did we swim at the season opener practice?"},
+        {"id": "p09e01-x", "type": "reflective_explicit", "query": "I feel steady satisfaction thinking of that first hard practice."},
+        {"id": "p09e01-i", "type": "reflective_implicit", "query": "The good kind of tired from that first week in the pool comes back to me."}
+      ]
+    },
+    {
+      "id": "p09e02", "session": 2, "date_time": "2025-03-13T20:30:00",
+      "text": "Learned Grandma's doenjang stew properly at her place. She measures nothing, corrects everything, and made me stir until my wrist learned what enough means.",
+      "emotion": "tenderness", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p09e02-f", "type": "factual", "query": "Which stew did Grandma teach me at her place?"},
+        {"id": "p09e02-x", "type": "reflective_explicit", "query": "I feel warm affection remembering that cooking lesson with Grandma."},
+        {"id": "p09e02-i", "type": "reflective_implicit", "query": "An old kitchen where my hands were taught by someone else's patience returns to me."}
+      ]
+    },
+    {
+      "id": "p09e03", "session": 3, "date_time": "2025-03-22T21:15:00",
+      "text": "Suha told the whole group chat about the crush I confided only to her. Forty messages of teasing before dinner. I turned my phone face down and skipped dessert.",
+      "emotion": "betrayal", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p09e03-f", "type": "factual", "query": "What did Suha reveal to the group chat?"},
+        {"id": "p09e03-x", "type": "reflective_explicit", "query": "I still feel betrayed and hurt when I remember what Suha did."},
+        {"id": "p09e03-i", "type": "reflective_implicit", "query": "The buzzing screen I had to turn over that evening keeps buzzing somewhere in me."}
+      ]
+    },
+    {
+      "id": "p09e04", "session": 4, "date_time": "2025-03-31T19:00:00",
+      "text": "New swim caps and goggles arrived, team-navy with our names printed. Mine says IRSI. Coach says the typo builds character and refuses to reorder.",
+      "emotion": "amusement", "intensity_band": "low", "valence": "positive",
+      "probes": [
+        {"id": "p09e04-f", "type": "factual", "query": "What typo is printed on my new swim cap?"},
+        {"id": "p09e04-x", "type": "reflective_explicit", "query": "I feel giggly amusement thinking of the misprinted gear."},
+        {"id": "p09e04-i", "type": "reflective_implicit", "query": "Four wrong letters that became my nickname drift back and make the lane lighter."}
+      ]
+    },
+    {
+      "id": "p09e05", "session": 5, "date_time": "2025-04-09T20:50:00",
+      "text": "Sat alone at lunch for the second week. Suha's table laughed at something and I convinced myself it wasn't about me for exactly four minutes.",
+      "emotion": "loneliness", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p09e05-f", "type": "factual", "query": "How long did I manage to believe the laughing wasn't about me?"},
+        {"id": "p09e05-x", "type": "reflective_explicit", "query": "The loneliness of those solo lunches still stings when it surfaces."},
+        {"id": "p09e05-i", "type": "reflective_implicit", "query": "A cafeteria that got very large around a seat for one comes back to me in crowds."}
+      ]
+    },
+    {
+      "id": "p09e06", "session": 6, "date_time": "2025-04-18T18:20:00",
+      "text": "Dropped one point eight seconds off my hundred free at time trials. Coach moved me to third leg of the relay, the comeback slot, and wrote my split on the whiteboard.",
+      "emotion": "triumph", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p09e06-f", "type": "factual", "query": "How much time did I drop off my hundred free at trials?"},
+        {"id": "p09e06-x", "type": "reflective_explicit", "query": "I feel fierce pride remembering that time-trial swim."},
+        {"id": "p09e06-i", "type": "reflective_implicit", "query": "My number going up on the board for everyone to chase — it resurfaces before every race."}
+      ]
+    },
+    {
+      "id": "p09e07", "session": 7, "date_time": "2025-04-27T17:40:00",
+      "text": "Batch-cooked Grandma's stew for the family, first solo attempt. Dad had seconds; Grandma, over video, judged the color through the screen and allowed a seven out of ten.",
+      "emotion": "satisfaction", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p09e07-f", "type": "factual", "query": "What score did Grandma give my first solo stew?"},
+        {"id": "p09e07-x", "type": "reflective_explicit", "query": "I feel proud warmth recalling my first solo attempt at her dish."},
+        {"id": "p09e07-i", "type": "reflective_implicit", "query": "Serving my people something inherited, shaped by my own hands — it stays glowing in me."}
+      ]
+    },
+    {
+      "id": "p09e08", "session": 8, "date_time": "2025-05-06T21:30:00",
+      "text": "Homework night: physics problem set, vocabulary flashcards, and a worksheet on the French Revolution. Rewarded myself with one episode and actually stopped at one.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p09e08-f", "type": "factual", "query": "What historical topic was my worksheet about that night?"},
+        {"id": "p09e08-x", "type": "reflective_explicit", "query": "I feel disciplined calm thinking of that homework evening."},
+        {"id": "p09e08-i", "type": "reflective_implicit", "query": "A study evening where I honored my own promise floats back when I procrastinate."}
+      ]
+    },
+    {
+      "id": "p09e09", "session": 9, "date_time": "2025-05-16T22:00:00",
+      "text": "Suha waited by my locker with a handwritten letter and red eyes. We talked through two class periods in the stairwell. Not fixed, but the door isn't locked anymore.",
+      "emotion": "cautious relief", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p09e09-f", "type": "factual", "query": "What was Suha holding when she waited by my locker?"},
+        {"id": "p09e09-x", "type": "reflective_explicit", "query": "I feel a fragile relief remembering that stairwell talk with Suha."},
+        {"id": "p09e09-i", "type": "reflective_implicit", "query": "Two bells rang past us on those steps, and that conversation keeps returning."}
+      ]
+    },
+    {
+      "id": "p09e10", "session": 10, "date_time": "2025-05-25T16:10:00",
+      "text": "Regionals. I dove in fourth and touched first on my leg; we took silver by a fingertip and screamed so loud the lifeguard whistled at us. The medal is on my desk lamp.",
+      "emotion": "elation", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p09e10-f", "type": "factual", "query": "Where do I keep the regionals silver medal?"},
+        {"id": "p09e10-x", "type": "reflective_explicit", "query": "I feel that burst of joy again whenever the relay final replays."},
+        {"id": "p09e10-i", "type": "reflective_implicit", "query": "Entering the water behind and coming up ahead — that stretch of seconds lives in me."}
+      ]
+    },
+    {
+      "id": "p09e11", "session": 11, "date_time": "2025-06-03T19:35:00",
+      "text": "Swapped my locker to the second floor, re-taped my class schedule inside the door, and finally returned the library's poetry anthology, nine days overdue.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p09e11-f", "type": "factual", "query": "How many days overdue was the poetry anthology I returned?"},
+        {"id": "p09e11-x", "type": "reflective_explicit", "query": "I feel tidy and calm recalling that reorganizing day."},
+        {"id": "p09e11-i", "type": "reflective_implicit", "query": "Little moves and handed-back borrowings drift through my mind between terms."}
+      ]
+    },
+    {
+      "id": "p09e12", "session": 12, "date_time": "2025-06-13T20:25:00",
+      "text": "Grandma gave me her handwritten recipe notebook to copy over the summer, the one with sauce stains older than me. She said recipes die in drawers and live in wrists.",
+      "emotion": "tenderness", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p09e12-f", "type": "factual", "query": "What did Grandma say recipes die in and live in?"},
+        {"id": "p09e12-x", "type": "reflective_explicit", "query": "I feel moved and honored remembering her handing me that notebook."},
+        {"id": "p09e12-i", "type": "reflective_implicit", "query": "Pages marked by decades of dinners were placed in my care, and the weight stays."}
+      ]
+    },
+    {
+      "id": "p09e13", "session": 13, "date_time": "2025-06-26T18:50:00",
+      "text": "Summer training plan posted: three morning swims a week, two gym sessions, and a taper before August meets. Highlighted the rest days first, obviously.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p09e13-f", "type": "factual", "query": "What did I highlight first on the summer training plan?"},
+        {"id": "p09e13-x", "type": "reflective_explicit", "query": "I feel organized calm thinking about that posted schedule."},
+        {"id": "p09e13-i", "type": "reflective_implicit", "query": "Mapping the season ahead lane by lane floats into my head at night."}
+      ]
+    },
+    {
+      "id": "p09e14", "session": 13, "date_time": "2025-06-26T21:40:00",
+      "text": "Suha came over for the first time since March. We made the stew together from Grandma's notebook, argued about garlic amounts, and it tasted like before.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p09e14-f", "type": "factual", "query": "What did Suha and I argue about while cooking?"},
+        {"id": "p09e14-x", "type": "reflective_explicit", "query": "I feel healed happiness remembering cooking with Suha again."},
+        {"id": "p09e14-i", "type": "reflective_implicit", "query": "A familiar taste returning to my kitchen with a familiar person keeps warming me."}
+      ]
+    }
+  ]
+}

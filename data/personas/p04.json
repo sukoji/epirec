@@ -1,0 +1,148 @@
+{
+  "persona_id": "p04",
+  "name": "Theo",
+  "age": 31,
+  "context": "hospital nurse; threads: night shifts, balcony garden, younger brother's wedding",
+  "episodes": [
+    {
+      "id": "p04e01", "session": 1, "date_time": "2025-03-04T09:30:00",
+      "text": "Came off a stretch of three night shifts. Slept until two, then repotted the rosemary and swept the balcony while the kettle ran.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p04e01-f", "type": "factual", "query": "Which herb did I repot after the night shifts?"},
+        {"id": "p04e01-x", "type": "reflective_explicit", "query": "I feel calm remembering that slow recovery day after nights."},
+        {"id": "p04e01-i", "type": "reflective_implicit", "query": "Those daylight hours spent putting my small world in order come back to me."}
+      ]
+    },
+    {
+      "id": "p04e02", "session": 2, "date_time": "2025-03-12T08:50:00",
+      "text": "A patient I had looked after for six weeks was discharged today. Her daughter hugged me at the elevator and I kept my composure until they were out of sight.",
+      "emotion": "tenderness", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p04e02-f", "type": "factual", "query": "How long had I looked after the patient who was discharged?"},
+        {"id": "p04e02-x", "type": "reflective_explicit", "query": "I feel moved and proud whenever that discharge day comes to mind."},
+        {"id": "p04e02-i", "type": "reflective_implicit", "query": "A goodbye by the lift doors, held together until it was over, stays with me."}
+      ]
+    },
+    {
+      "id": "p04e03", "session": 3, "date_time": "2025-03-20T21:10:00",
+      "text": "My brother asked me to be his best man over grilled mackerel at our usual place. He rehearsed it like a speech and knocked over the soju pouring too fast.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p04e03-f", "type": "factual", "query": "What were we eating when my brother asked me to be best man?"},
+        {"id": "p04e03-x", "type": "reflective_explicit", "query": "I feel a rush of happiness remembering my brother's clumsy request."},
+        {"id": "p04e03-i", "type": "reflective_implicit", "query": "The question he practiced too hard to ask me keeps replaying warmly."}
+      ]
+    },
+    {
+      "id": "p04e04", "session": 4, "date_time": "2025-03-29T10:00:00",
+      "text": "Grocery run and pharmacy pickup, then batch-cooked curry for the freezer. Labeled four containers with dates like the ward taught me.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p04e04-f", "type": "factual", "query": "How many curry containers did I label for the freezer?"},
+        {"id": "p04e04-x", "type": "reflective_explicit", "query": "I feel settled thinking of that practical cooking day."},
+        {"id": "p04e04-i", "type": "reflective_implicit", "query": "Rows of neat meals waiting in the cold drift into my head on busy weeks."}
+      ]
+    },
+    {
+      "id": "p04e05", "session": 5, "date_time": "2025-04-06T07:40:00",
+      "text": "We lost a patient on the night shift despite forty minutes of resuscitation. I signed the paperwork, debriefed with the team, and cried in my car before driving home.",
+      "emotion": "grief", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p04e05-f", "type": "factual", "query": "How long did the resuscitation attempt last that night?"},
+        {"id": "p04e05-x", "type": "reflective_explicit", "query": "The grief of that night shift still surfaces when the ward goes quiet."},
+        {"id": "p04e05-i", "type": "reflective_implicit", "query": "What happened before I could leave the parking lot sits in my chest and returns in the small hours."}
+      ]
+    },
+    {
+      "id": "p04e06", "session": 6, "date_time": "2025-04-15T16:20:00",
+      "text": "The tomato seedlings sprouted, five of six pots. Moved them to the sunny rail and set a watering alarm named after the head nurse, which she must never learn.",
+      "emotion": "amusement", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p04e06-f", "type": "factual", "query": "How many of the six tomato pots sprouted?"},
+        {"id": "p04e06-x", "type": "reflective_explicit", "query": "I feel cheerful remembering the seedlings coming up on the balcony."},
+        {"id": "p04e06-i", "type": "reflective_implicit", "query": "Small green things I coaxed toward the light visit my thoughts on long shifts."}
+      ]
+    },
+    {
+      "id": "p04e07", "session": 7, "date_time": "2025-04-24T09:15:00",
+      "text": "Suit fitting for the wedding with my brother. The tailor pinned my sleeves while we argued about the playlist, and I caught him grinning at me in the mirror like when we were kids.",
+      "emotion": "tenderness", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p04e07-f", "type": "factual", "query": "What did my brother and I argue about during the suit fitting?"},
+        {"id": "p04e07-x", "type": "reflective_explicit", "query": "I feel fond warmth thinking back to that fitting with my brother."},
+        {"id": "p04e07-i", "type": "reflective_implicit", "query": "Two grown boys turning young again while getting measured — it comes back to me."}
+      ]
+    },
+    {
+      "id": "p04e08", "session": 8, "date_time": "2025-05-02T22:00:00",
+      "text": "Scheduling committee posted the summer roster: I pulled six weekend nights in July, the most on the team again. Wrote a complaint draft, saved it, did not send it.",
+      "emotion": "resentment", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p04e08-f", "type": "factual", "query": "How many weekend nights did the summer roster give me in July?"},
+        {"id": "p04e08-x", "type": "reflective_explicit", "query": "I still feel resentful about how that summer roster fell on me."},
+        {"id": "p04e08-i", "type": "reflective_implicit", "query": "The words I typed and never delivered about my hours keep knocking on my mind."}
+      ]
+    },
+    {
+      "id": "p04e09", "session": 9, "date_time": "2025-05-10T11:30:00",
+      "text": "Deep-cleaned the apartment, descaled the showerhead, and rotated the mattress. Podcast marathon in the background, three episodes about deep-sea fish.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p04e09-f", "type": "factual", "query": "What was the podcast marathon about while I cleaned?"},
+        {"id": "p04e09-x", "type": "reflective_explicit", "query": "I feel calm recalling that thorough cleaning day."},
+        {"id": "p04e09-i", "type": "reflective_implicit", "query": "A full reset of my place from corner to corner floats back when clutter piles up."}
+      ]
+    },
+    {
+      "id": "p04e10", "session": 10, "date_time": "2025-05-24T19:00:00",
+      "text": "The wedding. I walked my brother down, managed the rings, and my toast landed every laugh I hoped for. Mom held both our hands during the photos and would not let go.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p04e10-f", "type": "factual", "query": "What did Mom do during the wedding photos?"},
+        {"id": "p04e10-x", "type": "reflective_explicit", "query": "I feel overwhelming happiness whenever the wedding day replays in my head."},
+        {"id": "p04e10-i", "type": "reflective_implicit", "query": "The day I stood beside him in front of everyone glows in me and returns often."}
+      ]
+    },
+    {
+      "id": "p04e11", "session": 10, "date_time": "2025-05-24T23:45:00",
+      "text": "After the reception I drove Mom home. She fell asleep at a red light holding the bouquet, and I took the long way so she could rest.",
+      "emotion": "tenderness", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p04e11-f", "type": "factual", "query": "What was Mom holding when she fell asleep in the car?"},
+        {"id": "p04e11-x", "type": "reflective_explicit", "query": "I feel gentle warmth remembering that drive home with Mom."},
+        {"id": "p04e11-i", "type": "reflective_implicit", "query": "A detour I chose so someone could keep sleeping stays quietly with me."}
+      ]
+    },
+    {
+      "id": "p04e12", "session": 11, "date_time": "2025-06-07T08:20:00",
+      "text": "New grad nurse shadowed me for her first code blue drill. She froze at the cart, so afterwards we ran the checklist together five times until her hands stopped hovering.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p04e12-f", "type": "factual", "query": "How many times did the new nurse and I run the checklist together?"},
+        {"id": "p04e12-x", "type": "reflective_explicit", "query": "I feel steady satisfaction about mentoring her through that drill."},
+        {"id": "p04e12-i", "type": "reflective_implicit", "query": "Teaching someone until the trembling faded returns to me on mentoring days."}
+      ]
+    },
+    {
+      "id": "p04e13", "session": 12, "date_time": "2025-06-25T17:50:00",
+      "text": "First ripe tomato from the balcony, exactly the size of a golf ball. Sliced it in half, salted it, and sent my brother a photo captioned harvest festival.",
+      "emotion": "satisfaction", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p04e13-f", "type": "factual", "query": "What caption did I send with the tomato photo?"},
+        {"id": "p04e13-x", "type": "reflective_explicit", "query": "I feel simple delight recalling that first tomato from the garden."},
+        {"id": "p04e13-i", "type": "reflective_implicit", "query": "Something I grew from nothing finally ready to eat keeps making me smile inside."}
+      ]
+    },
+    {
+      "id": "p04e14", "session": 13, "date_time": "2025-06-29T10:10:00",
+      "text": "Day off. Laundry line full by nine, bank errand done, and a haircut before lunch. Bought bird seed for the balcony feeder on the way back.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p04e14-f", "type": "factual", "query": "What did I buy for the balcony feeder?"},
+        {"id": "p04e14-x", "type": "reflective_explicit", "query": "I feel content thinking about that unhurried day off."},
+        {"id": "p04e14-i", "type": "reflective_implicit", "query": "A morning where every small task fit neatly before noon drifts back to me."}
+      ]
+    }
+  ]
+}

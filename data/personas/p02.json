@@ -1,0 +1,148 @@
+{
+  "persona_id": "p02",
+  "name": "Jun",
+  "age": 27,
+  "context": "office worker; threads: first marathon training, grandmother's health, learning to cook",
+  "episodes": [
+    {
+      "id": "p02e01", "session": 1, "date_time": "2025-03-01T08:40:00",
+      "text": "Signed up for the October marathon this morning and printed a sixteen-week training plan. Taped it to the fridge next to the grocery list.",
+      "emotion": "determination", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p02e01-f", "type": "factual", "query": "How many weeks long is the marathon training plan I printed?"},
+        {"id": "p02e01-x", "type": "reflective_explicit", "query": "I feel hopeful and determined when I think back to committing to that race."},
+        {"id": "p02e01-i", "type": "reflective_implicit", "query": "The day I promised myself a long road ahead still gives me a push."}
+      ]
+    },
+    {
+      "id": "p02e02", "session": 2, "date_time": "2025-03-08T21:15:00",
+      "text": "Tried making kimchi stew from a video tutorial. Overcooked the pork and under-seasoned the broth, but ate two bowls anyway while watching a documentary.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p02e02-f", "type": "factual", "query": "What dish did I attempt from a video tutorial?"},
+        {"id": "p02e02-x", "type": "reflective_explicit", "query": "I feel mildly amused remembering my first clumsy attempt at that stew."},
+        {"id": "p02e02-i", "type": "reflective_implicit", "query": "My first shaky try in the kitchen comes to mind whenever I lift a ladle."}
+      ]
+    },
+    {
+      "id": "p02e03", "session": 3, "date_time": "2025-03-15T07:30:00",
+      "text": "First ten-kilometer run without stopping. My knees complained on the last hill, but I finished the loop around the river park in sixty-eight minutes.",
+      "emotion": "pride", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p02e03-f", "type": "factual", "query": "How long did my first ten-kilometer run take?"},
+        {"id": "p02e03-x", "type": "reflective_explicit", "query": "I still feel proud of the morning I ran that distance without stopping."},
+        {"id": "p02e03-i", "type": "reflective_implicit", "query": "One dawn my body carried me farther than it ever had, and I hold onto that."}
+      ]
+    },
+    {
+      "id": "p02e04", "session": 4, "date_time": "2025-03-23T19:00:00",
+      "text": "Grandmother was admitted to the hospital after a fall in her kitchen. I took the late train down, held her hand, and she joked that the porridge there was an insult to rice.",
+      "emotion": "fear", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p02e04-f", "type": "factual", "query": "What did Grandmother joke about at the hospital?"},
+        {"id": "p02e04-x", "type": "reflective_explicit", "query": "I still feel scared remembering the night Grandmother was hospitalized."},
+        {"id": "p02e04-i", "type": "reflective_implicit", "query": "That sudden trip to sit at someone's bedside lives in me and surfaces on quiet commutes."}
+      ]
+    },
+    {
+      "id": "p02e05", "session": 5, "date_time": "2025-03-30T20:45:00",
+      "text": "Restocked the pantry, meal-prepped five lunches of chicken and rice, and descaled the kettle. Sunday chores done before nine.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p02e05-f", "type": "factual", "query": "How many lunches did I meal-prep that Sunday?"},
+        {"id": "p02e05-x", "type": "reflective_explicit", "query": "I feel calm and orderly thinking about that chore-filled Sunday."},
+        {"id": "p02e05-i", "type": "reflective_implicit", "query": "A weekend of small boxes lined up in the refrigerator drifts back to me."}
+      ]
+    },
+    {
+      "id": "p02e06", "session": 6, "date_time": "2025-04-12T18:30:00",
+      "text": "Grandmother came home from the hospital today. We planted lettuce seedlings in her yard together, her on a stool giving orders, me digging exactly where she pointed.",
+      "emotion": "relief", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p02e06-f", "type": "factual", "query": "What did Grandmother and I plant in her yard?"},
+        {"id": "p02e06-x", "type": "reflective_explicit", "query": "I feel deep relief and warmth remembering the day she came home."},
+        {"id": "p02e06-i", "type": "reflective_implicit", "query": "An afternoon of soil and bossy instructions in a backyard returns to me often."}
+      ]
+    },
+    {
+      "id": "p02e07", "session": 7, "date_time": "2025-04-20T21:00:00",
+      "text": "Quarterly report week. Stayed late three nights, lived on convenience-store sandwiches, and finally submitted the deck at eleven on Thursday.",
+      "emotion": "fatigue", "intensity_band": "mild", "valence": "negative",
+      "probes": [
+        {"id": "p02e07-f", "type": "factual", "query": "What did I eat during the late nights of report week?"},
+        {"id": "p02e07-x", "type": "reflective_explicit", "query": "I feel tired and stressed just recalling that report crunch."},
+        {"id": "p02e07-i", "type": "reflective_implicit", "query": "A blur of fluorescent office evenings resurfaces whenever deadlines stack up."}
+      ]
+    },
+    {
+      "id": "p02e08", "session": 8, "date_time": "2025-05-04T09:20:00",
+      "text": "Twisted my ankle on a trail run and had to walk the last three kilometers home. The clinic said two weeks of rest, right when training was going well.",
+      "emotion": "frustration", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p02e08-f", "type": "factual", "query": "How long did the clinic say I needed to rest my ankle?"},
+        {"id": "p02e08-x", "type": "reflective_explicit", "query": "I still feel frustrated about the injury that interrupted my training."},
+        {"id": "p02e08-i", "type": "reflective_implicit", "query": "The long limp back that put my plans on hold still nags at me."}
+      ]
+    },
+    {
+      "id": "p02e09", "session": 9, "date_time": "2025-05-18T20:10:00",
+      "text": "Made kimchi stew again, fourth attempt. Browned the pork properly this time and Mom said over video call that it looked like Grandmother's version.",
+      "emotion": "satisfaction", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p02e09-f", "type": "factual", "query": "Who said my stew looked like Grandmother's version?"},
+        {"id": "p02e09-x", "type": "reflective_explicit", "query": "I feel a warm satisfaction about how that fourth attempt at the stew went."},
+        {"id": "p02e09-i", "type": "reflective_implicit", "query": "The evening a family taste finally came out of my own pot stays with me."}
+      ]
+    },
+    {
+      "id": "p02e10", "session": 9, "date_time": "2025-05-18T20:35:00",
+      "text": "Renewed my transit card, booked a dental cleaning, and replied to twelve emails I had been avoiding. Adult admin day complete.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p02e10-f", "type": "factual", "query": "How many emails did I finally reply to on admin day?"},
+        {"id": "p02e10-x", "type": "reflective_explicit", "query": "I feel mildly relieved thinking of that day of boring paperwork."},
+        {"id": "p02e10-i", "type": "reflective_implicit", "query": "One dull checklist of grown-up tasks floats back to me at month's end."}
+      ]
+    },
+    {
+      "id": "p02e11", "session": 10, "date_time": "2025-06-01T08:15:00",
+      "text": "First run since the ankle healed, an easy five kilometers by the river. Slower than before, but everything held together and the morning air smelled like rain.",
+      "emotion": "relief", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p02e11-f", "type": "factual", "query": "How far was my first run after the ankle healed?"},
+        {"id": "p02e11-x", "type": "reflective_explicit", "query": "I feel relieved and hopeful recalling my comeback run."},
+        {"id": "p02e11-i", "type": "reflective_implicit", "query": "That slow loop where my body forgave me comes to mind on overcast days."}
+      ]
+    },
+    {
+      "id": "p02e12", "session": 11, "date_time": "2025-06-15T19:40:00",
+      "text": "Cooked a full dinner for Grandmother's birthday at her house: stew, three side dishes, and steamed egg. She ate everything and asked for the stew recipe, which is hers.",
+      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p02e12-f", "type": "factual", "query": "What did Grandmother ask for after eating my birthday dinner?"},
+        {"id": "p02e12-x", "type": "reflective_explicit", "query": "I feel pure joy remembering the birthday meal I cooked for her."},
+        {"id": "p02e12-i", "type": "reflective_implicit", "query": "A table I filled for the person who once fed me keeps shining in my memory."}
+      ]
+    },
+    {
+      "id": "p02e13", "session": 12, "date_time": "2025-06-27T21:30:00",
+      "text": "Laundry, a haircut, and new running socks from the sports shop. Set out my gear for tomorrow's long run and checked the weather twice.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p02e13-f", "type": "factual", "query": "What did I buy at the sports shop?"},
+        {"id": "p02e13-x", "type": "reflective_explicit", "query": "I feel calm about that little pre-run errand evening."},
+        {"id": "p02e13-i", "type": "reflective_implicit", "query": "A tidy night of getting things ready surfaces when I plan anything big."}
+      ]
+    },
+    {
+      "id": "p02e14", "session": 12, "date_time": "2025-06-27T22:00:00",
+      "text": "Team lead hinted my contract review is next month and praised the quarterly numbers in front of everyone. I typed and deleted a message to Mom about it three times.",
+      "emotion": "hope", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p02e14-f", "type": "factual", "query": "What did the team lead praise in front of everyone?"},
+        {"id": "p02e14-x", "type": "reflective_explicit", "query": "I feel hopeful but nervous about what my boss hinted regarding the review."},
+        {"id": "p02e14-i", "type": "reflective_implicit", "query": "A half-written text to family that I never sent keeps tugging at me."}
+      ]
+    }
+  ]
+}

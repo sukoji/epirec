@@ -1,0 +1,148 @@
+{
+  "persona_id": "p12",
+  "name": "Leo",
+  "age": 21,
+  "context": "barback and bassist; threads: band's first EP, saving for a proper bass, sister moving abroad",
+  "episodes": [
+    {
+      "id": "p12e01", "session": 1, "date_time": "2025-03-06T23:30:00",
+      "text": "Band practice in Juho's garage: nailed the bridge of the new song after twenty takes, and decided the EP will have four tracks, not five, after a democratic shouting match.",
+      "emotion": "satisfaction", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p12e01-f", "type": "factual", "query": "How many tracks did the band decide the EP would have?"},
+        {"id": "p12e01-x", "type": "reflective_explicit", "query": "I feel satisfied energy thinking of that garage practice."},
+        {"id": "p12e01-i", "type": "reflective_implicit", "query": "All those tries until the middle section clicked — that night keeps grooving in my head."}
+      ]
+    },
+    {
+      "id": "p12e02", "session": 2, "date_time": "2025-03-15T22:00:00",
+      "text": "Closing at the bar: restocked the coolers, polished two racks of glasses, and mopped to the playlist I'm not allowed to control on weekends.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "probes": [
+        {"id": "p12e02-f", "type": "factual", "query": "What am I not allowed to control at the bar on weekends?"},
+        {"id": "p12e02-x", "type": "reflective_explicit", "query": "I feel neutral, almost meditative, recalling those closing routines."},
+        {"id": "p12e02-i", "type": "reflective_implicit", "query": "The shine of stacked glassware at the end of a shift drifts back to me."}
+      ]
+    },
+    {
+      "id": "p12e03", "session": 3, "date_time": "2025-03-24T21:15:00",
+      "text": "Sohee got the Berlin research fellowship. Two years. She told me over tteokbokki and I said all the right congratulations while something in me quietly sat down on the floor.",
+      "emotion": "grief", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p12e03-f", "type": "factual", "query": "Which city is Sohee's fellowship in?"},
+        {"id": "p12e03-x", "type": "reflective_explicit", "query": "I feel that quiet sadness again remembering when my sister shared her news."},
+        {"id": "p12e03-i", "type": "reflective_implicit", "query": "Saying the proper words at dinner while the rest of me crumpled somewhere unseen — it returns often."}
+      ]
+    },
+    {
+      "id": "p12e04", "session": 4, "date_time": "2025-04-02T20:30:00",
+      "text": "Savings check-in: bass fund at sixty percent after two extra shifts. Taped a photo of the sunburst model inside my locker like motivation contraband.",
+      "emotion": "hope", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p12e04-f", "type": "factual", "query": "What percentage did the bass fund reach at the check-in?"},
+        {"id": "p12e04-x", "type": "reflective_explicit", "query": "I feel hopeful drive thinking of that savings milestone."},
+        {"id": "p12e04-i", "type": "reflective_implicit", "query": "The picture I hid where only I would see it, of the thing I'm working for, keeps me going."}
+      ]
+    },
+    {
+      "id": "p12e05", "session": 5, "date_time": "2025-04-11T23:45:00",
+      "text": "Recorded bass tracks for two EP songs at the studio Juho's uncle lent us. My fingertips split on the last take but the engineer said keep it, the grit fits.",
+      "emotion": "exhilaration", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p12e05-f", "type": "factual", "query": "What did the engineer say about my last bass take?"},
+        {"id": "p12e05-x", "type": "reflective_explicit", "query": "I feel wired excitement remembering that recording session."},
+        {"id": "p12e05-i", "type": "reflective_implicit", "query": "Blood on the strings and a red light overhead — that session keeps pulsing in me."}
+      ]
+    },
+    {
+      "id": "p12e06", "session": 6, "date_time": "2025-04-20T19:20:00",
+      "text": "Helped Sohee sort her apartment: three donate boxes, one ship box, and a keep pile that is mostly books she swears she'll reread. We found our childhood walkie-talkies.",
+      "emotion": "bittersweet", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p12e06-f", "type": "factual", "query": "What childhood item did Sohee and I find while sorting?"},
+        {"id": "p12e06-x", "type": "reflective_explicit", "query": "I feel bittersweet heaviness recalling that packing day with her."},
+        {"id": "p12e06-i", "type": "reflective_implicit", "query": "Boxing up a life beside someone leaving soon — that day circles back to me."}
+      ]
+    },
+    {
+      "id": "p12e07", "session": 7, "date_time": "2025-04-29T21:00:00",
+      "text": "Bar inventory night plus a delivery mix-up: forty crates of sparkling water nobody ordered. Manager and I built a fort out of them by the storeroom door as a statement.",
+      "emotion": "amusement", "intensity_band": "low", "valence": "positive",
+      "probes": [
+        {"id": "p12e07-f", "type": "factual", "query": "What did the manager and I build out of the mistaken delivery?"},
+        {"id": "p12e07-x", "type": "reflective_explicit", "query": "I feel silly amusement thinking of that delivery mix-up night."},
+        {"id": "p12e07-i", "type": "reflective_implicit", "query": "A tower of boxes stacked into a joke drifts back to me during stocktakes."}
+      ]
+    },
+    {
+      "id": "p12e08", "session": 8, "date_time": "2025-05-09T00:15:00",
+      "text": "EP release show at the basement venue. Sixty people, our banner crooked, and during the last chorus the whole room sang words I wrote at a bus stop. I forgot to breathe.",
+      "emotion": "euphoria", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p12e08-f", "type": "factual", "query": "Where did I write the words the crowd sang at the release show?"},
+        {"id": "p12e08-x", "type": "reflective_explicit", "query": "I feel euphoric chills every time that release show replays."},
+        {"id": "p12e08-i", "type": "reflective_implicit", "query": "An underground place full of voices carrying my lines back at me — it loops in my chest."}
+      ]
+    },
+    {
+      "id": "p12e09", "session": 9, "date_time": "2025-05-18T20:40:00",
+      "text": "Laundry, bass restring, and a call with Grandpa who asked if the band plays anything a person could waltz to. Promised him a waltz on the next EP, witnessed by Mom.",
+      "emotion": "neutral", "intensity_band": "low", "valence": "positive",
+      "probes": [
+        {"id": "p12e09-f", "type": "factual", "query": "What did Grandpa ask if the band could play?"},
+        {"id": "p12e09-x", "type": "reflective_explicit", "query": "I feel fond amusement recalling Grandpa's waltz request."},
+        {"id": "p12e09-i", "type": "reflective_implicit", "query": "A pledge given over the phone with an audience listening in comes back to me at practice."}
+      ]
+    },
+    {
+      "id": "p12e10", "session": 10, "date_time": "2025-05-28T22:30:00",
+      "text": "The EP got reviewed by a webzine: three and a half stars, called the bass lines the spine of the record. Juho printed the paragraph and framed it above the garage amp.",
+      "emotion": "pride", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p12e10-f", "type": "factual", "query": "What did the webzine review call the bass lines?"},
+        {"id": "p12e10-x", "type": "reflective_explicit", "query": "I feel swelling pride remembering that review of our record."},
+        {"id": "p12e10-i", "type": "reflective_implicit", "query": "A stranger hearing exactly what I put underneath the songs stays lit in me."}
+      ]
+    },
+    {
+      "id": "p12e11", "session": 11, "date_time": "2025-06-07T14:00:00",
+      "text": "Airport day. Sohee cried at security, I held it together until her gate disappeared from the board, then called Mom from the parking lot and lost it completely.",
+      "emotion": "grief", "intensity_band": "high", "valence": "negative",
+      "probes": [
+        {"id": "p12e11-f", "type": "factual", "query": "Where was I when I finally broke down after Sohee left?"},
+        {"id": "p12e11-x", "type": "reflective_explicit", "query": "The grief of that airport goodbye still hits me in waves."},
+        {"id": "p12e11-i", "type": "reflective_implicit", "query": "The moment her flight vanished from the screen hollowed me out, and it revisits me."}
+      ]
+    },
+    {
+      "id": "p12e12", "session": 12, "date_time": "2025-06-16T21:50:00",
+      "text": "First video call with Sohee from Berlin: her flat is a shoebox with good light, she found a Korean grocer two streets over, and the walkie-talkie sits on her bookshelf.",
+      "emotion": "tenderness", "intensity_band": "mild", "valence": "positive",
+      "probes": [
+        {"id": "p12e12-f", "type": "factual", "query": "What sits on Sohee's bookshelf in Berlin?"},
+        {"id": "p12e12-x", "type": "reflective_explicit", "query": "I feel warm relief recalling that first call from her new city."},
+        {"id": "p12e12-i", "type": "reflective_implicit", "query": "Seeing her settled in a small bright room far away eased something that stays eased."}
+      ]
+    },
+    {
+      "id": "p12e13", "session": 13, "date_time": "2025-06-26T18:10:00",
+      "text": "Bass fund complete. Bought the sunburst model, second hand but mint, from a session player who threw in the hard case because, quote, it belongs with someone hungry.",
+      "emotion": "elation", "intensity_band": "high", "valence": "positive",
+      "probes": [
+        {"id": "p12e13-f", "type": "factual", "query": "What did the session player throw in with the bass?"},
+        {"id": "p12e13-x", "type": "reflective_explicit", "query": "I feel pure elation remembering the day I finally bought that bass."},
+        {"id": "p12e13-i", "type": "reflective_implicit", "query": "Months of extra hours turning into an instrument in my arms keeps resonating."}
+      ]
+    },
+    {
+      "id": "p12e14", "session": 14, "date_time": "2025-06-29T22:20:00",
+      "text": "Quiet shift, early close. Wiped down the taps, cashed out, and practiced walking bass lines in the empty bar with the amp at one, for Grandpa's waltz.",
+      "emotion": "contentment", "intensity_band": "low", "valence": "positive",
+      "probes": [
+        {"id": "p12e14-f", "type": "factual", "query": "What was I practicing in the empty bar after early close?"},
+        {"id": "p12e14-x", "type": "reflective_explicit", "query": "I feel gentle contentment thinking of practicing alone in the closed bar."},
+        {"id": "p12e14-i", "type": "reflective_implicit", "query": "Low notes for an old man's request filling the hushed room after closing drift back to me."}
+      ]
+    }
+  ]
+}
