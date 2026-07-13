@@ -11,6 +11,8 @@
 
 **12 personas | 168 episodes | 504 retrieval probes | English | synthetic**
 
+[English](README.md) | [Korean](README.ko.md) | [Chinese](README.zh-CN.md)
+
 </div>
 
 EpiRec evaluates two different capabilities of a memory-augmented agent:

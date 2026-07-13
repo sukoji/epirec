@@ -18,6 +18,11 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def write_release_text(path: Path, text: str, encoding: str) -> None:
+    with path.open("w", encoding=encoding, newline="\n") as handle:
+        handle.write(text)
+
+
 def main(check: bool = False) -> int:
     from validate import build_payload, main as validate
     if validate(check_release=False):
@@ -35,8 +40,8 @@ def main(check: bool = False) -> int:
             return 1
         print("release corpus and SHA-256 manifest are current")
         return 0
-    OUT.write_text(rendered, encoding="utf-8")
-    MANIFEST.write_text(f"{digest(OUT)}  {OUT.name}\n", encoding="ascii")
+    write_release_text(OUT, rendered, "utf-8")
+    write_release_text(MANIFEST, f"{digest(OUT)}  {OUT.name}\n", "ascii")
     print(f"wrote {OUT}")
     print(f"wrote {MANIFEST}")
     return 0
