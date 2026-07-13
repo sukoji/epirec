@@ -3,7 +3,7 @@
   "full_name": "Episodic Recall: A Benchmark for Emotional Resurfacing and Factual Lookup in Memory-Augmented Agents",
   "version": "1.0",
   "reference_now": "2025-06-30T12:00:00+00:00",
-  "construction": "pre-registered; see GENERATION_SPEC.md",
+  "construction": "fixed construction protocol; see GENERATION_SPEC.md",
   "license": "CC BY 4.0",
   "stats": {
     "personas": 12,
@@ -39,7 +39,7 @@
         {
           "id": "p01e01",
           "session": 1,
-          "date_time": "2025-03-02T19:30:00",
+          "date_time": "2025-03-02T19:30:00+00:00",
           "text": "First day back at school after the break. I organized my desk, copied the new timetable into my planner, and grabbed a window seat before anyone else claimed it.",
           "emotion": "calm",
           "intensity_band": "low",
@@ -65,7 +65,7 @@
         {
           "id": "p01e02",
           "session": 2,
-          "date_time": "2025-03-09T17:10:00",
+          "date_time": "2025-03-09T17:10:00+00:00",
           "text": "We finally brought the rescue cat home today. She hid inside a shoe box for an hour, then curled up on my lap, and I was so happy I could barely breathe.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -91,7 +91,7 @@
         {
           "id": "p01e03",
           "session": 3,
-          "date_time": "2025-03-16T21:00:00",
+          "date_time": "2025-03-16T21:00:00+00:00",
           "text": "Spent Sunday drafting the mural concept for art club. Three sketches of a whale drifting over rooftops; the third one finally looked the way I imagined.",
           "emotion": "satisfaction",
           "intensity_band": "mild",
@@ -117,7 +117,7 @@
         {
           "id": "p01e04",
           "session": 4,
-          "date_time": "2025-03-23T20:15:00",
+          "date_time": "2025-03-23T20:15:00+00:00",
           "text": "Bought new highlighters and index cards at the stationery store, then reorganized my study binder by subject. Nothing exciting, just housekeeping for exam prep.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -143,7 +143,7 @@
         {
           "id": "p01e05",
           "session": 5,
-          "date_time": "2025-04-01T22:40:00",
+          "date_time": "2025-04-01T22:40:00+00:00",
           "text": "My mock exam score dropped two grades in math. I sat in the bathroom stall at lunch and cried, then couldn't focus for the rest of the day.",
           "emotion": "despair",
           "intensity_band": "high",
@@ -169,7 +169,7 @@
         {
           "id": "p01e06",
           "session": 5,
-          "date_time": "2025-04-01T23:05:00",
+          "date_time": "2025-04-01T23:05:00+00:00",
           "text": "Mochi knocked a glass of water onto my homework and I had to recopy two pages of notes before bed. Annoying, but the notes came out neater the second time.",
           "emotion": "mild annoyance",
           "intensity_band": "low",
@@ -195,7 +195,7 @@
         {
           "id": "p01e07",
           "session": 6,
-          "date_time": "2025-04-13T18:20:00",
+          "date_time": "2025-04-13T18:20:00+00:00",
           "text": "Our team painted the base coat of the mural on the gym wall. Twelve of us in old shirts, blue paint everywhere, someone's speaker playing city pop the whole time.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -221,7 +221,7 @@
         {
           "id": "p01e08",
           "session": 7,
-          "date_time": "2025-04-27T20:50:00",
+          "date_time": "2025-04-27T20:50:00+00:00",
           "text": "Weekly library session with Dayeon. We split a cinnamon roll, quizzed each other on English vocab for two hours, and left when the closing announcement played.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -247,7 +247,7 @@
         {
           "id": "p01e09",
           "session": 8,
-          "date_time": "2025-05-11T21:30:00",
+          "date_time": "2025-05-11T21:30:00+00:00",
           "text": "Grandma called and we talked for an hour about her garden and my exams. Before hanging up she said she keeps my childhood drawing taped inside her cupboard, and I teared up.",
           "emotion": "tenderness",
           "intensity_band": "high",
@@ -273,7 +273,7 @@
         {
           "id": "p01e10",
           "session": 9,
-          "date_time": "2025-05-25T19:45:00",
+          "date_time": "2025-05-25T19:45:00+00:00",
           "text": "Argued with Mom about cram school hours. She wants me to add Sunday classes and I shouted that I never get a single day off, then slammed my door.",
           "emotion": "anger",
           "intensity_band": "high",
@@ -299,7 +299,7 @@
         {
           "id": "p01e11",
           "session": 10,
-          "date_time": "2025-06-08T20:05:00",
+          "date_time": "2025-06-08T20:05:00+00:00",
           "text": "Took Mochi to the vet for her booster shot. She yowled through the waiting room, weighed in at four kilograms, and sulked in her carrier the whole ride back.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -325,7 +325,7 @@
         {
           "id": "p01e12",
           "session": 11,
-          "date_time": "2025-06-22T21:20:00",
+          "date_time": "2025-06-22T21:20:00+00:00",
           "text": "The finished mural was unveiled at the school festival and the whole hallway clapped. My whale, huge and blue, with every club member's signature hidden in the waves.",
           "emotion": "pride",
           "intensity_band": "high",
@@ -351,7 +351,7 @@
         {
           "id": "p01e13",
           "session": 12,
-          "date_time": "2025-06-26T22:10:00",
+          "date_time": "2025-06-26T22:10:00+00:00",
           "text": "Reviewed two practice passages, fed Mochi, and went to bed early. Set out tomorrow's uniform so the morning would be easier.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -377,7 +377,7 @@
         {
           "id": "p01e14",
           "session": 12,
-          "date_time": "2025-06-26T22:35:00",
+          "date_time": "2025-06-26T22:35:00+00:00",
           "text": "Dayeon texted that she might transfer schools before the final semester. I reread the message five times and felt something heavy settle in my chest.",
           "emotion": "dread",
           "intensity_band": "mild",
@@ -411,7 +411,7 @@
         {
           "id": "p02e01",
           "session": 1,
-          "date_time": "2025-03-01T08:40:00",
+          "date_time": "2025-03-01T08:40:00+00:00",
           "text": "Signed up for the October marathon this morning and printed a sixteen-week training plan. Taped it to the fridge next to the grocery list.",
           "emotion": "determination",
           "intensity_band": "mild",
@@ -437,7 +437,7 @@
         {
           "id": "p02e02",
           "session": 2,
-          "date_time": "2025-03-08T21:15:00",
+          "date_time": "2025-03-08T21:15:00+00:00",
           "text": "Tried making kimchi stew from a video tutorial. Overcooked the pork and under-seasoned the broth, but ate two bowls anyway while watching a documentary.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -463,7 +463,7 @@
         {
           "id": "p02e03",
           "session": 3,
-          "date_time": "2025-03-15T07:30:00",
+          "date_time": "2025-03-15T07:30:00+00:00",
           "text": "First ten-kilometer run without stopping. My knees complained on the last hill, but I finished the loop around the river park in sixty-eight minutes.",
           "emotion": "pride",
           "intensity_band": "high",
@@ -489,7 +489,7 @@
         {
           "id": "p02e04",
           "session": 4,
-          "date_time": "2025-03-23T19:00:00",
+          "date_time": "2025-03-23T19:00:00+00:00",
           "text": "Grandmother was admitted to the hospital after a fall in her kitchen. I took the late train down, held her hand, and she joked that the porridge there was an insult to rice.",
           "emotion": "fear",
           "intensity_band": "high",
@@ -515,7 +515,7 @@
         {
           "id": "p02e05",
           "session": 5,
-          "date_time": "2025-03-30T20:45:00",
+          "date_time": "2025-03-30T20:45:00+00:00",
           "text": "Restocked the pantry, meal-prepped five lunches of chicken and rice, and descaled the kettle. Sunday chores done before nine.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -541,7 +541,7 @@
         {
           "id": "p02e06",
           "session": 6,
-          "date_time": "2025-04-12T18:30:00",
+          "date_time": "2025-04-12T18:30:00+00:00",
           "text": "Grandmother came home from the hospital today. We planted lettuce seedlings in her yard together, her on a stool giving orders, me digging exactly where she pointed.",
           "emotion": "relief",
           "intensity_band": "high",
@@ -567,7 +567,7 @@
         {
           "id": "p02e07",
           "session": 7,
-          "date_time": "2025-04-20T21:00:00",
+          "date_time": "2025-04-20T21:00:00+00:00",
           "text": "Quarterly report week. Stayed late three nights, lived on convenience-store sandwiches, and finally submitted the deck at eleven on Thursday.",
           "emotion": "fatigue",
           "intensity_band": "mild",
@@ -593,7 +593,7 @@
         {
           "id": "p02e08",
           "session": 8,
-          "date_time": "2025-05-04T09:20:00",
+          "date_time": "2025-05-04T09:20:00+00:00",
           "text": "Twisted my ankle on a trail run and had to walk the last three kilometers home. The clinic said two weeks of rest, right when training was going well.",
           "emotion": "frustration",
           "intensity_band": "high",
@@ -619,7 +619,7 @@
         {
           "id": "p02e09",
           "session": 9,
-          "date_time": "2025-05-18T20:10:00",
+          "date_time": "2025-05-18T20:10:00+00:00",
           "text": "Made kimchi stew again, fourth attempt. Browned the pork properly this time and Mom said over video call that it looked like Grandmother's version.",
           "emotion": "satisfaction",
           "intensity_band": "mild",
@@ -645,7 +645,7 @@
         {
           "id": "p02e10",
           "session": 9,
-          "date_time": "2025-05-18T20:35:00",
+          "date_time": "2025-05-18T20:35:00+00:00",
           "text": "Renewed my transit card, booked a dental cleaning, and replied to twelve emails I had been avoiding. Adult admin day complete.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -671,7 +671,7 @@
         {
           "id": "p02e11",
           "session": 10,
-          "date_time": "2025-06-01T08:15:00",
+          "date_time": "2025-06-01T08:15:00+00:00",
           "text": "First run since the ankle healed, an easy five kilometers by the river. Slower than before, but everything held together and the morning air smelled like rain.",
           "emotion": "relief",
           "intensity_band": "mild",
@@ -697,7 +697,7 @@
         {
           "id": "p02e12",
           "session": 11,
-          "date_time": "2025-06-15T19:40:00",
+          "date_time": "2025-06-15T19:40:00+00:00",
           "text": "Cooked a full dinner for Grandmother's birthday at her house: stew, three side dishes, and steamed egg. She ate everything and asked for the stew recipe, which is hers.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -723,7 +723,7 @@
         {
           "id": "p02e13",
           "session": 12,
-          "date_time": "2025-06-27T21:30:00",
+          "date_time": "2025-06-27T21:30:00+00:00",
           "text": "Laundry, a haircut, and new running socks from the sports shop. Set out my gear for tomorrow's long run and checked the weather twice.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -749,7 +749,7 @@
         {
           "id": "p02e14",
           "session": 12,
-          "date_time": "2025-06-27T22:00:00",
+          "date_time": "2025-06-27T22:00:00+00:00",
           "text": "Team lead hinted my contract review is next month and praised the quarterly numbers in front of everyone. I typed and deleted a message to Mom about it three times.",
           "emotion": "hope",
           "intensity_band": "mild",
@@ -783,7 +783,7 @@
         {
           "id": "p03e01",
           "session": 1,
-          "date_time": "2025-03-03T22:20:00",
+          "date_time": "2025-03-03T22:20:00+00:00",
           "text": "Met my thesis advisor for the first meeting of the semester. She approved my topic on urban heat islands and gave me a reading list of nine papers.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -809,7 +809,7 @@
         {
           "id": "p03e02",
           "session": 2,
-          "date_time": "2025-03-10T23:00:00",
+          "date_time": "2025-03-10T23:00:00+00:00",
           "text": "Minho and I broke up in the parking lot behind the cafe after three years. He said we had become roommates with schedules, and the worst part is he was right.",
           "emotion": "heartbreak",
           "intensity_band": "high",
@@ -835,7 +835,7 @@
         {
           "id": "p03e03",
           "session": 3,
-          "date_time": "2025-03-17T21:40:00",
+          "date_time": "2025-03-17T21:40:00+00:00",
           "text": "Regular closing shift at the cafe. Wiped the machines, counted the till twice because I was off by five hundred won, restocked cups for the morning crew.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -861,7 +861,7 @@
         {
           "id": "p03e04",
           "session": 4,
-          "date_time": "2025-03-25T20:30:00",
+          "date_time": "2025-03-25T20:30:00+00:00",
           "text": "Deleted our shared photo album after backing it up to a drive I mailed to my sister. Two hundred and forty pictures, three years, one padded envelope.",
           "emotion": "grief",
           "intensity_band": "high",
@@ -887,7 +887,7 @@
         {
           "id": "p03e05",
           "session": 5,
-          "date_time": "2025-04-02T19:10:00",
+          "date_time": "2025-04-02T19:10:00+00:00",
           "text": "Set up my thesis data pipeline: downloaded satellite temperature tiles for the city, wrote a cleaning script, and got the first heat map to render.",
           "emotion": "satisfaction",
           "intensity_band": "mild",
@@ -913,7 +913,7 @@
         {
           "id": "p03e06",
           "session": 6,
-          "date_time": "2025-04-11T22:50:00",
+          "date_time": "2025-04-11T22:50:00+00:00",
           "text": "A customer screamed at me over a mistaken oat-milk charge and threw the receipt at my chest. The manager backed me up, but my hands shook while steaming milk for an hour.",
           "emotion": "humiliation",
           "intensity_band": "high",
@@ -939,7 +939,7 @@
         {
           "id": "p03e07",
           "session": 7,
-          "date_time": "2025-04-19T18:00:00",
+          "date_time": "2025-04-19T18:00:00+00:00",
           "text": "Bought groceries, mended the hem of my work apron, and returned two library books a day before the due date. Small, checkable boxes.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -965,7 +965,7 @@
         {
           "id": "p03e08",
           "session": 8,
-          "date_time": "2025-05-01T21:15:00",
+          "date_time": "2025-05-01T21:15:00+00:00",
           "text": "My survey went live and collected one hundred and eighty responses in the first week, double what my advisor expected. She wrote back a single line: now the fun begins.",
           "emotion": "excitement",
           "intensity_band": "high",
@@ -991,7 +991,7 @@
         {
           "id": "p03e09",
           "session": 8,
-          "date_time": "2025-05-01T21:40:00",
+          "date_time": "2025-05-01T21:40:00+00:00",
           "text": "New espresso blend arrived at the cafe and we ran taste tests between orders. I preferred the darker roast; the morning crew outvoted me for the lighter one.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1017,7 +1017,7 @@
         {
           "id": "p03e10",
           "session": 9,
-          "date_time": "2025-05-14T23:30:00",
+          "date_time": "2025-05-14T23:30:00+00:00",
           "text": "Ran into Minho at the station with someone new. We nodded like distant classmates, and I cried on the platform after his train left, then bought myself flowers on the walk home.",
           "emotion": "grief",
           "intensity_band": "high",
@@ -1043,7 +1043,7 @@
         {
           "id": "p03e11",
           "session": 10,
-          "date_time": "2025-05-27T20:20:00",
+          "date_time": "2025-05-27T20:20:00+00:00",
           "text": "Advisor tore apart my methods chapter draft: eleven comments, two entire sections to rewrite. Fair points, but I closed the laptop and stared at the wall for a while.",
           "emotion": "discouragement",
           "intensity_band": "mild",
@@ -1069,7 +1069,7 @@
         {
           "id": "p03e12",
           "session": 11,
-          "date_time": "2025-06-10T19:50:00",
+          "date_time": "2025-06-10T19:50:00+00:00",
           "text": "Coworker Jia taught me latte art on the closing shift. My first three attempts looked like clouds, the fourth was almost a heart, and we laughed until the mop water went cold.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -1095,7 +1095,7 @@
         {
           "id": "p03e13",
           "session": 12,
-          "date_time": "2025-06-24T21:00:00",
+          "date_time": "2025-06-24T21:00:00+00:00",
           "text": "Submitted the rewritten methods chapter and updated my reference manager. Ninety-one citations now, all with page numbers, which past me would never believe.",
           "emotion": "satisfaction",
           "intensity_band": "low",
@@ -1121,7 +1121,7 @@
         {
           "id": "p03e14",
           "session": 13,
-          "date_time": "2025-06-28T20:30:00",
+          "date_time": "2025-06-28T20:30:00+00:00",
           "text": "Quiet shift, rain outside. I laminated the new menu cards, refilled the syrup pumps, and watched umbrellas pass the window between customers.",
           "emotion": "calm",
           "intensity_band": "low",
@@ -1155,7 +1155,7 @@
         {
           "id": "p04e01",
           "session": 1,
-          "date_time": "2025-03-04T09:30:00",
+          "date_time": "2025-03-04T09:30:00+00:00",
           "text": "Came off a stretch of three night shifts. Slept until two, then repotted the rosemary and swept the balcony while the kettle ran.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1181,7 +1181,7 @@
         {
           "id": "p04e02",
           "session": 2,
-          "date_time": "2025-03-12T08:50:00",
+          "date_time": "2025-03-12T08:50:00+00:00",
           "text": "A patient I had looked after for six weeks was discharged today. Her daughter hugged me at the elevator and I kept my composure until they were out of sight.",
           "emotion": "tenderness",
           "intensity_band": "high",
@@ -1207,7 +1207,7 @@
         {
           "id": "p04e03",
           "session": 3,
-          "date_time": "2025-03-20T21:10:00",
+          "date_time": "2025-03-20T21:10:00+00:00",
           "text": "My brother asked me to be his best man over grilled mackerel at our usual place. He rehearsed it like a speech and knocked over the soju pouring too fast.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -1233,7 +1233,7 @@
         {
           "id": "p04e04",
           "session": 4,
-          "date_time": "2025-03-29T10:00:00",
+          "date_time": "2025-03-29T10:00:00+00:00",
           "text": "Grocery run and pharmacy pickup, then batch-cooked curry for the freezer. Labeled four containers with dates like the ward taught me.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1259,7 +1259,7 @@
         {
           "id": "p04e05",
           "session": 5,
-          "date_time": "2025-04-06T07:40:00",
+          "date_time": "2025-04-06T07:40:00+00:00",
           "text": "We lost a patient on the night shift despite forty minutes of resuscitation. I signed the paperwork, debriefed with the team, and cried in my car before driving home.",
           "emotion": "grief",
           "intensity_band": "high",
@@ -1285,7 +1285,7 @@
         {
           "id": "p04e06",
           "session": 6,
-          "date_time": "2025-04-15T16:20:00",
+          "date_time": "2025-04-15T16:20:00+00:00",
           "text": "The tomato seedlings sprouted, five of six pots. Moved them to the sunny rail and set a watering alarm named after the head nurse, which she must never learn.",
           "emotion": "amusement",
           "intensity_band": "mild",
@@ -1311,7 +1311,7 @@
         {
           "id": "p04e07",
           "session": 7,
-          "date_time": "2025-04-24T09:15:00",
+          "date_time": "2025-04-24T09:15:00+00:00",
           "text": "Suit fitting for the wedding with my brother. The tailor pinned my sleeves while we argued about the playlist, and I caught him grinning at me in the mirror like when we were kids.",
           "emotion": "tenderness",
           "intensity_band": "mild",
@@ -1337,7 +1337,7 @@
         {
           "id": "p04e08",
           "session": 8,
-          "date_time": "2025-05-02T22:00:00",
+          "date_time": "2025-05-02T22:00:00+00:00",
           "text": "Scheduling committee posted the summer roster: I pulled six weekend nights in July, the most on the team again. Wrote a complaint draft, saved it, did not send it.",
           "emotion": "resentment",
           "intensity_band": "high",
@@ -1363,7 +1363,7 @@
         {
           "id": "p04e09",
           "session": 9,
-          "date_time": "2025-05-10T11:30:00",
+          "date_time": "2025-05-10T11:30:00+00:00",
           "text": "Deep-cleaned the apartment, descaled the showerhead, and rotated the mattress. Podcast marathon in the background, three episodes about deep-sea fish.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1389,7 +1389,7 @@
         {
           "id": "p04e10",
           "session": 10,
-          "date_time": "2025-05-24T19:00:00",
+          "date_time": "2025-05-24T19:00:00+00:00",
           "text": "The wedding. I walked my brother down, managed the rings, and my toast landed every laugh I hoped for. Mom held both our hands during the photos and would not let go.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -1415,7 +1415,7 @@
         {
           "id": "p04e11",
           "session": 10,
-          "date_time": "2025-05-24T23:45:00",
+          "date_time": "2025-05-24T23:45:00+00:00",
           "text": "After the reception I drove Mom home. She fell asleep at a red light holding the bouquet, and I took the long way so she could rest.",
           "emotion": "tenderness",
           "intensity_band": "mild",
@@ -1441,7 +1441,7 @@
         {
           "id": "p04e12",
           "session": 11,
-          "date_time": "2025-06-07T08:20:00",
+          "date_time": "2025-06-07T08:20:00+00:00",
           "text": "New grad nurse shadowed me for her first code blue drill. She froze at the cart, so afterwards we ran the checklist together five times until her hands stopped hovering.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1467,7 +1467,7 @@
         {
           "id": "p04e13",
           "session": 12,
-          "date_time": "2025-06-25T17:50:00",
+          "date_time": "2025-06-25T17:50:00+00:00",
           "text": "First ripe tomato from the balcony, exactly the size of a golf ball. Sliced it in half, salted it, and sent my brother a photo captioned harvest festival.",
           "emotion": "satisfaction",
           "intensity_band": "mild",
@@ -1493,7 +1493,7 @@
         {
           "id": "p04e14",
           "session": 13,
-          "date_time": "2025-06-29T10:10:00",
+          "date_time": "2025-06-29T10:10:00+00:00",
           "text": "Day off. Laundry line full by nine, bank errand done, and a haircut before lunch. Bought bird seed for the balcony feeder on the way back.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1527,7 +1527,7 @@
         {
           "id": "p05e01",
           "session": 1,
-          "date_time": "2025-03-05T20:00:00",
+          "date_time": "2025-03-05T20:00:00+00:00",
           "text": "Mapped the first leg of my rail trip: four towns down the east coast over nine days. Printed the route and pinned it above my desk with a red thread like a detective.",
           "emotion": "excitement",
           "intensity_band": "mild",
@@ -1553,7 +1553,7 @@
         {
           "id": "p05e02",
           "session": 2,
-          "date_time": "2025-03-13T18:30:00",
+          "date_time": "2025-03-13T18:30:00+00:00",
           "text": "First guitar lesson at the community center. My fingertips went numb from the strings and the teacher said that means it is working.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1579,7 +1579,7 @@
         {
           "id": "p05e03",
           "session": 3,
-          "date_time": "2025-03-21T22:10:00",
+          "date_time": "2025-03-21T22:10:00+00:00",
           "text": "Bomi could not climb the stairs tonight. She waited at the bottom step, tail low, until Dad carried her up, and I sat with her head on my knee for an hour.",
           "emotion": "sorrow",
           "intensity_band": "high",
@@ -1605,7 +1605,7 @@
         {
           "id": "p05e04",
           "session": 4,
-          "date_time": "2025-03-30T21:00:00",
+          "date_time": "2025-03-30T21:00:00+00:00",
           "text": "Renewed my passport photo, bought a rail pass holder, and packed a test rucksack to check the weight. Seven point three kilos, under my limit.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1631,7 +1631,7 @@
         {
           "id": "p05e05",
           "session": 5,
-          "date_time": "2025-04-08T23:20:00",
+          "date_time": "2025-04-08T23:20:00+00:00",
           "text": "First night of the trip in Gangneung. I ate grilled fish alone by the harbor, terrified and thrilled in equal parts, and the sea sounded bigger in the dark.",
           "emotion": "exhilaration",
           "intensity_band": "high",
@@ -1657,7 +1657,7 @@
         {
           "id": "p05e06",
           "session": 6,
-          "date_time": "2025-04-12T20:40:00",
+          "date_time": "2025-04-12T20:40:00+00:00",
           "text": "Missed the last bus in Samcheok and walked forty minutes to the guesthouse in drizzle. The owner left the porch light on and a note saying the kimchi fridge was fair game.",
           "emotion": "gratitude",
           "intensity_band": "mild",
@@ -1683,7 +1683,7 @@
         {
           "id": "p05e07",
           "session": 7,
-          "date_time": "2025-04-17T19:15:00",
+          "date_time": "2025-04-17T19:15:00+00:00",
           "text": "Train home. Sorted six hundred photos into folders while the fields slid past, and ranked my favorite meals of the trip in my notebook. Fish stew won.",
           "emotion": "contentment",
           "intensity_band": "low",
@@ -1709,7 +1709,7 @@
         {
           "id": "p05e08",
           "session": 8,
-          "date_time": "2025-04-26T17:30:00",
+          "date_time": "2025-04-26T17:30:00+00:00",
           "text": "Practiced chord changes for an hour: G to C without looking, finally. Recorded a shaky clip of the campfire song and did not delete it for once.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1735,7 +1735,7 @@
         {
           "id": "p05e09",
           "session": 9,
-          "date_time": "2025-05-06T22:30:00",
+          "date_time": "2025-05-06T22:30:00+00:00",
           "text": "The vet found a mass on Bomi's spleen. Surgery is an option at her age but risky, and the three of us sat at the kitchen table not saying the obvious things.",
           "emotion": "dread",
           "intensity_band": "high",
@@ -1761,7 +1761,7 @@
         {
           "id": "p05e10",
           "session": 10,
-          "date_time": "2025-05-15T21:45:00",
+          "date_time": "2025-05-15T21:45:00+00:00",
           "text": "Bomi came through the operation. The surgeon called at nine sharp, I screamed loud enough to scare the mailman, and Dad cried into the dish towel pretending to wash up.",
           "emotion": "relief",
           "intensity_band": "high",
@@ -1787,7 +1787,7 @@
         {
           "id": "p05e11",
           "session": 11,
-          "date_time": "2025-05-28T18:00:00",
+          "date_time": "2025-05-28T18:00:00+00:00",
           "text": "Walked Bomi to the corner and back, her first outing since the stitches came out. She sniffed the same lamppost for five whole minutes and I let her.",
           "emotion": "tenderness",
           "intensity_band": "mild",
@@ -1813,7 +1813,7 @@
         {
           "id": "p05e12",
           "session": 12,
-          "date_time": "2025-06-11T19:30:00",
+          "date_time": "2025-06-11T19:30:00+00:00",
           "text": "Sorted my trip laundry backlog, returned Mom's power bank, and booked a dental checkup. Also alphabetized the spice rack for no reason.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1839,7 +1839,7 @@
         {
           "id": "p05e13",
           "session": 13,
-          "date_time": "2025-06-24T20:50:00",
+          "date_time": "2025-06-24T20:50:00+00:00",
           "text": "Played the campfire song for my family after dinner, all the way through, only one buzzed note. Bomi thumped her tail on the floor like a metronome with opinions.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -1865,7 +1865,7 @@
         {
           "id": "p05e14",
           "session": 14,
-          "date_time": "2025-06-28T21:20:00",
+          "date_time": "2025-06-28T21:20:00+00:00",
           "text": "Watered the plants, clipped Bomi's nails, and started a packing list for the southern leg of the trip in August. Two pages already and I regret nothing.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1899,7 +1899,7 @@
         {
           "id": "p06e01",
           "session": 1,
-          "date_time": "2025-03-06T21:30:00",
+          "date_time": "2025-03-06T21:30:00+00:00",
           "text": "Calibrated the new spectrometer all afternoon and logged baseline readings for next week's runs. Left lab at eight with the playlist still stuck in my head.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -1925,7 +1925,7 @@
         {
           "id": "p06e02",
           "session": 2,
-          "date_time": "2025-03-14T22:45:00",
+          "date_time": "2025-03-14T22:45:00+00:00",
           "text": "Third failed synthesis in a row, same yellow sludge instead of white crystals. My supervisor shrugged and said welcome to chemistry, which did not help at midnight.",
           "emotion": "frustration",
           "intensity_band": "high",
@@ -1951,7 +1951,7 @@
         {
           "id": "p06e03",
           "session": 3,
-          "date_time": "2025-03-22T19:20:00",
+          "date_time": "2025-03-22T19:20:00+00:00",
           "text": "First time at the bouldering gym with Priya from the lab. Fell off the easiest wall four times, chalked my entire face somehow, signed up for a monthly pass anyway.",
           "emotion": "amusement",
           "intensity_band": "mild",
@@ -1977,7 +1977,7 @@
         {
           "id": "p06e04",
           "session": 4,
-          "date_time": "2025-03-31T20:10:00",
+          "date_time": "2025-03-31T20:10:00+00:00",
           "text": "Visa renewal notice arrived: my appointment is in June and the checklist has eleven documents, two needing apostilles from home. Started a folder and a headache.",
           "emotion": "anxiety",
           "intensity_band": "high",
@@ -2003,7 +2003,7 @@
         {
           "id": "p06e05",
           "session": 5,
-          "date_time": "2025-04-09T18:40:00",
+          "date_time": "2025-04-09T18:40:00+00:00",
           "text": "Laundry day plus a bulk-cook of pasta sauce in the shared kitchen. Traded a jar of it with my flatmate for half his lasagna, an objectively great deal.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2029,7 +2029,7 @@
         {
           "id": "p06e06",
           "session": 6,
-          "date_time": "2025-04-18T23:00:00",
+          "date_time": "2025-04-18T23:00:00+00:00",
           "text": "The synthesis worked. White needles under the scope, ninety-two percent purity on the first pass, and I did a silent victory lap around the empty lab at ten at night.",
           "emotion": "elation",
           "intensity_band": "high",
@@ -2055,7 +2055,7 @@
         {
           "id": "p06e07",
           "session": 7,
-          "date_time": "2025-04-27T17:50:00",
+          "date_time": "2025-04-27T17:50:00+00:00",
           "text": "Sent my first-author manuscript draft to the group for comments. Twenty-three pages, four figures I remade six times, and one acknowledgment line thanking the night bus.",
           "emotion": "satisfaction",
           "intensity_band": "mild",
@@ -2081,7 +2081,7 @@
         {
           "id": "p06e08",
           "session": 8,
-          "date_time": "2025-05-07T21:25:00",
+          "date_time": "2025-05-07T21:25:00+00:00",
           "text": "Video call home for Mom's birthday. The connection froze on everyone mid-song, and Dad's cake had my childhood nickname iced on it by mistake, which nobody explained.",
           "emotion": "homesickness",
           "intensity_band": "high",
@@ -2107,7 +2107,7 @@
         {
           "id": "p06e09",
           "session": 9,
-          "date_time": "2025-05-16T19:35:00",
+          "date_time": "2025-05-16T19:35:00+00:00",
           "text": "Sent my first purple-graded boulder problem after three weeks of trying. Priya filmed it, the whole gym section clapped, and I bought celebratory dumplings on the way home.",
           "emotion": "triumph",
           "intensity_band": "high",
@@ -2133,7 +2133,7 @@
         {
           "id": "p06e10",
           "session": 10,
-          "date_time": "2025-05-25T20:15:00",
+          "date_time": "2025-05-25T20:15:00+00:00",
           "text": "Quiet Sunday: fixed my bike's rear brake, watched a documentary about lighthouses, and answered two emails from undergrads about the lab rotation.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2159,7 +2159,7 @@
         {
           "id": "p06e11",
           "session": 11,
-          "date_time": "2025-06-05T16:45:00",
+          "date_time": "2025-06-05T16:45:00+00:00",
           "text": "Visa appointment day. The officer flipped through my folder, asked one question about funding, stamped the extension, and it was over in eleven minutes after three months of dread.",
           "emotion": "relief",
           "intensity_band": "high",
@@ -2185,7 +2185,7 @@
         {
           "id": "p06e12",
           "session": 12,
-          "date_time": "2025-06-14T18:20:00",
+          "date_time": "2025-06-14T18:20:00+00:00",
           "text": "Restocked lab consumables, updated the group wiki page on the spectrometer quirks, and defrosted the ancient freezer nobody admits to owning.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2211,7 +2211,7 @@
         {
           "id": "p06e13",
           "session": 13,
-          "date_time": "2025-06-23T22:00:00",
+          "date_time": "2025-06-23T22:00:00+00:00",
           "text": "Reviewer comments came back on the manuscript: major revision, fourteen points, two experiments to redo. Priya slid a dumpling across the table before I even said anything.",
           "emotion": "discouragement",
           "intensity_band": "mild",
@@ -2237,7 +2237,7 @@
         {
           "id": "p06e14",
           "session": 14,
-          "date_time": "2025-06-28T19:10:00",
+          "date_time": "2025-06-28T19:10:00+00:00",
           "text": "Groceries, a phone call with my sister about her new puppy, and an early gym session where I re-climbed the purple problem just to prove it wasn't luck.",
           "emotion": "contentment",
           "intensity_band": "low",
@@ -2271,7 +2271,7 @@
         {
           "id": "p07e01",
           "session": 1,
-          "date_time": "2025-03-02T14:20:00",
+          "date_time": "2025-03-02T14:20:00+00:00",
           "text": "Stocked the freezer with milk pouches, sterilized a week of bottles, and updated the feeding log spreadsheet my partner pretends not to find excessive.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2297,7 +2297,7 @@
         {
           "id": "p07e02",
           "session": 2,
-          "date_time": "2025-03-11T07:50:00",
+          "date_time": "2025-03-11T07:50:00+00:00",
           "text": "Dohyun laughed for the first time, a real belly laugh, because the dog sneezed. We spent twenty minutes making the dog sneeze again and it never worked.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -2323,7 +2323,7 @@
         {
           "id": "p07e03",
           "session": 3,
-          "date_time": "2025-03-19T03:40:00",
+          "date_time": "2025-03-19T03:40:00+00:00",
           "text": "Fourth night of the sleep regression. I rocked him from two to four, watched the streetlight through the curtain, and ate cereal standing up at dawn like a raccoon.",
           "emotion": "exhaustion",
           "intensity_band": "high",
@@ -2349,7 +2349,7 @@
         {
           "id": "p07e04",
           "session": 4,
-          "date_time": "2025-03-28T13:10:00",
+          "date_time": "2025-03-28T13:10:00+00:00",
           "text": "Daycare tours, three in one day. The second one had a garden with a worm-watching corner and a teacher who knew every child's blanket by name. Shortlisted immediately.",
           "emotion": "hope",
           "intensity_band": "mild",
@@ -2375,7 +2375,7 @@
         {
           "id": "p07e05",
           "session": 5,
-          "date_time": "2025-04-05T21:30:00",
+          "date_time": "2025-04-05T21:30:00+00:00",
           "text": "Sorted outgrown newborn clothes into donation bags. Kept the hospital hat and the impossible tiny socks, and sat on the nursery floor longer than the task required.",
           "emotion": "bittersweet",
           "intensity_band": "high",
@@ -2401,7 +2401,7 @@
         {
           "id": "p07e06",
           "session": 6,
-          "date_time": "2025-04-14T12:00:00",
+          "date_time": "2025-04-14T12:00:00+00:00",
           "text": "Pediatric checkup: seventy-two centimeters, ninth percentile jump in weight, two teeth confirmed. The doctor called him a textbook baby and he bit the textbook.",
           "emotion": "amusement",
           "intensity_band": "mild",
@@ -2427,7 +2427,7 @@
         {
           "id": "p07e07",
           "session": 7,
-          "date_time": "2025-04-23T22:15:00",
+          "date_time": "2025-04-23T22:15:00+00:00",
           "text": "Reviewed the return-to-work handover plan HR sent. Highlighted the parts where my projects were reassigned without asking me, and drafted questions for the meeting.",
           "emotion": "unease",
           "intensity_band": "mild",
@@ -2453,7 +2453,7 @@
         {
           "id": "p07e08",
           "session": 8,
-          "date_time": "2025-05-02T20:45:00",
+          "date_time": "2025-05-02T20:45:00+00:00",
           "text": "Date night, first since the birth. We ordered the tasting menu, talked about anything except the baby for one whole course, then showed the waiter photos anyway.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -2479,7 +2479,7 @@
         {
           "id": "p07e09",
           "session": 9,
-          "date_time": "2025-05-12T09:30:00",
+          "date_time": "2025-05-12T09:30:00+00:00",
           "text": "First day back at the office. My plant survived, my chair setting did not, and the team put a welcome-back banner over my monitor with my name spelled two different ways.",
           "emotion": "nervousness",
           "intensity_band": "high",
@@ -2505,7 +2505,7 @@
         {
           "id": "p07e10",
           "session": 10,
-          "date_time": "2025-05-21T19:00:00",
+          "date_time": "2025-05-21T19:00:00+00:00",
           "text": "Grocery order arrived with someone else's box: forty limes and no diapers. Support sorted it by evening and the neighbor took half the limes for her soda experiments.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2531,7 +2531,7 @@
         {
           "id": "p07e11",
           "session": 11,
-          "date_time": "2025-05-31T21:50:00",
+          "date_time": "2025-05-31T21:50:00+00:00",
           "text": "Dohyun said something that was almost certainly umma while pointing at the fridge. My partner claims it was aimed at the yogurt. I have logged it as a first word regardless.",
           "emotion": "elation",
           "intensity_band": "high",
@@ -2557,7 +2557,7 @@
         {
           "id": "p07e12",
           "session": 12,
-          "date_time": "2025-06-09T22:30:00",
+          "date_time": "2025-06-09T22:30:00+00:00",
           "text": "Quarterly campaign review: my slides ran second, the numbers held, and the director asked for my channel plan to be circulated as the template. Sent it before she changed her mind.",
           "emotion": "pride",
           "intensity_band": "mild",
@@ -2583,7 +2583,7 @@
         {
           "id": "p07e13",
           "session": 13,
-          "date_time": "2025-06-25T20:40:00",
+          "date_time": "2025-06-25T20:40:00+00:00",
           "text": "Daycare orientation packet arrived: cubby number seven, blanket policy, a nap schedule that assumes cooperation. Labeled every sock with iron-on tape after he fell asleep.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2609,7 +2609,7 @@
         {
           "id": "p07e14",
           "session": 14,
-          "date_time": "2025-06-29T08:15:00",
+          "date_time": "2025-06-29T08:15:00+00:00",
           "text": "Morning walk with the stroller before the heat, coffee from the corner stand, and a park bench inventory of ducks. Dohyun counted them as ba, ba, ba. Close enough.",
           "emotion": "contentment",
           "intensity_band": "low",
@@ -2643,7 +2643,7 @@
         {
           "id": "p08e01",
           "session": 1,
-          "date_time": "2025-03-03T23:10:00",
+          "date_time": "2025-03-03T23:10:00+00:00",
           "text": "Hit thirty thousand words on the novel draft. Celebrated by rearranging the plot wall: forty index cards, three colors of string, one detective who still has no motive.",
           "emotion": "satisfaction",
           "intensity_band": "mild",
@@ -2669,7 +2669,7 @@
         {
           "id": "p08e02",
           "session": 2,
-          "date_time": "2025-03-12T22:30:00",
+          "date_time": "2025-03-12T22:30:00+00:00",
           "text": "Read the harbor chapter at the bookshop open mic. My hands shook on the first page, but a woman in the back gasped at the twist and found me after to ask what happens next.",
           "emotion": "exhilaration",
           "intensity_band": "high",
@@ -2695,7 +2695,7 @@
         {
           "id": "p08e03",
           "session": 3,
-          "date_time": "2025-03-20T21:00:00",
+          "date_time": "2025-03-20T21:00:00+00:00",
           "text": "Inventory night at the cafe: counted beans, cups, and forty-one oat milks, logged the espresso machine's service date, and cycled the pastry stock.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2721,7 +2721,7 @@
         {
           "id": "p08e04",
           "session": 4,
-          "date_time": "2025-03-29T19:45:00",
+          "date_time": "2025-03-29T19:45:00+00:00",
           "text": "Letter from the landlord: building sold, all leases under review, reply within thirty days. I read it three times on the stairwell before going inside.",
           "emotion": "dread",
           "intensity_band": "high",
@@ -2747,7 +2747,7 @@
         {
           "id": "p08e05",
           "session": 5,
-          "date_time": "2025-04-06T20:20:00",
+          "date_time": "2025-04-06T20:20:00+00:00",
           "text": "Swapped my closing shifts with Renata for two weeks of mornings so I can write in the evenings. Updated the whiteboard schedule and bribed her with a cinnamon loaf.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2773,7 +2773,7 @@
         {
           "id": "p08e06",
           "session": 6,
-          "date_time": "2025-04-14T23:40:00",
+          "date_time": "2025-04-14T23:40:00+00:00",
           "text": "Deleted eleven thousand words tonight. The whole middle section was a detour and I knew it for weeks. It felt like pulling a tooth with a novel attached.",
           "emotion": "anguish",
           "intensity_band": "high",
@@ -2799,7 +2799,7 @@
         {
           "id": "p08e07",
           "session": 7,
-          "date_time": "2025-04-22T18:15:00",
+          "date_time": "2025-04-22T18:15:00+00:00",
           "text": "Tenant meeting in the laundry room, fourteen of us and a lawyer someone's cousin knows. We drafted a joint response to the new owner and a signup sheet for door duty.",
           "emotion": "resolve",
           "intensity_band": "mild",
@@ -2825,7 +2825,7 @@
         {
           "id": "p08e08",
           "session": 8,
-          "date_time": "2025-05-01T22:50:00",
+          "date_time": "2025-05-01T22:50:00+00:00",
           "text": "A literary agent who heard the open mic emailed asking for the first three chapters. I typed four drafts of a two-line reply and walked around the block twice before sending.",
           "emotion": "elation",
           "intensity_band": "high",
@@ -2851,7 +2851,7 @@
         {
           "id": "p08e09",
           "session": 9,
-          "date_time": "2025-05-09T21:05:00",
+          "date_time": "2025-05-09T21:05:00+00:00",
           "text": "Descaled both espresso machines, retrained the new hire on milk texture, and fixed the wobbly table with a folded coaster, engineering at its finest.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -2877,7 +2877,7 @@
         {
           "id": "p08e10",
           "session": 10,
-          "date_time": "2025-05-18T20:35:00",
+          "date_time": "2025-05-18T20:35:00+00:00",
           "text": "The agent passed. Kind words about the prose, the market is crowded, best of luck. I closed the laptop, made tea I didn't drink, and stared at the plot wall until midnight.",
           "emotion": "despair",
           "intensity_band": "high",
@@ -2903,7 +2903,7 @@
         {
           "id": "p08e11",
           "session": 11,
-          "date_time": "2025-05-27T19:25:00",
+          "date_time": "2025-05-27T19:25:00+00:00",
           "text": "New owner's management company accepted the tenants' counterproposal: two-year extensions at a capped increase. Renata high-fived me so hard my palm buzzed through the shift.",
           "emotion": "triumph",
           "intensity_band": "high",
@@ -2929,7 +2929,7 @@
         {
           "id": "p08e12",
           "session": 12,
-          "date_time": "2025-06-08T21:15:00",
+          "date_time": "2025-06-08T21:15:00+00:00",
           "text": "Back to the draft after three weeks away. Reread the harbor chapter aloud, liked more of it than I feared, and outlined the new middle on one page instead of forty cards.",
           "emotion": "hope",
           "intensity_band": "mild",
@@ -2955,7 +2955,7 @@
         {
           "id": "p08e13",
           "session": 13,
-          "date_time": "2025-06-24T20:00:00",
+          "date_time": "2025-06-24T20:00:00+00:00",
           "text": "Signed the two-year lease extension at the management office, then bought a secondhand bookshelf on the walk home because permanence deserves furniture.",
           "emotion": "contentment",
           "intensity_band": "mild",
@@ -2981,7 +2981,7 @@
         {
           "id": "p08e14",
           "session": 14,
-          "date_time": "2025-06-28T23:30:00",
+          "date_time": "2025-06-28T23:30:00+00:00",
           "text": "Closing shift, then two pages of the new middle written at the corner table after lockup. The espresso machine ticked as it cooled, which is the shop's way of keeping me company.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3015,7 +3015,7 @@
         {
           "id": "p09e01",
           "session": 1,
-          "date_time": "2025-03-04T18:45:00",
+          "date_time": "2025-03-04T18:45:00+00:00",
           "text": "Season opener practice: six by two hundred freestyle, then relay exchanges until our timing stopped embarrassing coach. My shoulders ache in a way that means progress.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3041,7 +3041,7 @@
         {
           "id": "p09e02",
           "session": 2,
-          "date_time": "2025-03-13T20:30:00",
+          "date_time": "2025-03-13T20:30:00+00:00",
           "text": "Learned Grandma's doenjang stew properly at her place. She measures nothing, corrects everything, and made me stir until my wrist learned what enough means.",
           "emotion": "tenderness",
           "intensity_band": "mild",
@@ -3067,7 +3067,7 @@
         {
           "id": "p09e03",
           "session": 3,
-          "date_time": "2025-03-22T21:15:00",
+          "date_time": "2025-03-22T21:15:00+00:00",
           "text": "Suha told the whole group chat about the crush I confided only to her. Forty messages of teasing before dinner. I turned my phone face down and skipped dessert.",
           "emotion": "betrayal",
           "intensity_band": "high",
@@ -3093,7 +3093,7 @@
         {
           "id": "p09e04",
           "session": 4,
-          "date_time": "2025-03-31T19:00:00",
+          "date_time": "2025-03-31T19:00:00+00:00",
           "text": "New swim caps and goggles arrived, team-navy with our names printed. Mine says IRSI. Coach says the typo builds character and refuses to reorder.",
           "emotion": "amusement",
           "intensity_band": "low",
@@ -3119,7 +3119,7 @@
         {
           "id": "p09e05",
           "session": 5,
-          "date_time": "2025-04-09T20:50:00",
+          "date_time": "2025-04-09T20:50:00+00:00",
           "text": "Sat alone at lunch for the second week. Suha's table laughed at something and I convinced myself it wasn't about me for exactly four minutes.",
           "emotion": "loneliness",
           "intensity_band": "high",
@@ -3145,7 +3145,7 @@
         {
           "id": "p09e06",
           "session": 6,
-          "date_time": "2025-04-18T18:20:00",
+          "date_time": "2025-04-18T18:20:00+00:00",
           "text": "Dropped one point eight seconds off my hundred free at time trials. Coach moved me to third leg of the relay, the comeback slot, and wrote my split on the whiteboard.",
           "emotion": "triumph",
           "intensity_band": "high",
@@ -3171,7 +3171,7 @@
         {
           "id": "p09e07",
           "session": 7,
-          "date_time": "2025-04-27T17:40:00",
+          "date_time": "2025-04-27T17:40:00+00:00",
           "text": "Batch-cooked Grandma's stew for the family, first solo attempt. Dad had seconds; Grandma, over video, judged the color through the screen and allowed a seven out of ten.",
           "emotion": "satisfaction",
           "intensity_band": "mild",
@@ -3197,7 +3197,7 @@
         {
           "id": "p09e08",
           "session": 8,
-          "date_time": "2025-05-06T21:30:00",
+          "date_time": "2025-05-06T21:30:00+00:00",
           "text": "Homework night: physics problem set, vocabulary flashcards, and a worksheet on the French Revolution. Rewarded myself with one episode and actually stopped at one.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3223,7 +3223,7 @@
         {
           "id": "p09e09",
           "session": 9,
-          "date_time": "2025-05-16T22:00:00",
+          "date_time": "2025-05-16T22:00:00+00:00",
           "text": "Suha waited by my locker with a handwritten letter and red eyes. We talked through two class periods in the stairwell. Not fixed, but the door isn't locked anymore.",
           "emotion": "cautious relief",
           "intensity_band": "high",
@@ -3249,7 +3249,7 @@
         {
           "id": "p09e10",
           "session": 10,
-          "date_time": "2025-05-25T16:10:00",
+          "date_time": "2025-05-25T16:10:00+00:00",
           "text": "Regionals. I dove in fourth and touched first on my leg; we took silver by a fingertip and screamed so loud the lifeguard whistled at us. The medal is on my desk lamp.",
           "emotion": "elation",
           "intensity_band": "high",
@@ -3275,7 +3275,7 @@
         {
           "id": "p09e11",
           "session": 11,
-          "date_time": "2025-06-03T19:35:00",
+          "date_time": "2025-06-03T19:35:00+00:00",
           "text": "Swapped my locker to the second floor, re-taped my class schedule inside the door, and finally returned the library's poetry anthology, nine days overdue.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3301,7 +3301,7 @@
         {
           "id": "p09e12",
           "session": 12,
-          "date_time": "2025-06-13T20:25:00",
+          "date_time": "2025-06-13T20:25:00+00:00",
           "text": "Grandma gave me her handwritten recipe notebook to copy over the summer, the one with sauce stains older than me. She said recipes die in drawers and live in wrists.",
           "emotion": "tenderness",
           "intensity_band": "high",
@@ -3327,7 +3327,7 @@
         {
           "id": "p09e13",
           "session": 13,
-          "date_time": "2025-06-26T18:50:00",
+          "date_time": "2025-06-26T18:50:00+00:00",
           "text": "Summer training plan posted: three morning swims a week, two gym sessions, and a taper before August meets. Highlighted the rest days first, obviously.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3353,7 +3353,7 @@
         {
           "id": "p09e14",
           "session": 13,
-          "date_time": "2025-06-26T21:40:00",
+          "date_time": "2025-06-26T21:40:00+00:00",
           "text": "Suha came over for the first time since March. We made the stew together from Grandma's notebook, argued about garlic amounts, and it tasted like before.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -3387,7 +3387,7 @@
         {
           "id": "p10e01",
           "session": 1,
-          "date_time": "2025-03-02T18:30:00",
+          "date_time": "2025-03-02T18:30:00+00:00",
           "text": "Milled the walnut boards for the dining table commission and stickered them to dry. Swept the shop, oiled the jointer, and lined up cuts for the weekend.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3413,7 +3413,7 @@
         {
           "id": "p10e02",
           "session": 2,
-          "date_time": "2025-03-11T20:15:00",
+          "date_time": "2025-03-11T20:15:00+00:00",
           "text": "Marco messaged out of nowhere after nine years: found my workshop page, said the tool cabinet I built in trade school is still in his garage. We talked until my phone died.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -3439,7 +3439,7 @@
         {
           "id": "p10e03",
           "session": 3,
-          "date_time": "2025-03-20T19:40:00",
+          "date_time": "2025-03-20T19:40:00+00:00",
           "text": "First trip of the year to the lake cabin. The roof held through winter but the porch boards went spongy; measured everything and budgeted the lumber on the drive home.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3465,7 +3465,7 @@
         {
           "id": "p10e04",
           "session": 4,
-          "date_time": "2025-03-30T21:00:00",
+          "date_time": "2025-03-30T21:00:00+00:00",
           "text": "Client rejected the finished bookcase over a stain shade she approved in writing. Held my tongue, photographed everything, and quoted the refinish at full rate.",
           "emotion": "anger",
           "intensity_band": "high",
@@ -3491,7 +3491,7 @@
         {
           "id": "p10e05",
           "session": 5,
-          "date_time": "2025-04-08T17:20:00",
+          "date_time": "2025-04-08T17:20:00+00:00",
           "text": "Restocked screws and glue, replaced two sawblades, and finally labeled the hardware drawers after three years of educated guessing.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3517,7 +3517,7 @@
         {
           "id": "p10e06",
           "session": 6,
-          "date_time": "2025-04-19T22:10:00",
+          "date_time": "2025-04-19T22:10:00+00:00",
           "text": "Ripped a board without the guard like an idiot in a hurry and took a kickback bruise across the forearm. Nothing broken, everything humbling. Sat outside for a long while after.",
           "emotion": "fear",
           "intensity_band": "high",
@@ -3543,7 +3543,7 @@
         {
           "id": "p10e07",
           "session": 7,
-          "date_time": "2025-04-27T19:50:00",
+          "date_time": "2025-04-27T19:50:00+00:00",
           "text": "Delivered the walnut table. The couple's kid immediately claimed the underside as a cave, and they sent a photo an hour later of dinner set for four on it.",
           "emotion": "pride",
           "intensity_band": "high",
@@ -3569,7 +3569,7 @@
         {
           "id": "p10e08",
           "session": 8,
-          "date_time": "2025-05-06T20:30:00",
+          "date_time": "2025-05-06T20:30:00+00:00",
           "text": "Marco drove down for the weekend. We rebuilt the cabin porch in two days, argued about joinery like no time had passed, and burned the old boards in a lakeside fire.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -3595,7 +3595,7 @@
         {
           "id": "p10e09",
           "session": 9,
-          "date_time": "2025-05-15T18:00:00",
+          "date_time": "2025-05-15T18:00:00+00:00",
           "text": "Quoted three new commissions: a crib, a bench, and a standing desk. Turned down a fourth asking for next-week delivery, politely, then less politely when he called twice.",
           "emotion": "mild annoyance",
           "intensity_band": "low",
@@ -3621,7 +3621,7 @@
         {
           "id": "p10e10",
           "session": 10,
-          "date_time": "2025-05-24T21:20:00",
+          "date_time": "2025-05-24T21:20:00+00:00",
           "text": "Dad's old hand plane, seized since he passed, finally freed up after a week in penetrating oil. Flattened a scrap of pine with it and kept the shaving curl on the windowsill.",
           "emotion": "grief",
           "intensity_band": "high",
@@ -3647,7 +3647,7 @@
         {
           "id": "p10e11",
           "session": 11,
-          "date_time": "2025-06-03T19:10:00",
+          "date_time": "2025-06-03T19:10:00+00:00",
           "text": "Invoice day: three payments chased, quarterly tax folder sorted, and the van's oil changed. Rewarded myself with dumplings from the corner place.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3673,7 +3673,7 @@
         {
           "id": "p10e12",
           "session": 12,
-          "date_time": "2025-06-14T20:45:00",
+          "date_time": "2025-06-14T20:45:00+00:00",
           "text": "Finished the crib, sanded to four hundred grit, every edge rounded twice. The expecting parents teared up at pickup and I pretended the dust extractor needed adjusting.",
           "emotion": "tenderness",
           "intensity_band": "high",
@@ -3699,7 +3699,7 @@
         {
           "id": "p10e13",
           "session": 13,
-          "date_time": "2025-06-25T18:30:00",
+          "date_time": "2025-06-25T18:30:00+00:00",
           "text": "Cabin weekend: hung the new screen door, planted mint by the steps in Mom's old kettle, and watched a heron work the shallows until dusk.",
           "emotion": "contentment",
           "intensity_band": "mild",
@@ -3725,7 +3725,7 @@
         {
           "id": "p10e14",
           "session": 14,
-          "date_time": "2025-06-29T17:00:00",
+          "date_time": "2025-06-29T17:00:00+00:00",
           "text": "Shop reset for the bench build: sharpened chisels, dressed the grinder wheel, and drew the joinery full-scale on plywood. Cut list taped where the coffee can't reach it.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3759,7 +3759,7 @@
         {
           "id": "p11e01",
           "session": 1,
-          "date_time": "2025-03-05T21:00:00",
+          "date_time": "2025-03-05T21:00:00+00:00",
           "text": "Onboarding week done: laptop configured, repos cloned, and my first ticket merged, a one-line logging fix that I screenshotted like a diploma.",
           "emotion": "hope",
           "intensity_band": "mild",
@@ -3785,7 +3785,7 @@
         {
           "id": "p11e02",
           "session": 2,
-          "date_time": "2025-03-14T19:30:00",
+          "date_time": "2025-03-14T19:30:00+00:00",
           "text": "Bought a monstera from the flower market and named her Clementine. Repotted her on newspaper on the kitchen floor, roots like pale noodles, dirt absolutely everywhere.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3811,7 +3811,7 @@
         {
           "id": "p11e03",
           "session": 3,
-          "date_time": "2025-03-23T22:40:00",
+          "date_time": "2025-03-23T22:40:00+00:00",
           "text": "Deployed a migration that locked the users table for eleven minutes in production. Senior devs were kind, the postmortem was kind, and I still rewrote my apology four times.",
           "emotion": "shame",
           "intensity_band": "high",
@@ -3837,7 +3837,7 @@
         {
           "id": "p11e04",
           "session": 4,
-          "date_time": "2025-04-01T20:15:00",
+          "date_time": "2025-04-01T20:15:00+00:00",
           "text": "First driving lesson. Stalled twice at the same intersection, and the instructor said my mirror checks were textbook, which I am choosing to make my whole identity.",
           "emotion": "nervousness",
           "intensity_band": "mild",
@@ -3863,7 +3863,7 @@
         {
           "id": "p11e05",
           "session": 5,
-          "date_time": "2025-04-10T21:45:00",
+          "date_time": "2025-04-10T21:45:00+00:00",
           "text": "Weekly chores plus a fridge purge of three science experiments formerly known as leftovers. Watered all nine plants and rotated Clementine a quarter turn toward the light.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -3889,7 +3889,7 @@
         {
           "id": "p11e06",
           "session": 6,
-          "date_time": "2025-04-19T18:50:00",
+          "date_time": "2025-04-19T18:50:00+00:00",
           "text": "Shipped the rate-limiter feature I owned end to end. Code review had one comment: nice. I walked home the long way and bought a pastry shaped like a fish.",
           "emotion": "pride",
           "intensity_band": "high",
@@ -3915,7 +3915,7 @@
         {
           "id": "p11e07",
           "session": 7,
-          "date_time": "2025-04-28T23:20:00",
+          "date_time": "2025-04-28T23:20:00+00:00",
           "text": "Clementine has root rot. Emergency surgery on the balcony at ten at night: trimmed the mush, repotted into dry mix, and lit a candle for her like a maniac.",
           "emotion": "worry",
           "intensity_band": "mild",
@@ -3941,7 +3941,7 @@
         {
           "id": "p11e08",
           "session": 8,
-          "date_time": "2025-05-08T20:00:00",
+          "date_time": "2025-05-08T20:00:00+00:00",
           "text": "Failed the driving test: reverse parallel park, clipped the cone at the very end of an otherwise clean run. The examiner said almost with genuine sympathy, and I rebooked for June.",
           "emotion": "disappointment",
           "intensity_band": "high",
@@ -3967,7 +3967,7 @@
         {
           "id": "p11e09",
           "session": 9,
-          "date_time": "2025-05-17T19:40:00",
+          "date_time": "2025-05-17T19:40:00+00:00",
           "text": "Team offsite: escape room where I found the magnet key everyone walked past, then barbecue where the CTO grilled and undercooked with total confidence.",
           "emotion": "amusement",
           "intensity_band": "mild",
@@ -3993,7 +3993,7 @@
         {
           "id": "p11e10",
           "session": 10,
-          "date_time": "2025-05-27T21:10:00",
+          "date_time": "2025-05-27T21:10:00+00:00",
           "text": "Prepped my probation review portfolio: twelve merged PRs, the incident postmortem with my remediation items all closed, and a one-pager on the rate limiter.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -4019,7 +4019,7 @@
         {
           "id": "p11e11",
           "session": 11,
-          "date_time": "2025-06-06T18:30:00",
+          "date_time": "2025-06-06T18:30:00+00:00",
           "text": "Passed probation. My manager said the incident response impressed them more than the feature, handed me a permanent badge, and the team stuck a bow on my monitor.",
           "emotion": "elation",
           "intensity_band": "high",
@@ -4045,7 +4045,7 @@
         {
           "id": "p11e12",
           "session": 12,
-          "date_time": "2025-06-16T20:20:00",
+          "date_time": "2025-06-16T20:20:00+00:00",
           "text": "Clementine unfurled a new leaf, the first since the rot, with two proper holes in it. I photographed it from six angles like a proud relative at a graduation.",
           "emotion": "joy",
           "intensity_band": "high",
@@ -4071,7 +4071,7 @@
         {
           "id": "p11e13",
           "session": 13,
-          "date_time": "2025-06-24T19:00:00",
+          "date_time": "2025-06-24T19:00:00+00:00",
           "text": "Passed the driving retest, parallel park included, cone untouched. Drove Mom around the block exactly once with both hands at ten and two while she applauded.",
           "emotion": "triumph",
           "intensity_band": "high",
@@ -4097,7 +4097,7 @@
         {
           "id": "p11e14",
           "session": 14,
-          "date_time": "2025-06-28T21:30:00",
+          "date_time": "2025-06-28T21:30:00+00:00",
           "text": "Meal-prepped for the week, dusted every leaf in the apartment jungle, and set up autopay for the new car insurance. Extremely licensed behavior.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -4131,7 +4131,7 @@
         {
           "id": "p12e01",
           "session": 1,
-          "date_time": "2025-03-06T23:30:00",
+          "date_time": "2025-03-06T23:30:00+00:00",
           "text": "Band practice in Juho's garage: nailed the bridge of the new song after twenty takes, and decided the EP will have four tracks, not five, after a democratic shouting match.",
           "emotion": "satisfaction",
           "intensity_band": "mild",
@@ -4157,7 +4157,7 @@
         {
           "id": "p12e02",
           "session": 2,
-          "date_time": "2025-03-15T22:00:00",
+          "date_time": "2025-03-15T22:00:00+00:00",
           "text": "Closing at the bar: restocked the coolers, polished two racks of glasses, and mopped to the playlist I'm not allowed to control on weekends.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -4183,7 +4183,7 @@
         {
           "id": "p12e03",
           "session": 3,
-          "date_time": "2025-03-24T21:15:00",
+          "date_time": "2025-03-24T21:15:00+00:00",
           "text": "Sohee got the Berlin research fellowship. Two years. She told me over tteokbokki and I said all the right congratulations while something in me quietly sat down on the floor.",
           "emotion": "grief",
           "intensity_band": "high",
@@ -4209,7 +4209,7 @@
         {
           "id": "p12e04",
           "session": 4,
-          "date_time": "2025-04-02T20:30:00",
+          "date_time": "2025-04-02T20:30:00+00:00",
           "text": "Savings check-in: bass fund at sixty percent after two extra shifts. Taped a photo of the sunburst model inside my locker like motivation contraband.",
           "emotion": "hope",
           "intensity_band": "mild",
@@ -4235,7 +4235,7 @@
         {
           "id": "p12e05",
           "session": 5,
-          "date_time": "2025-04-11T23:45:00",
+          "date_time": "2025-04-11T23:45:00+00:00",
           "text": "Recorded bass tracks for two EP songs at the studio Juho's uncle lent us. My fingertips split on the last take but the engineer said keep it, the grit fits.",
           "emotion": "exhilaration",
           "intensity_band": "high",
@@ -4261,7 +4261,7 @@
         {
           "id": "p12e06",
           "session": 6,
-          "date_time": "2025-04-20T19:20:00",
+          "date_time": "2025-04-20T19:20:00+00:00",
           "text": "Helped Sohee sort her apartment: three donate boxes, one ship box, and a keep pile that is mostly books she swears she'll reread. We found our childhood walkie-talkies.",
           "emotion": "bittersweet",
           "intensity_band": "high",
@@ -4287,7 +4287,7 @@
         {
           "id": "p12e07",
           "session": 7,
-          "date_time": "2025-04-29T21:00:00",
+          "date_time": "2025-04-29T21:00:00+00:00",
           "text": "Bar inventory night plus a delivery mix-up: forty crates of sparkling water nobody ordered. Manager and I built a fort out of them by the storeroom door as a statement.",
           "emotion": "amusement",
           "intensity_band": "low",
@@ -4313,7 +4313,7 @@
         {
           "id": "p12e08",
           "session": 8,
-          "date_time": "2025-05-09T00:15:00",
+          "date_time": "2025-05-09T00:15:00+00:00",
           "text": "EP release show at the basement venue. Sixty people, our banner crooked, and during the last chorus the whole room sang words I wrote at a bus stop. I forgot to breathe.",
           "emotion": "euphoria",
           "intensity_band": "high",
@@ -4339,7 +4339,7 @@
         {
           "id": "p12e09",
           "session": 9,
-          "date_time": "2025-05-18T20:40:00",
+          "date_time": "2025-05-18T20:40:00+00:00",
           "text": "Laundry, bass restring, and a call with Grandpa who asked if the band plays anything a person could waltz to. Promised him a waltz on the next EP, witnessed by Mom.",
           "emotion": "neutral",
           "intensity_band": "low",
@@ -4365,7 +4365,7 @@
         {
           "id": "p12e10",
           "session": 10,
-          "date_time": "2025-05-28T22:30:00",
+          "date_time": "2025-05-28T22:30:00+00:00",
           "text": "The EP got reviewed by a webzine: three and a half stars, called the bass lines the spine of the record. Juho printed the paragraph and framed it above the garage amp.",
           "emotion": "pride",
           "intensity_band": "high",
@@ -4391,7 +4391,7 @@
         {
           "id": "p12e11",
           "session": 11,
-          "date_time": "2025-06-07T14:00:00",
+          "date_time": "2025-06-07T14:00:00+00:00",
           "text": "Airport day. Sohee cried at security, I held it together until her gate disappeared from the board, then called Mom from the parking lot and lost it completely.",
           "emotion": "grief",
           "intensity_band": "high",
@@ -4417,7 +4417,7 @@
         {
           "id": "p12e12",
           "session": 12,
-          "date_time": "2025-06-16T21:50:00",
+          "date_time": "2025-06-16T21:50:00+00:00",
           "text": "First video call with Sohee from Berlin: her flat is a shoebox with good light, she found a Korean grocer two streets over, and the walkie-talkie sits on her bookshelf.",
           "emotion": "tenderness",
           "intensity_band": "mild",
@@ -4443,7 +4443,7 @@
         {
           "id": "p12e13",
           "session": 13,
-          "date_time": "2025-06-26T18:10:00",
+          "date_time": "2025-06-26T18:10:00+00:00",
           "text": "Bass fund complete. Bought the sunburst model, second hand but mint, from a session player who threw in the hard case because, quote, it belongs with someone hungry.",
           "emotion": "elation",
           "intensity_band": "high",
@@ -4469,7 +4469,7 @@
         {
           "id": "p12e14",
           "session": 14,
-          "date_time": "2025-06-29T22:20:00",
+          "date_time": "2025-06-29T22:20:00+00:00",
           "text": "Quiet shift, early close. Wiped down the taps, cashed out, and practiced walking bass lines in the empty bar with the amp at one, for Grandpa's waltz.",
           "emotion": "contentment",
           "intensity_band": "low",

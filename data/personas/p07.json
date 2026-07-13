@@ -5,143 +5,367 @@
   "context": "marketing manager and new parent; threads: baby's first year, return to work, sleep",
   "episodes": [
     {
-      "id": "p07e01", "session": 1, "date_time": "2025-03-02T14:20:00",
+      "id": "p07e01",
+      "session": 1,
+      "date_time": "2025-03-02T14:20:00+00:00",
       "text": "Stocked the freezer with milk pouches, sterilized a week of bottles, and updated the feeding log spreadsheet my partner pretends not to find excessive.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p07e01-f", "type": "factual", "query": "What does my partner pretend not to find excessive?"},
-        {"id": "p07e01-x", "type": "reflective_explicit", "query": "I feel calm order thinking of those bottle-prep afternoons."},
-        {"id": "p07e01-i", "type": "reflective_implicit", "query": "Rows of tiny containers lined up for the week ahead drift back to me."}
+        {
+          "id": "p07e01-f",
+          "type": "factual",
+          "query": "What does my partner pretend not to find excessive?"
+        },
+        {
+          "id": "p07e01-x",
+          "type": "reflective_explicit",
+          "query": "I feel calm order thinking of those bottle-prep afternoons."
+        },
+        {
+          "id": "p07e01-i",
+          "type": "reflective_implicit",
+          "query": "Rows of tiny containers lined up for the week ahead drift back to me."
+        }
       ]
     },
     {
-      "id": "p07e02", "session": 2, "date_time": "2025-03-11T07:50:00",
+      "id": "p07e02",
+      "session": 2,
+      "date_time": "2025-03-11T07:50:00+00:00",
       "text": "Dohyun laughed for the first time, a real belly laugh, because the dog sneezed. We spent twenty minutes making the dog sneeze again and it never worked.",
-      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "emotion": "joy",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p07e02-f", "type": "factual", "query": "What made Dohyun laugh for the first time?"},
-        {"id": "p07e02-x", "type": "reflective_explicit", "query": "I feel pure joy every time that first laugh replays in my head."},
-        {"id": "p07e02-i", "type": "reflective_implicit", "query": "A brand-new sound filled the kitchen that morning and it lives in me still."}
+        {
+          "id": "p07e02-f",
+          "type": "factual",
+          "query": "What made Dohyun laugh for the first time?"
+        },
+        {
+          "id": "p07e02-x",
+          "type": "reflective_explicit",
+          "query": "I feel pure joy every time that first laugh replays in my head."
+        },
+        {
+          "id": "p07e02-i",
+          "type": "reflective_implicit",
+          "query": "A brand-new sound filled the kitchen that morning and it lives in me still."
+        }
       ]
     },
     {
-      "id": "p07e03", "session": 3, "date_time": "2025-03-19T03:40:00",
+      "id": "p07e03",
+      "session": 3,
+      "date_time": "2025-03-19T03:40:00+00:00",
       "text": "Fourth night of the sleep regression. I rocked him from two to four, watched the streetlight through the curtain, and ate cereal standing up at dawn like a raccoon.",
-      "emotion": "exhaustion", "intensity_band": "high", "valence": "negative",
+      "emotion": "exhaustion",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p07e03-f", "type": "factual", "query": "What did I eat standing up at dawn during the sleep regression?"},
-        {"id": "p07e03-x", "type": "reflective_explicit", "query": "I feel the exhaustion of those regression nights in my bones when I recall them."},
-        {"id": "p07e03-i", "type": "reflective_implicit", "query": "Hours swaying in the half-dark while the lamp outside glowed orange come back to me at 3 a.m."}
+        {
+          "id": "p07e03-f",
+          "type": "factual",
+          "query": "What did I eat standing up at dawn during the sleep regression?"
+        },
+        {
+          "id": "p07e03-x",
+          "type": "reflective_explicit",
+          "query": "I feel the exhaustion of those regression nights in my bones when I recall them."
+        },
+        {
+          "id": "p07e03-i",
+          "type": "reflective_implicit",
+          "query": "Hours swaying in the half-dark while the lamp outside glowed orange come back to me at 3 a.m."
+        }
       ]
     },
     {
-      "id": "p07e04", "session": 4, "date_time": "2025-03-28T13:10:00",
+      "id": "p07e04",
+      "session": 4,
+      "date_time": "2025-03-28T13:10:00+00:00",
       "text": "Daycare tours, three in one day. The second one had a garden with a worm-watching corner and a teacher who knew every child's blanket by name. Shortlisted immediately.",
-      "emotion": "hope", "intensity_band": "mild", "valence": "positive",
+      "emotion": "hope",
+      "intensity_band": "mild",
+      "valence": "positive",
       "probes": [
-        {"id": "p07e04-f", "type": "factual", "query": "What special corner did the second daycare's garden have?"},
-        {"id": "p07e04-x", "type": "reflective_explicit", "query": "I feel hopeful remembering the daycare with the wonderful garden."},
-        {"id": "p07e04-i", "type": "reflective_implicit", "query": "One place we visited made the choosing easy, and the image returns to me."}
+        {
+          "id": "p07e04-f",
+          "type": "factual",
+          "query": "What special corner did the second daycare's garden have?"
+        },
+        {
+          "id": "p07e04-x",
+          "type": "reflective_explicit",
+          "query": "I feel hopeful remembering the daycare with the wonderful garden."
+        },
+        {
+          "id": "p07e04-i",
+          "type": "reflective_implicit",
+          "query": "One place we visited made the choosing easy, and the image returns to me."
+        }
       ]
     },
     {
-      "id": "p07e05", "session": 5, "date_time": "2025-04-05T21:30:00",
+      "id": "p07e05",
+      "session": 5,
+      "date_time": "2025-04-05T21:30:00+00:00",
       "text": "Sorted outgrown newborn clothes into donation bags. Kept the hospital hat and the impossible tiny socks, and sat on the nursery floor longer than the task required.",
-      "emotion": "bittersweet", "intensity_band": "high", "valence": "negative",
+      "emotion": "bittersweet",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p07e05-f", "type": "factual", "query": "Which two items did I keep from the outgrown newborn clothes?"},
-        {"id": "p07e05-x", "type": "reflective_explicit", "query": "I feel a bittersweet ache thinking of packing away those first clothes."},
-        {"id": "p07e05-i", "type": "reflective_implicit", "query": "Folding what no longer fits him took something out of me that evening, and it revisits."}
+        {
+          "id": "p07e05-f",
+          "type": "factual",
+          "query": "Which two items did I keep from the outgrown newborn clothes?"
+        },
+        {
+          "id": "p07e05-x",
+          "type": "reflective_explicit",
+          "query": "I feel a bittersweet ache thinking of packing away those first clothes."
+        },
+        {
+          "id": "p07e05-i",
+          "type": "reflective_implicit",
+          "query": "Folding what no longer fits him took something out of me that evening, and it revisits."
+        }
       ]
     },
     {
-      "id": "p07e06", "session": 6, "date_time": "2025-04-14T12:00:00",
+      "id": "p07e06",
+      "session": 6,
+      "date_time": "2025-04-14T12:00:00+00:00",
       "text": "Pediatric checkup: seventy-two centimeters, ninth percentile jump in weight, two teeth confirmed. The doctor called him a textbook baby and he bit the textbook.",
-      "emotion": "amusement", "intensity_band": "mild", "valence": "positive",
+      "emotion": "amusement",
+      "intensity_band": "mild",
+      "valence": "positive",
       "probes": [
-        {"id": "p07e06-f", "type": "factual", "query": "How tall did Dohyun measure at the pediatric checkup?"},
-        {"id": "p07e06-x", "type": "reflective_explicit", "query": "I feel proud amusement recalling that checkup visit."},
-        {"id": "p07e06-i", "type": "reflective_implicit", "query": "The little rebel chomping the compliment he'd just earned makes me grin inside."}
+        {
+          "id": "p07e06-f",
+          "type": "factual",
+          "query": "How tall did Dohyun measure at the pediatric checkup?"
+        },
+        {
+          "id": "p07e06-x",
+          "type": "reflective_explicit",
+          "query": "I feel proud amusement recalling that checkup visit."
+        },
+        {
+          "id": "p07e06-i",
+          "type": "reflective_implicit",
+          "query": "The little rebel chomping the compliment he'd just earned makes me grin inside."
+        }
       ]
     },
     {
-      "id": "p07e07", "session": 7, "date_time": "2025-04-23T22:15:00",
+      "id": "p07e07",
+      "session": 7,
+      "date_time": "2025-04-23T22:15:00+00:00",
       "text": "Reviewed the return-to-work handover plan HR sent. Highlighted the parts where my projects were reassigned without asking me, and drafted questions for the meeting.",
-      "emotion": "unease", "intensity_band": "mild", "valence": "negative",
+      "emotion": "unease",
+      "intensity_band": "mild",
+      "valence": "negative",
       "probes": [
-        {"id": "p07e07-f", "type": "factual", "query": "What did I highlight in the HR handover plan?"},
-        {"id": "p07e07-x", "type": "reflective_explicit", "query": "I feel uneasy remembering what that handover document revealed."},
-        {"id": "p07e07-i", "type": "reflective_implicit", "query": "Reading between the lines of that file changed how I packed for my comeback."}
+        {
+          "id": "p07e07-f",
+          "type": "factual",
+          "query": "What did I highlight in the HR handover plan?"
+        },
+        {
+          "id": "p07e07-x",
+          "type": "reflective_explicit",
+          "query": "I feel uneasy remembering what that handover document revealed."
+        },
+        {
+          "id": "p07e07-i",
+          "type": "reflective_implicit",
+          "query": "Reading between the lines of that file changed how I packed for my comeback."
+        }
       ]
     },
     {
-      "id": "p07e08", "session": 8, "date_time": "2025-05-02T20:45:00",
+      "id": "p07e08",
+      "session": 8,
+      "date_time": "2025-05-02T20:45:00+00:00",
       "text": "Date night, first since the birth. We ordered the tasting menu, talked about anything except the baby for one whole course, then showed the waiter photos anyway.",
-      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "emotion": "joy",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p07e08-f", "type": "factual", "query": "What kind of menu did we order on our first date night after the birth?"},
-        {"id": "p07e08-x", "type": "reflective_explicit", "query": "I feel giddy happiness thinking of that first evening out again."},
-        {"id": "p07e08-i", "type": "reflective_implicit", "query": "Two people remembering they were a couple before anything else — that dinner stays lit in me."}
+        {
+          "id": "p07e08-f",
+          "type": "factual",
+          "query": "What kind of menu did we order on our first date night after the birth?"
+        },
+        {
+          "id": "p07e08-x",
+          "type": "reflective_explicit",
+          "query": "I feel giddy happiness thinking of that first evening out again."
+        },
+        {
+          "id": "p07e08-i",
+          "type": "reflective_implicit",
+          "query": "Two people remembering they were a couple before anything else — that dinner stays lit in me."
+        }
       ]
     },
     {
-      "id": "p07e09", "session": 9, "date_time": "2025-05-12T09:30:00",
+      "id": "p07e09",
+      "session": 9,
+      "date_time": "2025-05-12T09:30:00+00:00",
       "text": "First day back at the office. My plant survived, my chair setting did not, and the team put a welcome-back banner over my monitor with my name spelled two different ways.",
-      "emotion": "nervousness", "intensity_band": "high", "valence": "positive",
+      "emotion": "nervousness",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p07e09-f", "type": "factual", "query": "What was wrong with the welcome-back banner?"},
-        {"id": "p07e09-x", "type": "reflective_explicit", "query": "I feel that nervous flutter again recalling my first day back."},
-        {"id": "p07e09-i", "type": "reflective_implicit", "query": "Walking into the old room as a slightly different person keeps surfacing in me."}
+        {
+          "id": "p07e09-f",
+          "type": "factual",
+          "query": "What was wrong with the welcome-back banner?"
+        },
+        {
+          "id": "p07e09-x",
+          "type": "reflective_explicit",
+          "query": "I feel that nervous flutter again recalling my first day back."
+        },
+        {
+          "id": "p07e09-i",
+          "type": "reflective_implicit",
+          "query": "Walking into the old room as a slightly different person keeps surfacing in me."
+        }
       ]
     },
     {
-      "id": "p07e10", "session": 10, "date_time": "2025-05-21T19:00:00",
+      "id": "p07e10",
+      "session": 10,
+      "date_time": "2025-05-21T19:00:00+00:00",
       "text": "Grocery order arrived with someone else's box: forty limes and no diapers. Support sorted it by evening and the neighbor took half the limes for her soda experiments.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p07e10-f", "type": "factual", "query": "What was in the mixed-up grocery box instead of diapers?"},
-        {"id": "p07e10-x", "type": "reflective_explicit", "query": "I feel mild amusement thinking of that delivery mix-up."},
-        {"id": "p07e10-i", "type": "reflective_implicit", "query": "The citrus avalanche that took over our counter pops into my head at checkout."}
+        {
+          "id": "p07e10-f",
+          "type": "factual",
+          "query": "What was in the mixed-up grocery box instead of diapers?"
+        },
+        {
+          "id": "p07e10-x",
+          "type": "reflective_explicit",
+          "query": "I feel mild amusement thinking of that delivery mix-up."
+        },
+        {
+          "id": "p07e10-i",
+          "type": "reflective_implicit",
+          "query": "The citrus avalanche that took over our counter pops into my head at checkout."
+        }
       ]
     },
     {
-      "id": "p07e11", "session": 11, "date_time": "2025-05-31T21:50:00",
+      "id": "p07e11",
+      "session": 11,
+      "date_time": "2025-05-31T21:50:00+00:00",
       "text": "Dohyun said something that was almost certainly umma while pointing at the fridge. My partner claims it was aimed at the yogurt. I have logged it as a first word regardless.",
-      "emotion": "elation", "intensity_band": "high", "valence": "positive",
+      "emotion": "elation",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p07e11-f", "type": "factual", "query": "What does my partner claim the almost-first-word was aimed at?"},
-        {"id": "p07e11-x", "type": "reflective_explicit", "query": "I feel overjoyed replaying that almost-first-word moment."},
-        {"id": "p07e11-i", "type": "reflective_implicit", "query": "A syllable by the refrigerator door rewrote my whole week and echoes still."}
+        {
+          "id": "p07e11-f",
+          "type": "factual",
+          "query": "What does my partner claim the almost-first-word was aimed at?"
+        },
+        {
+          "id": "p07e11-x",
+          "type": "reflective_explicit",
+          "query": "I feel overjoyed replaying that almost-first-word moment."
+        },
+        {
+          "id": "p07e11-i",
+          "type": "reflective_implicit",
+          "query": "A syllable by the refrigerator door rewrote my whole week and echoes still."
+        }
       ]
     },
     {
-      "id": "p07e12", "session": 12, "date_time": "2025-06-09T22:30:00",
+      "id": "p07e12",
+      "session": 12,
+      "date_time": "2025-06-09T22:30:00+00:00",
       "text": "Quarterly campaign review: my slides ran second, the numbers held, and the director asked for my channel plan to be circulated as the template. Sent it before she changed her mind.",
-      "emotion": "pride", "intensity_band": "mild", "valence": "positive",
+      "emotion": "pride",
+      "intensity_band": "mild",
+      "valence": "positive",
       "probes": [
-        {"id": "p07e12-f", "type": "factual", "query": "What did the director ask to circulate as the template?"},
-        {"id": "p07e12-x", "type": "reflective_explicit", "query": "I feel steady pride recalling how that review meeting went."},
-        {"id": "p07e12-i", "type": "reflective_implicit", "query": "My work becoming the example others copy drifts back on hard office days."}
+        {
+          "id": "p07e12-f",
+          "type": "factual",
+          "query": "What did the director ask to circulate as the template?"
+        },
+        {
+          "id": "p07e12-x",
+          "type": "reflective_explicit",
+          "query": "I feel steady pride recalling how that review meeting went."
+        },
+        {
+          "id": "p07e12-i",
+          "type": "reflective_implicit",
+          "query": "My work becoming the example others copy drifts back on hard office days."
+        }
       ]
     },
     {
-      "id": "p07e13", "session": 13, "date_time": "2025-06-25T20:40:00",
+      "id": "p07e13",
+      "session": 13,
+      "date_time": "2025-06-25T20:40:00+00:00",
       "text": "Daycare orientation packet arrived: cubby number seven, blanket policy, a nap schedule that assumes cooperation. Labeled every sock with iron-on tape after he fell asleep.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p07e13-f", "type": "factual", "query": "Which cubby number did the daycare packet assign?"},
-        {"id": "p07e13-x", "type": "reflective_explicit", "query": "I feel calm preparedness thinking of that labeling evening."},
-        {"id": "p07e13-i", "type": "reflective_implicit", "query": "Tiny names pressed onto tiny things late at night — the scene returns to me."}
+        {
+          "id": "p07e13-f",
+          "type": "factual",
+          "query": "Which cubby number did the daycare packet assign?"
+        },
+        {
+          "id": "p07e13-x",
+          "type": "reflective_explicit",
+          "query": "I feel calm preparedness thinking of that labeling evening."
+        },
+        {
+          "id": "p07e13-i",
+          "type": "reflective_implicit",
+          "query": "Tiny names pressed onto tiny things late at night — the scene returns to me."
+        }
       ]
     },
     {
-      "id": "p07e14", "session": 14, "date_time": "2025-06-29T08:15:00",
+      "id": "p07e14",
+      "session": 14,
+      "date_time": "2025-06-29T08:15:00+00:00",
       "text": "Morning walk with the stroller before the heat, coffee from the corner stand, and a park bench inventory of ducks. Dohyun counted them as ba, ba, ba. Close enough.",
-      "emotion": "contentment", "intensity_band": "low", "valence": "positive",
+      "emotion": "contentment",
+      "intensity_band": "low",
+      "valence": "positive",
       "probes": [
-        {"id": "p07e14-f", "type": "factual", "query": "What did Dohyun call the ducks at the park?"},
-        {"id": "p07e14-x", "type": "reflective_explicit", "query": "I feel gentle contentment recalling that duck-counting morning."},
-        {"id": "p07e14-i", "type": "reflective_implicit", "query": "An unrushed loop around the pond with my small narrator floats back to me."}
+        {
+          "id": "p07e14-f",
+          "type": "factual",
+          "query": "What did Dohyun call the ducks at the park?"
+        },
+        {
+          "id": "p07e14-x",
+          "type": "reflective_explicit",
+          "query": "I feel gentle contentment recalling that duck-counting morning."
+        },
+        {
+          "id": "p07e14-i",
+          "type": "reflective_implicit",
+          "query": "An unrushed loop around the pond with my small narrator floats back to me."
+        }
       ]
     }
   ]

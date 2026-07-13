@@ -5,143 +5,367 @@
   "context": "college senior; threads: graduation thesis, cafe part-time job, recent breakup",
   "episodes": [
     {
-      "id": "p03e01", "session": 1, "date_time": "2025-03-03T22:20:00",
+      "id": "p03e01",
+      "session": 1,
+      "date_time": "2025-03-03T22:20:00+00:00",
       "text": "Met my thesis advisor for the first meeting of the semester. She approved my topic on urban heat islands and gave me a reading list of nine papers.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p03e01-f", "type": "factual", "query": "How many papers were on the reading list my advisor gave me?"},
-        {"id": "p03e01-x", "type": "reflective_explicit", "query": "I feel steady and calm thinking about how my thesis journey began."},
-        {"id": "p03e01-i", "type": "reflective_implicit", "query": "The moment a long project of mine got its starting signal drifts back sometimes."}
+        {
+          "id": "p03e01-f",
+          "type": "factual",
+          "query": "How many papers were on the reading list my advisor gave me?"
+        },
+        {
+          "id": "p03e01-x",
+          "type": "reflective_explicit",
+          "query": "I feel steady and calm thinking about how my thesis journey began."
+        },
+        {
+          "id": "p03e01-i",
+          "type": "reflective_implicit",
+          "query": "The moment a long project of mine got its starting signal drifts back sometimes."
+        }
       ]
     },
     {
-      "id": "p03e02", "session": 2, "date_time": "2025-03-10T23:00:00",
+      "id": "p03e02",
+      "session": 2,
+      "date_time": "2025-03-10T23:00:00+00:00",
       "text": "Minho and I broke up in the parking lot behind the cafe after three years. He said we had become roommates with schedules, and the worst part is he was right.",
-      "emotion": "heartbreak", "intensity_band": "high", "valence": "negative",
+      "emotion": "heartbreak",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p03e02-f", "type": "factual", "query": "Where did Minho and I break up?"},
-        {"id": "p03e02-x", "type": "reflective_explicit", "query": "I still feel heartbroken when the breakup crosses my mind."},
-        {"id": "p03e02-i", "type": "reflective_implicit", "query": "What ended behind that building three springs in the making still visits me at night."}
+        {
+          "id": "p03e02-f",
+          "type": "factual",
+          "query": "Where did Minho and I break up?"
+        },
+        {
+          "id": "p03e02-x",
+          "type": "reflective_explicit",
+          "query": "I still feel heartbroken when the breakup crosses my mind."
+        },
+        {
+          "id": "p03e02-i",
+          "type": "reflective_implicit",
+          "query": "What ended behind that building three springs in the making still visits me at night."
+        }
       ]
     },
     {
-      "id": "p03e03", "session": 3, "date_time": "2025-03-17T21:40:00",
+      "id": "p03e03",
+      "session": 3,
+      "date_time": "2025-03-17T21:40:00+00:00",
       "text": "Regular closing shift at the cafe. Wiped the machines, counted the till twice because I was off by five hundred won, restocked cups for the morning crew.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p03e03-f", "type": "factual", "query": "Why did I count the till twice at closing?"},
-        {"id": "p03e03-x", "type": "reflective_explicit", "query": "I feel neutral, almost fond, about those routine closing shifts."},
-        {"id": "p03e03-i", "type": "reflective_implicit", "query": "The end-of-day rhythm of that job hums back to me in quiet moments."}
+        {
+          "id": "p03e03-f",
+          "type": "factual",
+          "query": "Why did I count the till twice at closing?"
+        },
+        {
+          "id": "p03e03-x",
+          "type": "reflective_explicit",
+          "query": "I feel neutral, almost fond, about those routine closing shifts."
+        },
+        {
+          "id": "p03e03-i",
+          "type": "reflective_implicit",
+          "query": "The end-of-day rhythm of that job hums back to me in quiet moments."
+        }
       ]
     },
     {
-      "id": "p03e04", "session": 4, "date_time": "2025-03-25T20:30:00",
+      "id": "p03e04",
+      "session": 4,
+      "date_time": "2025-03-25T20:30:00+00:00",
       "text": "Deleted our shared photo album after backing it up to a drive I mailed to my sister. Two hundred and forty pictures, three years, one padded envelope.",
-      "emotion": "grief", "intensity_band": "high", "valence": "negative",
+      "emotion": "grief",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p03e04-f", "type": "factual", "query": "How many pictures were in the album I backed up and deleted?"},
-        {"id": "p03e04-x", "type": "reflective_explicit", "query": "I feel a wave of grief remembering the day I archived those photos."},
-        {"id": "p03e04-i", "type": "reflective_implicit", "query": "Everything we collected fit into one small package, and that thought resurfaces."}
+        {
+          "id": "p03e04-f",
+          "type": "factual",
+          "query": "How many pictures were in the album I backed up and deleted?"
+        },
+        {
+          "id": "p03e04-x",
+          "type": "reflective_explicit",
+          "query": "I feel a wave of grief remembering the day I archived those photos."
+        },
+        {
+          "id": "p03e04-i",
+          "type": "reflective_implicit",
+          "query": "Everything we collected fit into one small package, and that thought resurfaces."
+        }
       ]
     },
     {
-      "id": "p03e05", "session": 5, "date_time": "2025-04-02T19:10:00",
+      "id": "p03e05",
+      "session": 5,
+      "date_time": "2025-04-02T19:10:00+00:00",
       "text": "Set up my thesis data pipeline: downloaded satellite temperature tiles for the city, wrote a cleaning script, and got the first heat map to render.",
-      "emotion": "satisfaction", "intensity_band": "mild", "valence": "positive",
+      "emotion": "satisfaction",
+      "intensity_band": "mild",
+      "valence": "positive",
       "probes": [
-        {"id": "p03e05-f", "type": "factual", "query": "What kind of data tiles did I download for the thesis pipeline?"},
-        {"id": "p03e05-x", "type": "reflective_explicit", "query": "I feel quietly satisfied about getting that first visualization working."},
-        {"id": "p03e05-i", "type": "reflective_implicit", "query": "The night a picture of the whole town first appeared on my screen returns to me."}
+        {
+          "id": "p03e05-f",
+          "type": "factual",
+          "query": "What kind of data tiles did I download for the thesis pipeline?"
+        },
+        {
+          "id": "p03e05-x",
+          "type": "reflective_explicit",
+          "query": "I feel quietly satisfied about getting that first visualization working."
+        },
+        {
+          "id": "p03e05-i",
+          "type": "reflective_implicit",
+          "query": "The night a picture of the whole town first appeared on my screen returns to me."
+        }
       ]
     },
     {
-      "id": "p03e06", "session": 6, "date_time": "2025-04-11T22:50:00",
+      "id": "p03e06",
+      "session": 6,
+      "date_time": "2025-04-11T22:50:00+00:00",
       "text": "A customer screamed at me over a mistaken oat-milk charge and threw the receipt at my chest. The manager backed me up, but my hands shook while steaming milk for an hour.",
-      "emotion": "humiliation", "intensity_band": "high", "valence": "negative",
+      "emotion": "humiliation",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p03e06-f", "type": "factual", "query": "What did the angry customer throw at me?"},
-        {"id": "p03e06-x", "type": "reflective_explicit", "query": "I still feel shaken and humiliated by that customer incident."},
-        {"id": "p03e06-i", "type": "reflective_implicit", "query": "One stranger's outburst at the counter left a mark that flares up on hard shifts."}
+        {
+          "id": "p03e06-f",
+          "type": "factual",
+          "query": "What did the angry customer throw at me?"
+        },
+        {
+          "id": "p03e06-x",
+          "type": "reflective_explicit",
+          "query": "I still feel shaken and humiliated by that customer incident."
+        },
+        {
+          "id": "p03e06-i",
+          "type": "reflective_implicit",
+          "query": "One stranger's outburst at the counter left a mark that flares up on hard shifts."
+        }
       ]
     },
     {
-      "id": "p03e07", "session": 7, "date_time": "2025-04-19T18:00:00",
+      "id": "p03e07",
+      "session": 7,
+      "date_time": "2025-04-19T18:00:00+00:00",
       "text": "Bought groceries, mended the hem of my work apron, and returned two library books a day before the due date. Small, checkable boxes.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p03e07-f", "type": "factual", "query": "What did I mend along with running errands that day?"},
-        {"id": "p03e07-x", "type": "reflective_explicit", "query": "I feel calm recalling that plain day of small errands."},
-        {"id": "p03e07-i", "type": "reflective_implicit", "query": "A short list of little duties, all crossed off, floats through my head sometimes."}
+        {
+          "id": "p03e07-f",
+          "type": "factual",
+          "query": "What did I mend along with running errands that day?"
+        },
+        {
+          "id": "p03e07-x",
+          "type": "reflective_explicit",
+          "query": "I feel calm recalling that plain day of small errands."
+        },
+        {
+          "id": "p03e07-i",
+          "type": "reflective_implicit",
+          "query": "A short list of little duties, all crossed off, floats through my head sometimes."
+        }
       ]
     },
     {
-      "id": "p03e08", "session": 8, "date_time": "2025-05-01T21:15:00",
+      "id": "p03e08",
+      "session": 8,
+      "date_time": "2025-05-01T21:15:00+00:00",
       "text": "My survey went live and collected one hundred and eighty responses in the first week, double what my advisor expected. She wrote back a single line: now the fun begins.",
-      "emotion": "excitement", "intensity_band": "high", "valence": "positive",
+      "emotion": "excitement",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p03e08-f", "type": "factual", "query": "How many responses did my survey collect in the first week?"},
-        {"id": "p03e08-x", "type": "reflective_explicit", "query": "I feel a rush of excitement remembering how the survey took off."},
-        {"id": "p03e08-i", "type": "reflective_implicit", "query": "The week strangers showed up for my questions in numbers I never imagined stays vivid."}
+        {
+          "id": "p03e08-f",
+          "type": "factual",
+          "query": "How many responses did my survey collect in the first week?"
+        },
+        {
+          "id": "p03e08-x",
+          "type": "reflective_explicit",
+          "query": "I feel a rush of excitement remembering how the survey took off."
+        },
+        {
+          "id": "p03e08-i",
+          "type": "reflective_implicit",
+          "query": "The week strangers showed up for my questions in numbers I never imagined stays vivid."
+        }
       ]
     },
     {
-      "id": "p03e09", "session": 8, "date_time": "2025-05-01T21:40:00",
+      "id": "p03e09",
+      "session": 8,
+      "date_time": "2025-05-01T21:40:00+00:00",
       "text": "New espresso blend arrived at the cafe and we ran taste tests between orders. I preferred the darker roast; the morning crew outvoted me for the lighter one.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p03e09-f", "type": "factual", "query": "Which roast did I prefer in the cafe taste test?"},
-        {"id": "p03e09-x", "type": "reflective_explicit", "query": "I feel lightly amused remembering losing that coffee vote."},
-        {"id": "p03e09-i", "type": "reflective_implicit", "query": "A tiny workplace debate over flavors resurfaces whenever I brew at home."}
+        {
+          "id": "p03e09-f",
+          "type": "factual",
+          "query": "Which roast did I prefer in the cafe taste test?"
+        },
+        {
+          "id": "p03e09-x",
+          "type": "reflective_explicit",
+          "query": "I feel lightly amused remembering losing that coffee vote."
+        },
+        {
+          "id": "p03e09-i",
+          "type": "reflective_implicit",
+          "query": "A tiny workplace debate over flavors resurfaces whenever I brew at home."
+        }
       ]
     },
     {
-      "id": "p03e10", "session": 9, "date_time": "2025-05-14T23:30:00",
+      "id": "p03e10",
+      "session": 9,
+      "date_time": "2025-05-14T23:30:00+00:00",
       "text": "Ran into Minho at the station with someone new. We nodded like distant classmates, and I cried on the platform after his train left, then bought myself flowers on the walk home.",
-      "emotion": "grief", "intensity_band": "high", "valence": "negative",
+      "emotion": "grief",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p03e10-f", "type": "factual", "query": "What did I buy myself on the walk home from the station?"},
-        {"id": "p03e10-x", "type": "reflective_explicit", "query": "I still feel that stab of sadness from running into my ex that evening."},
-        {"id": "p03e10-i", "type": "reflective_implicit", "query": "A brief nod in passing undid me once, and the scene replays on every commute."}
+        {
+          "id": "p03e10-f",
+          "type": "factual",
+          "query": "What did I buy myself on the walk home from the station?"
+        },
+        {
+          "id": "p03e10-x",
+          "type": "reflective_explicit",
+          "query": "I still feel that stab of sadness from running into my ex that evening."
+        },
+        {
+          "id": "p03e10-i",
+          "type": "reflective_implicit",
+          "query": "A brief nod in passing undid me once, and the scene replays on every commute."
+        }
       ]
     },
     {
-      "id": "p03e11", "session": 10, "date_time": "2025-05-27T20:20:00",
+      "id": "p03e11",
+      "session": 10,
+      "date_time": "2025-05-27T20:20:00+00:00",
       "text": "Advisor tore apart my methods chapter draft: eleven comments, two entire sections to rewrite. Fair points, but I closed the laptop and stared at the wall for a while.",
-      "emotion": "discouragement", "intensity_band": "mild", "valence": "negative",
+      "emotion": "discouragement",
+      "intensity_band": "mild",
+      "valence": "negative",
       "probes": [
-        {"id": "p03e11-f", "type": "factual", "query": "How many comments did my advisor leave on the methods chapter?"},
-        {"id": "p03e11-x", "type": "reflective_explicit", "query": "I feel discouraged all over again thinking of that harsh draft feedback."},
-        {"id": "p03e11-i", "type": "reflective_implicit", "query": "The red ink all over something I had labored on comes back before every submission."}
+        {
+          "id": "p03e11-f",
+          "type": "factual",
+          "query": "How many comments did my advisor leave on the methods chapter?"
+        },
+        {
+          "id": "p03e11-x",
+          "type": "reflective_explicit",
+          "query": "I feel discouraged all over again thinking of that harsh draft feedback."
+        },
+        {
+          "id": "p03e11-i",
+          "type": "reflective_implicit",
+          "query": "The red ink all over something I had labored on comes back before every submission."
+        }
       ]
     },
     {
-      "id": "p03e12", "session": 11, "date_time": "2025-06-10T19:50:00",
+      "id": "p03e12",
+      "session": 11,
+      "date_time": "2025-06-10T19:50:00+00:00",
       "text": "Coworker Jia taught me latte art on the closing shift. My first three attempts looked like clouds, the fourth was almost a heart, and we laughed until the mop water went cold.",
-      "emotion": "joy", "intensity_band": "high", "valence": "positive",
+      "emotion": "joy",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p03e12-f", "type": "factual", "query": "What did my fourth latte art attempt almost look like?"},
-        {"id": "p03e12-x", "type": "reflective_explicit", "query": "I feel warm and happy remembering that latte art lesson with Jia."},
-        {"id": "p03e12-i", "type": "reflective_implicit", "query": "An after-hours lesson in pouring shapes with a friend keeps bubbling up in me."}
+        {
+          "id": "p03e12-f",
+          "type": "factual",
+          "query": "What did my fourth latte art attempt almost look like?"
+        },
+        {
+          "id": "p03e12-x",
+          "type": "reflective_explicit",
+          "query": "I feel warm and happy remembering that latte art lesson with Jia."
+        },
+        {
+          "id": "p03e12-i",
+          "type": "reflective_implicit",
+          "query": "An after-hours lesson in pouring shapes with a friend keeps bubbling up in me."
+        }
       ]
     },
     {
-      "id": "p03e13", "session": 12, "date_time": "2025-06-24T21:00:00",
+      "id": "p03e13",
+      "session": 12,
+      "date_time": "2025-06-24T21:00:00+00:00",
       "text": "Submitted the rewritten methods chapter and updated my reference manager. Ninety-one citations now, all with page numbers, which past me would never believe.",
-      "emotion": "satisfaction", "intensity_band": "low", "valence": "positive",
+      "emotion": "satisfaction",
+      "intensity_band": "low",
+      "valence": "positive",
       "probes": [
-        {"id": "p03e13-f", "type": "factual", "query": "How many citations are in my reference manager now?"},
-        {"id": "p03e13-x", "type": "reflective_explicit", "query": "I feel a calm pride about resubmitting that chapter."},
-        {"id": "p03e13-i", "type": "reflective_implicit", "query": "Handing back a piece of work I rebuilt from its bones lingers with me."}
+        {
+          "id": "p03e13-f",
+          "type": "factual",
+          "query": "How many citations are in my reference manager now?"
+        },
+        {
+          "id": "p03e13-x",
+          "type": "reflective_explicit",
+          "query": "I feel a calm pride about resubmitting that chapter."
+        },
+        {
+          "id": "p03e13-i",
+          "type": "reflective_implicit",
+          "query": "Handing back a piece of work I rebuilt from its bones lingers with me."
+        }
       ]
     },
     {
-      "id": "p03e14", "session": 13, "date_time": "2025-06-28T20:30:00",
+      "id": "p03e14",
+      "session": 13,
+      "date_time": "2025-06-28T20:30:00+00:00",
       "text": "Quiet shift, rain outside. I laminated the new menu cards, refilled the syrup pumps, and watched umbrellas pass the window between customers.",
-      "emotion": "calm", "intensity_band": "low", "valence": "neutral",
+      "emotion": "calm",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p03e14-f", "type": "factual", "query": "What did I laminate during the quiet rainy shift?"},
-        {"id": "p03e14-x", "type": "reflective_explicit", "query": "I feel peaceful thinking about that slow rainy evening at work."},
-        {"id": "p03e14-i", "type": "reflective_implicit", "query": "A slow, wet evening watching the street from behind the counter drifts back to me."}
+        {
+          "id": "p03e14-f",
+          "type": "factual",
+          "query": "What did I laminate during the quiet rainy shift?"
+        },
+        {
+          "id": "p03e14-x",
+          "type": "reflective_explicit",
+          "query": "I feel peaceful thinking about that slow rainy evening at work."
+        },
+        {
+          "id": "p03e14-i",
+          "type": "reflective_implicit",
+          "query": "A slow, wet evening watching the street from behind the counter drifts back to me."
+        }
       ]
     }
   ]

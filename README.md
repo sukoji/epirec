@@ -6,86 +6,112 @@
 
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-2a78d6.svg)](LICENSE)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-52514e.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0-1baf7a.svg)](data/epirec_v1.json)
+[![Release](https://img.shields.io/badge/release-v1.0-1baf7a.svg)](data/epirec_v1.json)
+[![Validation](https://github.com/sukoji/epirec/actions/workflows/validate.yml/badge.svg)](https://github.com/sukoji/epirec/actions/workflows/validate.yml)
+
+**12 personas | 168 episodes | 504 retrieval probes | English | synthetic**
 
 </div>
 
-Memory-augmented agents claim two different retrieval abilities that existing long-term-memory benchmarks ([LoCoMo](https://github.com/snap-research/locomo), LongMemEval) only test one of: **factual lookup** ("what did I order at the ramen place?") and **emotional resurfacing** — recalling an emotionally significant episode from a reflective, lexically-indirect prompt ("that evening by the water still comes back to me"). No public dataset carries emotional-salience labels. EpiRec fills that gap.
+EpiRec evaluates two different capabilities of a memory-augmented agent:
 
-**12 personas · 168 first-person journal episodes · 504 probes**, fully synthetic, with authored intensity-band and valence labels, real session timestamps spanning ~120 days, and — the part that makes it hard — every episode probed three ways:
-
-| Probe type | Construction rule | Example |
+| Capability | Question | Why it matters |
 |---|---|---|
-| `factual` | direct question about a concrete detail; may reuse content words | *"How much did Mochi weigh at the vet?"* |
-| `reflective_explicit` | first-person reflection **naming the emotion** | *"I still feel overjoyed remembering the day my cat arrived."* |
-| `reflective_implicit` | first-person reflection with **no emotion words and no content words reused** (mechanically enforced) | *"That evening a tiny creature chose to stay near me, and it keeps coming back to my mind."* |
+| Factual lookup | "What did I order at the ramen place?" | Tests whether a system retrieves a concrete episodic detail. |
+| Emotional resurfacing | "That evening by the water still comes back to me." | Tests whether a system retrieves an emotionally meaningful episode from an indirect reflection. |
+
+Existing long-term-memory benchmarks such as [LoCoMo](https://github.com/snap-research/locomo) provide strong factual-recall evaluation, but do not include emotional-salience labels. EpiRec complements them with a small, fully disclosed synthetic benchmark designed for this missing axis. It is evaluation-only and must not be used to support claims about real human memory or mental-health outcomes.
 
 <p align="center"><img src="docs/stats.png" width="92%" alt="EpiRec v1.0 corpus statistics"></p>
 
-## Results (v1.0 baselines)
+## Data
 
-recall@3 per probe type, single-target, per-persona stores (14 episodes each). Reference baselines from [`scripts/baseline_retrieval.py`](scripts/baseline_retrieval.py); memory-model rows measured with [Persode](https://github.com/sukoji/persode) (`experiments/exp6_epirec.py`).
+Each of 12 fictional personas has 14 dated first-person journal episodes. Every episode has one probe of each type:
 
-| Strategy (MiniLM embeddings) | factual | reflective explicit | **reflective implicit** | overall |
-|---|---:|---:|---:|---:|
-| recency-only | 0.21 | 0.21 | 0.21 | 0.21 |
-| similarity-only (pure RAG) | 1.00 | 0.88 | **0.66** | 0.84 |
-| salience-only (no similarity) | 0.21 | 0.21 | 0.21 | 0.21 |
-| salience fusion, always-on (α = 0.5) | 0.99 | 0.82 | 0.60 | 0.80 |
-| emotion-gated fusion | 1.00 | 0.87 | **0.66** | 0.84 |
+| Probe type | Construction rule | Example use |
+|---|---|---|
+| `factual` | Direct question about a concrete detail; lexical overlap is allowed. | Factual episodic lookup |
+| `reflective_explicit` | First-person reflection that names the emotion or a close synonym. | Emotion-aware retrieval |
+| `reflective_implicit` | First-person reflection with no independent emotion-vocabulary word and no content-word stem shared with its target. | Indirect emotional resurfacing |
 
-What the benchmark shows so far:
+The released artifact is [`data/epirec_v1.json`](data/epirec_v1.json). Its top-level structure is:
 
-- **The difficulty gradient works as designed**: factual (1.00) → explicit (0.88) → implicit (0.66) for every method and both embedders. The `reflective_implicit` stratum has real headroom — it is the open problem this benchmark poses.
-- **A negative result the authors' own small-scale tests had missed**: always-on emotional-salience fusion loses to pure similarity on *every* stratum here — including the high-intensity emotional episodes it was designed for (0.60 vs 0.63 implicit-high) — because its emotional-intensity estimates come from a keyword analyzer that is too noisy at this scale. Emotion-gating restores parity but does not yet add gains. A salience prior earns its keep only with a better E estimator (e.g., an LLM analyzer) — untested, and exactly the kind of claim EpiRec exists to check.
-
-## Using the data
-
-```python
-import json
-corpus = json.load(open("data/epirec_v1.json", encoding="utf-8"))
-for persona in corpus["personas"]:
-    for ep in persona["episodes"]:          # id, text, date_time, emotion,
-        for probe in ep["probes"]:          #   intensity_band, valence
-            ...                             # probe: id, type, query; target = ep["id"]
+```text
+reference_now
+personas[]
+  persona_id
+  episodes[]
+    id, session, date_time, text, emotion, intensity_band, valence
+    probes[]
+      id, type, query
 ```
 
-Evaluation protocol (fixed in [GENERATION_SPEC.md](GENERATION_SPEC.md)): per persona, all episodes form one store; rank the store per probe; report recall@3 (primary), recall@1, MRR — overall, per probe type, and reflective probes stratified by intensity band. `reference_now` is the corpus anchor date for any time-aware model.
+Each probe targets the episode that contains it. Timestamps are ISO-8601 UTC values. Agents should form one retrieval store per persona and use `reference_now` for time-aware scoring.
 
-## Construction & integrity
+## Benchmark Protocol
 
-- **Pre-registered**: [GENERATION_SPEC.md](GENERATION_SPEC.md) (persona shape, band mix, timeline coverage, probe rules, label protocol, eval protocol) was frozen before generation, and the corpus was frozen before any retrieval method ran on it.
-- **Mechanically validated**: [`scripts/validate.py`](scripts/validate.py) enforces every spec rule — including that `reflective_implicit` probes share no content-word stems with their episode and use no word from an independent emotion vocabulary. v1.0 passes with zero violations.
-- **Provenance, disclosed**: episodes and probes were authored by Claude (Anthropic) in a supervised session, by the same team that maintains one of the evaluated systems. Mitigations: the frozen spec, the mechanical validator, publication of every rule, and the fact that v1.0's headline finding is *negative* for that system's own mechanism.
-- **Label validation**: authored band/valence labels are gold *by construction*; an independent human rating of a stratified 60-episode sample ships in [`human_validation/`](human_validation/) — status: **pending** (agreement will be reported here when complete; disputed episodes get flagged, never silently edited).
-- **Ethics**: fully fictional personas, everyday emotional range, no crisis/medical/abuse content, no real persons or user data.
+The fixed protocol is defined in [GENERATION_SPEC.md](GENERATION_SPEC.md):
+
+- One store per persona, containing all 14 episodes.
+- Evaluate every one of the 504 probes against its containing episode as the single target.
+- Report recall@3 as the primary metric, plus recall@1 and MRR.
+- Report results overall, by probe type, and for reflective probes by authored intensity band and age range.
+- Keep `factual`, `reflective_explicit`, and `reflective_implicit` separate. Do not collapse them into a single headline score.
+
+The corpus has no training split. It is not a leaderboard for fine-tuning; it is a diagnostic evaluation set.
+
+## Baselines
+
+Reference baselines are generated by [`scripts/baseline_retrieval.py`](scripts/baseline_retrieval.py). With MiniLM embeddings, v1.0 has the intended difficulty gradient:
+
+| Strategy | Factual recall@3 | Explicit recall@3 | Implicit recall@3 | Overall |
+|---|---:|---:|---:|---:|
+| Recency-only | 0.214 | 0.214 | 0.214 | 0.214 |
+| Similarity-only (hashing) | 0.857 | 0.488 | 0.304 | 0.550 |
+| Similarity-only (MiniLM) | 1.000 | 0.875 | 0.655 | 0.843 |
+
+These are reference retrieval baselines, not a claim that a method solves emotional resurfacing. The substantial gap on `reflective_implicit` probes is intentional headroom.
 
 ## Reproduce
 
+The repository has no mandatory runtime dependency for release validation. `sentence-transformers` is optional for the MiniLM baseline.
+
 ```bash
-python scripts/validate.py            # spec conformance (must pass)
-python scripts/build.py               # regenerate data/epirec_v1.json + docs/stats.png
-python scripts/baseline_retrieval.py  # reference baselines (numpy only; MiniLM optional)
+python scripts/validate.py            # source schema, protocol, release, and checksum checks
+python scripts/build.py --check       # confirms generated artifact is current without writing files
+python scripts/baseline_retrieval.py  # hashing baseline; MiniLM too when installed
 ```
 
-## Versioning
+To intentionally rebuild the release artifact after a versioned dataset change:
 
-The corpus is frozen per version. Errors are fixed by releasing v1.x with a changelog — never by silent in-place edits. Planned: v1.1 scale-up (~24 personas / ~1,000 probes), EpiRec-ko (Korean parallel corpus).
+```bash
+python scripts/build.py
+```
+
+`data/SHA256SUMS` pins the current artifact. Both validation commands fail when the release JSON, persona sources, or checksum manifest diverge. GitHub Actions runs these checks for every push and pull request.
+
+## Integrity And Limits
+
+- **Synthetic and disclosed:** all personas, episodes, and probes were authored with Claude (Anthropic) in a supervised session. No real-person or user data is included.
+- **Fixed construction protocol:** the public specification describes data shape, label bands, timeline coverage, probe rules, and evaluation before a release version is frozen.
+- **Mechanical checks:** the validator enforces unique IDs, source/release agreement, text length, session span, label mix, temporal coverage, probe completeness, and implicit-probe lexical constraints.
+- **Independent label audit:** a deterministic, stratified 60-episode sample is in [`human_validation/`](human_validation/). Ratings remain pending in v1.0; authored intensity and valence labels should therefore be treated as design labels until agreement is reported.
+- **Known scope:** English-only, single-target, authored text, a small evaluation set, and no evidence of ecological validity. EpiRec must not be used for clinical, mental-health, or real-user claims.
+
+See [DATASHEET.md](DATASHEET.md) for the full dataset record and [GENERATION_SPEC.md](GENERATION_SPEC.md) for construction rules.
 
 ## License
 
-Data: [CC BY 4.0](LICENSE). Scripts: MIT.
+Data is released under [CC BY 4.0](LICENSE). Code is released under [MIT](LICENSE).
 
 ## Citation
 
 ```bibtex
 @misc{epirec2026,
-  title  = {EpiRec: Episodic Recall — A Benchmark for Emotional Resurfacing and
-            Factual Lookup in Memory-Augmented Agents},
+  title  = {EpiRec: Episodic Recall: A Benchmark for Emotional Resurfacing and Factual Lookup in Memory-Augmented Agents},
   author = {Jin, Seokho},
   year   = {2026},
   url    = {https://github.com/sukoji/epirec},
-  note   = {Version 1.0. Synthetic corpus generated with Claude (Anthropic),
-            pre-registered construction, mechanically validated}
+  note   = {Version 1.0. Synthetic corpus generated with Claude (Anthropic).}
 }
 ```

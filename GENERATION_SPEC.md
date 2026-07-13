@@ -108,6 +108,10 @@ included, against labels it never saw.
 
 ## Freeze discipline
 
+For v1.0, the shared reference clock is `2025-06-30T12:00:00+00:00`; it occurs
+after every episode and is not required to be exactly 24 hours after every persona's
+last episode. All episode timestamps must include an explicit UTC offset.
+
 After the corpus is frozen (git commit + SHA-256 in the eval output), episodes
 and probes are never edited in response to results. Errors found later are
 handled by versioning the dataset (v1.1) with a changelog, never by silent

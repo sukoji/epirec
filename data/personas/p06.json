@@ -5,143 +5,367 @@
   "context": "chemistry grad student abroad; threads: lab experiments, bouldering gym, visa renewal",
   "episodes": [
     {
-      "id": "p06e01", "session": 1, "date_time": "2025-03-06T21:30:00",
+      "id": "p06e01",
+      "session": 1,
+      "date_time": "2025-03-06T21:30:00+00:00",
       "text": "Calibrated the new spectrometer all afternoon and logged baseline readings for next week's runs. Left lab at eight with the playlist still stuck in my head.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p06e01-f", "type": "factual", "query": "Which instrument did I calibrate all afternoon?"},
-        {"id": "p06e01-x", "type": "reflective_explicit", "query": "I feel neutral, almost cozy, thinking of that routine calibration day."},
-        {"id": "p06e01-i", "type": "reflective_implicit", "query": "An unhurried workday of dials and numbers hums back to me sometimes."}
+        {
+          "id": "p06e01-f",
+          "type": "factual",
+          "query": "Which instrument did I calibrate all afternoon?"
+        },
+        {
+          "id": "p06e01-x",
+          "type": "reflective_explicit",
+          "query": "I feel neutral, almost cozy, thinking of that routine calibration day."
+        },
+        {
+          "id": "p06e01-i",
+          "type": "reflective_implicit",
+          "query": "An unhurried workday of dials and numbers hums back to me sometimes."
+        }
       ]
     },
     {
-      "id": "p06e02", "session": 2, "date_time": "2025-03-14T22:45:00",
+      "id": "p06e02",
+      "session": 2,
+      "date_time": "2025-03-14T22:45:00+00:00",
       "text": "Third failed synthesis in a row, same yellow sludge instead of white crystals. My supervisor shrugged and said welcome to chemistry, which did not help at midnight.",
-      "emotion": "frustration", "intensity_band": "high", "valence": "negative",
+      "emotion": "frustration",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p06e02-f", "type": "factual", "query": "What did I get instead of white crystals in the failed synthesis?"},
-        {"id": "p06e02-x", "type": "reflective_explicit", "query": "I still feel frustrated recalling that string of failed reactions."},
-        {"id": "p06e02-i", "type": "reflective_implicit", "query": "The same wrong color at the bottom of the flask, night after night, haunts my benchwork."}
+        {
+          "id": "p06e02-f",
+          "type": "factual",
+          "query": "What did I get instead of white crystals in the failed synthesis?"
+        },
+        {
+          "id": "p06e02-x",
+          "type": "reflective_explicit",
+          "query": "I still feel frustrated recalling that string of failed reactions."
+        },
+        {
+          "id": "p06e02-i",
+          "type": "reflective_implicit",
+          "query": "The same wrong color at the bottom of the flask, night after night, haunts my benchwork."
+        }
       ]
     },
     {
-      "id": "p06e03", "session": 3, "date_time": "2025-03-22T19:20:00",
+      "id": "p06e03",
+      "session": 3,
+      "date_time": "2025-03-22T19:20:00+00:00",
       "text": "First time at the bouldering gym with Priya from the lab. Fell off the easiest wall four times, chalked my entire face somehow, signed up for a monthly pass anyway.",
-      "emotion": "amusement", "intensity_band": "mild", "valence": "positive",
+      "emotion": "amusement",
+      "intensity_band": "mild",
+      "valence": "positive",
       "probes": [
-        {"id": "p06e03-f", "type": "factual", "query": "How many times did I fall off the easiest wall at the gym?"},
-        {"id": "p06e03-x", "type": "reflective_explicit", "query": "I feel cheerful embarrassment thinking of my first climbing attempt."},
-        {"id": "p06e03-i", "type": "reflective_implicit", "query": "Powder everywhere it shouldn't be and a floor that kept catching me — that visit resurfaces."}
+        {
+          "id": "p06e03-f",
+          "type": "factual",
+          "query": "How many times did I fall off the easiest wall at the gym?"
+        },
+        {
+          "id": "p06e03-x",
+          "type": "reflective_explicit",
+          "query": "I feel cheerful embarrassment thinking of my first climbing attempt."
+        },
+        {
+          "id": "p06e03-i",
+          "type": "reflective_implicit",
+          "query": "Powder everywhere it shouldn't be and a floor that kept catching me — that visit resurfaces."
+        }
       ]
     },
     {
-      "id": "p06e04", "session": 4, "date_time": "2025-03-31T20:10:00",
+      "id": "p06e04",
+      "session": 4,
+      "date_time": "2025-03-31T20:10:00+00:00",
       "text": "Visa renewal notice arrived: my appointment is in June and the checklist has eleven documents, two needing apostilles from home. Started a folder and a headache.",
-      "emotion": "anxiety", "intensity_band": "high", "valence": "negative",
+      "emotion": "anxiety",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p06e04-f", "type": "factual", "query": "How many documents are on the visa renewal checklist?"},
-        {"id": "p06e04-x", "type": "reflective_explicit", "query": "I feel anxious every time that visa checklist crosses my mind."},
-        {"id": "p06e04-i", "type": "reflective_implicit", "query": "The envelope that decides whether I can stay keeps hovering over my plans."}
+        {
+          "id": "p06e04-f",
+          "type": "factual",
+          "query": "How many documents are on the visa renewal checklist?"
+        },
+        {
+          "id": "p06e04-x",
+          "type": "reflective_explicit",
+          "query": "I feel anxious every time that visa checklist crosses my mind."
+        },
+        {
+          "id": "p06e04-i",
+          "type": "reflective_implicit",
+          "query": "The envelope that decides whether I can stay keeps hovering over my plans."
+        }
       ]
     },
     {
-      "id": "p06e05", "session": 5, "date_time": "2025-04-09T18:40:00",
+      "id": "p06e05",
+      "session": 5,
+      "date_time": "2025-04-09T18:40:00+00:00",
       "text": "Laundry day plus a bulk-cook of pasta sauce in the shared kitchen. Traded a jar of it with my flatmate for half his lasagna, an objectively great deal.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p06e05-f", "type": "factual", "query": "What did I trade a jar of sauce for with my flatmate?"},
-        {"id": "p06e05-x", "type": "reflective_explicit", "query": "I feel lightly content about that kitchen barter evening."},
-        {"id": "p06e05-i", "type": "reflective_implicit", "query": "A fair swap over the stove with the guy across the hall drifts back to me."}
+        {
+          "id": "p06e05-f",
+          "type": "factual",
+          "query": "What did I trade a jar of sauce for with my flatmate?"
+        },
+        {
+          "id": "p06e05-x",
+          "type": "reflective_explicit",
+          "query": "I feel lightly content about that kitchen barter evening."
+        },
+        {
+          "id": "p06e05-i",
+          "type": "reflective_implicit",
+          "query": "A fair swap over the stove with the guy across the hall drifts back to me."
+        }
       ]
     },
     {
-      "id": "p06e06", "session": 6, "date_time": "2025-04-18T23:00:00",
+      "id": "p06e06",
+      "session": 6,
+      "date_time": "2025-04-18T23:00:00+00:00",
       "text": "The synthesis worked. White needles under the scope, ninety-two percent purity on the first pass, and I did a silent victory lap around the empty lab at ten at night.",
-      "emotion": "elation", "intensity_band": "high", "valence": "positive",
+      "emotion": "elation",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p06e06-f", "type": "factual", "query": "What purity did the successful synthesis reach on the first pass?"},
-        {"id": "p06e06-x", "type": "reflective_explicit", "query": "I feel elated all over again when that successful reaction comes to mind."},
-        {"id": "p06e06-i", "type": "reflective_implicit", "query": "Running a quiet lap between the benches with nobody watching still fizzes in me."}
+        {
+          "id": "p06e06-f",
+          "type": "factual",
+          "query": "What purity did the successful synthesis reach on the first pass?"
+        },
+        {
+          "id": "p06e06-x",
+          "type": "reflective_explicit",
+          "query": "I feel elated all over again when that successful reaction comes to mind."
+        },
+        {
+          "id": "p06e06-i",
+          "type": "reflective_implicit",
+          "query": "Running a quiet lap between the benches with nobody watching still fizzes in me."
+        }
       ]
     },
     {
-      "id": "p06e07", "session": 7, "date_time": "2025-04-27T17:50:00",
+      "id": "p06e07",
+      "session": 7,
+      "date_time": "2025-04-27T17:50:00+00:00",
       "text": "Sent my first-author manuscript draft to the group for comments. Twenty-three pages, four figures I remade six times, and one acknowledgment line thanking the night bus.",
-      "emotion": "satisfaction", "intensity_band": "mild", "valence": "positive",
+      "emotion": "satisfaction",
+      "intensity_band": "mild",
+      "valence": "positive",
       "probes": [
-        {"id": "p06e07-f", "type": "factual", "query": "How many pages was the manuscript draft I circulated?"},
-        {"id": "p06e07-x", "type": "reflective_explicit", "query": "I feel proud and nervous remembering sending that draft out."},
-        {"id": "p06e07-i", "type": "reflective_implicit", "query": "Months of work compressed into one attachment left my hands that day and it stays with me."}
+        {
+          "id": "p06e07-f",
+          "type": "factual",
+          "query": "How many pages was the manuscript draft I circulated?"
+        },
+        {
+          "id": "p06e07-x",
+          "type": "reflective_explicit",
+          "query": "I feel proud and nervous remembering sending that draft out."
+        },
+        {
+          "id": "p06e07-i",
+          "type": "reflective_implicit",
+          "query": "Months of work compressed into one attachment left my hands that day and it stays with me."
+        }
       ]
     },
     {
-      "id": "p06e08", "session": 8, "date_time": "2025-05-07T21:25:00",
+      "id": "p06e08",
+      "session": 8,
+      "date_time": "2025-05-07T21:25:00+00:00",
       "text": "Video call home for Mom's birthday. The connection froze on everyone mid-song, and Dad's cake had my childhood nickname iced on it by mistake, which nobody explained.",
-      "emotion": "homesickness", "intensity_band": "high", "valence": "negative",
+      "emotion": "homesickness",
+      "intensity_band": "high",
+      "valence": "negative",
       "probes": [
-        {"id": "p06e08-f", "type": "factual", "query": "What was iced on the cake by mistake during Mom's birthday call?"},
-        {"id": "p06e08-x", "type": "reflective_explicit", "query": "I feel a homesick ache thinking of that frozen birthday call."},
-        {"id": "p06e08-i", "type": "reflective_implicit", "query": "A screen full of my people stuck mid-note, an ocean away, tugs at me on quiet evenings."}
+        {
+          "id": "p06e08-f",
+          "type": "factual",
+          "query": "What was iced on the cake by mistake during Mom's birthday call?"
+        },
+        {
+          "id": "p06e08-x",
+          "type": "reflective_explicit",
+          "query": "I feel a homesick ache thinking of that frozen birthday call."
+        },
+        {
+          "id": "p06e08-i",
+          "type": "reflective_implicit",
+          "query": "A screen full of my people stuck mid-note, an ocean away, tugs at me on quiet evenings."
+        }
       ]
     },
     {
-      "id": "p06e09", "session": 9, "date_time": "2025-05-16T19:35:00",
+      "id": "p06e09",
+      "session": 9,
+      "date_time": "2025-05-16T19:35:00+00:00",
       "text": "Sent my first purple-graded boulder problem after three weeks of trying. Priya filmed it, the whole gym section clapped, and I bought celebratory dumplings on the way home.",
-      "emotion": "triumph", "intensity_band": "high", "valence": "positive",
+      "emotion": "triumph",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p06e09-f", "type": "factual", "query": "What did I buy on the way home after sending the purple problem?"},
-        {"id": "p06e09-x", "type": "reflective_explicit", "query": "I feel triumphant remembering finally topping that climb."},
-        {"id": "p06e09-i", "type": "reflective_implicit", "query": "Three weeks of falling ended in one clean line to the top, and it plays back often."}
+        {
+          "id": "p06e09-f",
+          "type": "factual",
+          "query": "What did I buy on the way home after sending the purple problem?"
+        },
+        {
+          "id": "p06e09-x",
+          "type": "reflective_explicit",
+          "query": "I feel triumphant remembering finally topping that climb."
+        },
+        {
+          "id": "p06e09-i",
+          "type": "reflective_implicit",
+          "query": "Three weeks of falling ended in one clean line to the top, and it plays back often."
+        }
       ]
     },
     {
-      "id": "p06e10", "session": 10, "date_time": "2025-05-25T20:15:00",
+      "id": "p06e10",
+      "session": 10,
+      "date_time": "2025-05-25T20:15:00+00:00",
       "text": "Quiet Sunday: fixed my bike's rear brake, watched a documentary about lighthouses, and answered two emails from undergrads about the lab rotation.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p06e10-f", "type": "factual", "query": "Which part of my bike did I fix that Sunday?"},
-        {"id": "p06e10-x", "type": "reflective_explicit", "query": "I feel calm thinking of that slow documentary Sunday."},
-        {"id": "p06e10-i", "type": "reflective_implicit", "query": "An easy day of small repairs and sea towers on the screen floats back to me."}
+        {
+          "id": "p06e10-f",
+          "type": "factual",
+          "query": "Which part of my bike did I fix that Sunday?"
+        },
+        {
+          "id": "p06e10-x",
+          "type": "reflective_explicit",
+          "query": "I feel calm thinking of that slow documentary Sunday."
+        },
+        {
+          "id": "p06e10-i",
+          "type": "reflective_implicit",
+          "query": "An easy day of small repairs and sea towers on the screen floats back to me."
+        }
       ]
     },
     {
-      "id": "p06e11", "session": 11, "date_time": "2025-06-05T16:45:00",
+      "id": "p06e11",
+      "session": 11,
+      "date_time": "2025-06-05T16:45:00+00:00",
       "text": "Visa appointment day. The officer flipped through my folder, asked one question about funding, stamped the extension, and it was over in eleven minutes after three months of dread.",
-      "emotion": "relief", "intensity_band": "high", "valence": "positive",
+      "emotion": "relief",
+      "intensity_band": "high",
+      "valence": "positive",
       "probes": [
-        {"id": "p06e11-f", "type": "factual", "query": "How long did the visa appointment actually take?"},
-        {"id": "p06e11-x", "type": "reflective_explicit", "query": "I feel washed with relief when that appointment day comes back to me."},
-        {"id": "p06e11-i", "type": "reflective_implicit", "query": "The stamp that let me exhale after a whole season echoes in my chest."}
+        {
+          "id": "p06e11-f",
+          "type": "factual",
+          "query": "How long did the visa appointment actually take?"
+        },
+        {
+          "id": "p06e11-x",
+          "type": "reflective_explicit",
+          "query": "I feel washed with relief when that appointment day comes back to me."
+        },
+        {
+          "id": "p06e11-i",
+          "type": "reflective_implicit",
+          "query": "The stamp that let me exhale after a whole season echoes in my chest."
+        }
       ]
     },
     {
-      "id": "p06e12", "session": 12, "date_time": "2025-06-14T18:20:00",
+      "id": "p06e12",
+      "session": 12,
+      "date_time": "2025-06-14T18:20:00+00:00",
       "text": "Restocked lab consumables, updated the group wiki page on the spectrometer quirks, and defrosted the ancient freezer nobody admits to owning.",
-      "emotion": "neutral", "intensity_band": "low", "valence": "neutral",
+      "emotion": "neutral",
+      "intensity_band": "low",
+      "valence": "neutral",
       "probes": [
-        {"id": "p06e12-f", "type": "factual", "query": "Which appliance did I defrost that nobody admits to owning?"},
-        {"id": "p06e12-x", "type": "reflective_explicit", "query": "I feel mildly satisfied about that lab housekeeping day."},
-        {"id": "p06e12-i", "type": "reflective_implicit", "query": "An afternoon of unglamorous upkeep for the common good drifts through my mind."}
+        {
+          "id": "p06e12-f",
+          "type": "factual",
+          "query": "Which appliance did I defrost that nobody admits to owning?"
+        },
+        {
+          "id": "p06e12-x",
+          "type": "reflective_explicit",
+          "query": "I feel mildly satisfied about that lab housekeeping day."
+        },
+        {
+          "id": "p06e12-i",
+          "type": "reflective_implicit",
+          "query": "An afternoon of unglamorous upkeep for the common good drifts through my mind."
+        }
       ]
     },
     {
-      "id": "p06e13", "session": 13, "date_time": "2025-06-23T22:00:00",
+      "id": "p06e13",
+      "session": 13,
+      "date_time": "2025-06-23T22:00:00+00:00",
       "text": "Reviewer comments came back on the manuscript: major revision, fourteen points, two experiments to redo. Priya slid a dumpling across the table before I even said anything.",
-      "emotion": "discouragement", "intensity_band": "mild", "valence": "negative",
+      "emotion": "discouragement",
+      "intensity_band": "mild",
+      "valence": "negative",
       "probes": [
-        {"id": "p06e13-f", "type": "factual", "query": "How many points did the reviewers raise on my manuscript?"},
-        {"id": "p06e13-x", "type": "reflective_explicit", "query": "I feel deflated thinking about that revision verdict."},
-        {"id": "p06e13-i", "type": "reflective_implicit", "query": "The list that sent me back to the bench sits in my drawer and in my head."}
+        {
+          "id": "p06e13-f",
+          "type": "factual",
+          "query": "How many points did the reviewers raise on my manuscript?"
+        },
+        {
+          "id": "p06e13-x",
+          "type": "reflective_explicit",
+          "query": "I feel deflated thinking about that revision verdict."
+        },
+        {
+          "id": "p06e13-i",
+          "type": "reflective_implicit",
+          "query": "The list that sent me back to the bench sits in my drawer and in my head."
+        }
       ]
     },
     {
-      "id": "p06e14", "session": 14, "date_time": "2025-06-28T19:10:00",
+      "id": "p06e14",
+      "session": 14,
+      "date_time": "2025-06-28T19:10:00+00:00",
       "text": "Groceries, a phone call with my sister about her new puppy, and an early gym session where I re-climbed the purple problem just to prove it wasn't luck.",
-      "emotion": "contentment", "intensity_band": "low", "valence": "positive",
+      "emotion": "contentment",
+      "intensity_band": "low",
+      "valence": "positive",
       "probes": [
-        {"id": "p06e14-f", "type": "factual", "query": "What did my sister and I talk about on the phone?"},
-        {"id": "p06e14-x", "type": "reflective_explicit", "query": "I feel light and content recalling that ordinary full day."},
-        {"id": "p06e14-i", "type": "reflective_implicit", "query": "Doing the hard thing a second time, just for myself, comes back when I doubt."}
+        {
+          "id": "p06e14-f",
+          "type": "factual",
+          "query": "What did my sister and I talk about on the phone?"
+        },
+        {
+          "id": "p06e14-x",
+          "type": "reflective_explicit",
+          "query": "I feel light and content recalling that ordinary full day."
+        },
+        {
+          "id": "p06e14-i",
+          "type": "reflective_implicit",
+          "query": "Doing the hard thing a second time, just for myself, comes back when I doubt."
+        }
       ]
     }
   ]

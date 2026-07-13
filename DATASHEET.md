@@ -68,6 +68,10 @@ whose human rating contradicts the authored band are flagged `label_disputed`
 
 ## Distribution & maintenance
 
+**Release integrity.** `data/SHA256SUMS` pins the exact `epirec_v1.json` artifact.
+`python scripts/validate.py` verifies schema and protocol conformance, then checks
+that the committed release JSON and checksum are generated from `data/personas/`.
+
 GitHub: https://github.com/sukoji/epirec. Data CC BY 4.0, scripts MIT.
 Versioned releases only; errors produce a v1.x changelog entry. Maintainer:
 Seokho Jin (sukoji). Known limitations of v1.0: English-only; single-target
